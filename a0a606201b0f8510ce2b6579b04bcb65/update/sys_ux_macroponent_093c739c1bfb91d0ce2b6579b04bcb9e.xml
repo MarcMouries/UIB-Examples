@@ -292,22 +292,65 @@
           "type" : "JSON_LITERAL",
           "value" : 4
         },
-        "mapItemMarkers" : {
-          "type" : "JSON_LITERAL",
-          "value" : [ {
-            "lat" : 48.864716,
-            "long" : 2.349014,
-            "table" : "sys_user",
-            "sys_id" : "5137153cc611227c000bbd1bd8cd2005",
-            "image" : "/now-logo.svg"
-          } ]
-        },
         "centerOn" : {
           "type" : "JSON_LITERAL",
           "value" : "MAP_MARKERS"
+        },
+        "mapMarkers" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ {
+            "name" : "Ronald Reagan Washington Natl",
+            "city" : "Washington",
+            "country" : "United States",
+            "iata_code" : "DCA",
+            "lat" : 38.852083,
+            "lng" : -77.037722
+          }, {
+            "name" : "Washington Dulles Intl",
+            "city" : "Washington",
+            "country" : "United States",
+            "iata_code" : "IAD",
+            "lat" : 38.944533,
+            "lng" : -77.455811
+          }, {
+            "name" : "Baltimore Washington Intl",
+            "city" : "Baltimore",
+            "country" : "United States",
+            "iata_code" : "BWI",
+            "lat" : 39.175361,
+            "lng" : -76.668333
+          } ]
+        },
+        "place" : {
+          "type" : "JSON_LITERAL",
+          "value" : "ServiceNow, leesburg pike, vienna, VA"
         }
       },
-      "eventMappings" : [ ],
+      "eventMappings" : [ {
+        "eventMappingId" : "cleiitviigvaaccajjddbhhuvvhhddaaccck",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "x_snc_gmap.AES_GMAP#MAP_CIRCLE_CHANGED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "x_snc_gmap.AES_GMAP#MAP_CIRCLE_CHANGED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "ea57e9ce474169501706c328436d43a8"
+          },
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "cleiitviigvaaccaaddbhhunfujsici",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      } ],
       "slot" : null,
       "definition" : {
         "id" : "76faf42d2d2a5d20701b04c50335892f",
@@ -356,6 +399,7 @@
         <dispatched_events/>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -390,13 +434,14 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-12-12 14:50:04</sys_created_on>
         <sys_id>093c739c1bfb91d0ce2b6579b04bcb9e</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_name>Google Map Component</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_macroponent_093c739c1bfb91d0ce2b6579b04bcb9e</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2023-01-06 02:18:40</sys_updated_on>
+        <sys_updated_on>2023-02-21 00:59:06</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=093c739c1bfb91d0ce2b6579b04bcb9e"/>
 </record_update>
