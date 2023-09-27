@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
     <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
         <includes/>
         <macroponent display_value="Google Map Component">093c739c1bfb91d0ce2b6579b04bcb9e</macroponent>
         <name>handleCircleChanged</name>
