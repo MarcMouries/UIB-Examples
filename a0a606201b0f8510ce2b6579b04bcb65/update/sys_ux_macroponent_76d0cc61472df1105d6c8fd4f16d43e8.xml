@@ -182,13 +182,14 @@
                                         "value": null
                                     },
                                     "items": {
-                                        "binding": {
-                                            "address": [
-                                                "getkbversions_1",
-                                                "output"
-                                            ]
+                                        "script": {
+                                            "apiVersion": "2.0.0",
+                                            "controllerElementId": null,
+                                            "inlineScript": "/**\n * @param {params} params\n * @param {api} params.api\n * @param {TransformApiHelpers} params.helpers\n */\nfunction evaluateProperty({\n    api,\n    state,\n    helpers\n}) {\n\n\n    const selectedVersion2 = api.state.version_2[0];\n    const filteredList = api.data.getkbversions_1.output.filter(version =&gt; version.id !== selectedVersion2);\n    return filteredList;\n}",
+                                            "scriptSysId": "903d36bd4769b1105d6c8fd4f16d431e",
+                                            "target": null
                                         },
-                                        "type": "DATA_OUTPUT_BINDING"
+                                        "type": "CLIENT_TRANSFORM_SCRIPT"
                                     },
                                     "opened": {
                                         "type": "JSON_LITERAL",
@@ -418,13 +419,14 @@
                                         "value": null
                                     },
                                     "items": {
-                                        "binding": {
-                                            "address": [
-                                                "getkbversions_1",
-                                                "output"
-                                            ]
+                                        "script": {
+                                            "apiVersion": "2.0.0",
+                                            "controllerElementId": null,
+                                            "inlineScript": "/**\n * @param {params} params\n * @param {api} params.api\n * @param {TransformApiHelpers} params.helpers\n */\nfunction evaluateProperty({\n    api,\n    state,\n    helpers\n}) {\n\n\n    const selectedVersion1 = api.state.version_1[0];\n    const filteredList = api.data.getkbversions_1.output.filter(version =&gt; version.id !== selectedVersion1);\n    return filteredList;\n}",
+                                            "scriptSysId": "d03d36bd4769b1105d6c8fd4f16d431e",
+                                            "target": null
                                         },
-                                        "type": "DATA_OUTPUT_BINDING"
+                                        "type": "CLIENT_TRANSFORM_SCRIPT"
                                     },
                                     "opened": {
                                         "type": "JSON_LITERAL",
@@ -1348,14 +1350,14 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2023-09-27 13:45:20</sys_created_on>
         <sys_id>76d0cc61472df1105d6c8fd4f16d43e8</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_macroponent_76d0cc61472df1105d6c8fd4f16d43e8</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2023-09-28 11:42:18</sys_updated_on>
+        <sys_updated_on>2023-09-28 22:26:10</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=76d0cc61472df1105d6c8fd4f16d43e8"/>
 </record_update>

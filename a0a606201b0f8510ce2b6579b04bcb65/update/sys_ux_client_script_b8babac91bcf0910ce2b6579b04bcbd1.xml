@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
     <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
         <includes/>
-        <macroponent display_value="repeater-json">f00b620d1b8f0910ce2b6579b04bcb20</macroponent>
+        <macroponent display_value="Repeater default">f00b620d1b8f0910ce2b6579b04bcb20</macroponent>
         <name>Add random vegetables</name>
         <preset/>
         <required_translations>[ ]</required_translations>

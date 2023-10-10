@@ -28,6 +28,48 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>page_route</element>
+            <position>2</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-09-28 19:51:00</sys_created_on>
+            <sys_id>492ed67547a5b1105d6c8fd4f16d43bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_uib_examples_example" sys_domain="global" view="Default view">83819ced476df1105d6c8fd4f16d43a3</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-09-28 19:51:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description_html</element>
+            <position>3</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-09-28 22:32:04</sys_created_on>
+            <sys_id>68038bb547a9b1105d6c8fd4f16d43f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_uib_examples_example" sys_domain="global" view="Default view">83819ced476df1105d6c8fd4f16d43a3</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-09-28 22:32:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>image</element>
+            <position>4</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-10-05 17:44:04</sys_created_on>
+            <sys_id>3d344a08473d71505d6c8fd4f16d431a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_uib_examples_example" sys_domain="global" view="Default view">83819ced476df1105d6c8fd4f16d43a3</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-10-05 17:44:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

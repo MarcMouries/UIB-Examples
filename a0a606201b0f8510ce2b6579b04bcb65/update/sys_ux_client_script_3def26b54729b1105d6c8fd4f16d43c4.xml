@@ -2,10 +2,12 @@
     <sys_ux_client_script action="INSERT_OR_UPDATE">
         <controller_preset/>
         <includes/>
-        <macroponent display_value="Repeater default">f00b620d1b8f0910ce2b6579b04bcb20</macroponent>
-        <name>Card Clicked</name>
+        <macroponent display_value="Home">0f178e204a0f85109886b495cde75f89</macroponent>
+        <name>Link to destination</name>
         <preset/>
-        <required_translations>[ ]</required_translations>
+        <required_translations>[
+    
+]</required_translations>
         <script><![CDATA[/**
 * @param {params} params
 * @param {api} params.api
@@ -14,32 +16,23 @@
 * @param {ApiHelpers} params.helpers
 */
 function handler({api, event, helpers, imports}) {
-    console.log("\nCARD CLICKED");
-    const element_sys_id = event.context.item.value.sys_id;
-    console.log("element_sys_id = " + element_sys_id);
-
-    const vegetables = api.state.vegetables;
-    let filtered = vegetables.filter(function(value, index, arr){ 
-        return value.sys_id != element_sys_id;
-    });
-    console.log("filtered");
-    console.log(filtered);
-    api.setState('vegetables', filtered);
-
+    console.log(JSON.stringify(event, null, 4));
+    const pageRoute = event.context.item.value.page_route;
+    console.log('page_route:', pageRoute);
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
-        <sys_created_on>2022-04-22 15:29:41</sys_created_on>
-        <sys_id>dc418f811b034910ce2b6579b04bcbf7</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Card Clicked</sys_name>
+        <sys_created_on>2023-09-28 21:19:52</sys_created_on>
+        <sys_id>3def26b54729b1105d6c8fd4f16d43c4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Link to destination</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
-        <sys_update_name>sys_ux_client_script_dc418f811b034910ce2b6579b04bcbf7</sys_update_name>
+        <sys_update_name>sys_ux_client_script_3def26b54729b1105d6c8fd4f16d43c4</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2022-04-22 15:54:10</sys_updated_on>
+        <sys_updated_on>2023-09-28 21:22:41</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>

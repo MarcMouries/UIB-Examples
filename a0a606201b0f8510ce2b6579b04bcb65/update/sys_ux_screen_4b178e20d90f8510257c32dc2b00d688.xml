@@ -159,7 +159,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4b178e20d90f8510257c32dc2b00d688</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>76</sys_mod_count>
         <sys_name>Home default</sys_name>
         <sys_overrides/>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
@@ -167,7 +167,7 @@
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_screen_4b178e20d90f8510257c32dc2b00d688</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2023-09-28 14:59:21</sys_updated_on>
+        <sys_updated_on>2023-10-05 21:30:15</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=4b178e20d90f8510257c32dc2b00d688"/>
 </record_update>
