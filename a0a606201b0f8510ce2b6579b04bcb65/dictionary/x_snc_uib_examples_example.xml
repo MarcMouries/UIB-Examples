@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="025036921bf35114b00dddf6b04bcbb8" label="Example" max_length="40" name="x_snc_uib_examples_example" type="collection">
-        <element label="Description" mandatory="true" max_length="1000" name="description" type="string"/>
-        <element label="Description (HTML)" max_length="8000" name="description_html" type="html"/>
-        <element label="Image" max_length="40" name="image" type="user_image"/>
-        <element display="true" label="Name" mandatory="true" max_length="50" name="name" type="string"/>
-        <element label="Page Route" max_length="40" name="page_route" type="string"/>
-    </element>
-</database>

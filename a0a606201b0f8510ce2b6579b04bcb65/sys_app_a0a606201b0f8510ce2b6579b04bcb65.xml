@@ -5,7 +5,6 @@
         <enforce_license>log</enforce_license>
         <guided_setup_guid/>
         <hide_on_ui>false</hide_on_ui>
-        <ide_created/>
         <installed_as_dependency>false</installed_as_dependency>
         <js_level>es_latest</js_level>
         <licensable>true</licensable>
@@ -25,7 +24,6 @@
         <source>x_snc_uib_examples</source>
         <store_correlation_id/>
         <store_url/>
-        <subscription_entitlement/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>Marc.Mouries</sys_created_by>
@@ -48,7 +46,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
-        <encryption_context/>
         <file_name>uib_logo.png</file_name>
         <hash>2b8b2f43099cbe0fd5663c1db9445a4c306e0786e799f20c0ce50044ccd310a3</hash>
         <image_height/>
@@ -88,7 +85,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
-        <encryption_context/>
         <file_name>uib_logo.png</file_name>
         <hash>cb913617bd46f57f8b5c5f1d05d0d122c517dbf08549cfca201c909f5f1893ce</hash>
         <image_height/>
