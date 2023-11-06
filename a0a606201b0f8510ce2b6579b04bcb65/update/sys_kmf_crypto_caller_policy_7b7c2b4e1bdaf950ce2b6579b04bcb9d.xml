@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_kmf_crypto_caller_policy">
+    <sys_kmf_crypto_caller_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_type/>
+        <check_script_hash>false</check_script_hash>
+        <crypto_module display_value="com_snc_core_automation_connection_credential_glideencrypter">550cd0b07722201099808d1168106121</crypto_module>
+        <crypto_spec display_value="com_snc_core_automation_connection_credential_glideencrypter --- Symmetric Key Wrapping/Unwrapping">110cd0b07722201099808d1168106123</crypto_spec>
+        <granular_operation/>
+        <identity_group_alias/>
+        <impersonation>false</impersonation>
+        <instance_recipient/>
+        <owner>9e5e7297dbf290d89a4dcac5059619d0</owner>
+        <policy_name>AutoGen-scope-x_snc_uib_examples-global.com_snc_core_automation_connection_credential_glideencrypter</policy_name>
+        <result>track</result>
+        <script_hash/>
+        <script_table/>
+        <signature_data/>
+        <specify_purpose>false</specify_purpose>
+        <sys_class_name>sys_kmf_crypto_caller_policy</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-06 02:58:55</sys_created_on>
+        <sys_id>7b7c2b4e1bdaf950ce2b6579b04bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_kmf_crypto_caller_policy_7b7c2b4e1bdaf950ce2b6579b04bcb9d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-06 02:58:55</sys_updated_on>
+        <target_role/>
+        <target_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</target_scope>
+        <target_script/>
+        <type>3</type>
+        <used>false</used>
+    </sys_kmf_crypto_caller_policy>
+</record_update>

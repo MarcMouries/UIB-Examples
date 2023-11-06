@@ -209,14 +209,14 @@
                                     "container": {
                                         "id": {
                                             "type": "JSON_LITERAL",
-                                            "value": "step1"
+                                            "value": "Order Placed"
                                         },
                                         "label": {
                                             "type": "TRANSLATION_LITERAL",
                                             "value": {
                                                 "code": null,
                                                 "comment": "",
-                                                "message": "Submision"
+                                                "message": "Order Placed"
                                             }
                                         },
                                         "progress": {
@@ -230,14 +230,14 @@
                                     "container": {
                                         "id": {
                                             "type": "JSON_LITERAL",
-                                            "value": "step2"
+                                            "value": "Preparation"
                                         },
                                         "label": {
                                             "type": "TRANSLATION_LITERAL",
                                             "value": {
                                                 "code": null,
                                                 "comment": "",
-                                                "message": "Triage"
+                                                "message": "Preparation"
                                             }
                                         },
                                         "progress": {
@@ -251,14 +251,14 @@
                                     "container": {
                                         "id": {
                                             "type": "JSON_LITERAL",
-                                            "value": "step3"
+                                            "value": "Quality Check"
                                         },
                                         "label": {
                                             "type": "TRANSLATION_LITERAL",
                                             "value": {
                                                 "code": null,
                                                 "comment": "",
-                                                "message": "Fulfillment"
+                                                "message": "Quality Check"
                                             }
                                         },
                                         "progress": {
@@ -272,14 +272,14 @@
                                     "container": {
                                         "id": {
                                             "type": "JSON_LITERAL",
-                                            "value": "step4"
+                                            "value": "Out for Delivery"
                                         },
                                         "label": {
                                             "type": "TRANSLATION_LITERAL",
                                             "value": {
                                                 "code": null,
                                                 "comment": "",
-                                                "message": "Validation"
+                                                "message": "Out for Delivery"
                                             }
                                         }
                                     },
@@ -290,7 +290,7 @@
                         },
                         "selectedItem": {
                             "type": "JSON_LITERAL",
-                            "value": "step3"
+                            "value": "Quality Check"
                         },
                         "showCompletedCount": {
                             "type": "JSON_LITERAL",
@@ -414,7 +414,7 @@
                                 "propertyValues": {
                                     "Case": {
                                         "type": "JSON_LITERAL",
-                                        "value": "ae2e7f581b178550ce2b6579b04bcbe3"
+                                        "value": null
                                     },
                                     "current": {
                                         "type": "JSON_LITERAL",
@@ -680,7 +680,7 @@
     "version": "3.0.0"
 }</layout>
         <macroponent_dependencies/>
-        <name>milestone</name>
+        <name>Milestone</name>
         <output_prop_mapping/>
         <props>[
     
@@ -692,6 +692,18 @@
   "message" : "Milestones",
   "comment" : ""
 }, {
+  "message" : "Order Placed",
+  "comment" : ""
+}, {
+  "message" : "Out for Delivery",
+  "comment" : ""
+}, {
+  "message" : "Preparation",
+  "comment" : ""
+}, {
+  "message" : "Quality Check",
+  "comment" : ""
+}, {
   "message" : "Step 1",
   "comment" : ""
 }, {
@@ -699,9 +711,6 @@
   "comment" : ""
 }, {
   "message" : "Step 3",
-  "comment" : ""
-}, {
-  "message" : "Submision",
   "comment" : ""
 }, {
   "message" : "Submission",
@@ -733,13 +742,13 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-05-08 01:52:54</sys_created_on>
         <sys_id>abbf56821bd7c110b00dddf6b04bcbe7</sys_id>
-        <sys_mod_count>23</sys_mod_count>
-        <sys_name>milestone</sys_name>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Milestone</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_macroponent_abbf56821bd7c110b00dddf6b04bcbe7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-04 15:37:38</sys_updated_on>
+        <sys_updated_on>2023-11-06 03:14:09</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
