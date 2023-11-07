@@ -4,18 +4,18 @@
         <description_html><![CDATA[<p>Shows several examples about how to display the progress of a task or case.</p>]]></description_html>
         <image/>
         <name>Milestone</name>
-        <page_route/>
+        <page_route>milestone</page_route>
         <sys_class_name>x_snc_uib_examples_example</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-06 03:51:48</sys_created_on>
         <sys_id>52983b861b5ef950ce2b6579b04bcbd2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Milestone</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>x_snc_uib_examples_example_52983b861b5ef950ce2b6579b04bcbd2</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2023-11-06 03:57:56</sys_updated_on>
+        <sys_updated_on>2023-11-07 03:57:04</sys_updated_on>
     </x_snc_uib_examples_example>
 </record_update>
