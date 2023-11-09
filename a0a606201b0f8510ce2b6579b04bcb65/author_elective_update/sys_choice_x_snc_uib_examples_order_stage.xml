@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="stage" table="x_snc_uib_examples_order" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>stage</element>
+            <name>x_snc_uib_examples_order</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-09 02:57:45</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>stage</sys_name>
+            <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+            <sys_update_name>sys_choice_x_snc_uib_examples_order_stage</sys_update_name>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-09 02:57:45</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Order Placed</label>
+            <language>en</language>
+            <name>x_snc_uib_examples_order</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-09 02:57:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-09 02:59:08</sys_updated_on>
+            <value>Order Placed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Preparation</label>
+            <language>en</language>
+            <name>x_snc_uib_examples_order</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-09 02:57:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-09 02:59:11</sys_updated_on>
+            <value>Preparation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quality Check</label>
+            <language>en</language>
+            <name>x_snc_uib_examples_order</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-09 02:58:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-09 02:59:17</sys_updated_on>
+            <value>Quality Check</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Out for Delivery</label>
+            <language>en</language>
+            <name>x_snc_uib_examples_order</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-09 02:58:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-09 02:59:20</sys_updated_on>
+            <value>Out for Delivery</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="stage" label="Stage" language="en" table="x_snc_uib_examples_order">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>stage</element>
+            <help/>
+            <hint/>
+            <label>Stage</label>
+            <language>en</language>
+            <name>x_snc_uib_examples_order</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-09 02:51:24</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Stage</sys_name>
+            <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_uib_examples_order_stage_en</sys_update_name>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-09 02:51:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
