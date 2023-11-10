@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="DELETE">
+        <coalesce>true</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>opened_by</field>
+        <name>Opened by</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-10 22:12:11</sys_created_on>
+        <sys_id>90da90371b5ab910ce2b6579b04bcb6b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Opened by</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Order Data Mapping_etl_ihub">32ba1cf31b5ab910ce2b6579b04bcbdd</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Target_x_snc_uib_examples_order">0bba5cf31b5ab910ce2b6579b04bcb3c</sys_rte_eb_entity>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_90da90371b5ab910ce2b6579b04bcb6b</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:15:17</sys_updated_on>
+    </sys_rte_eb_etl_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</application>
+        <file_path/>
+        <instance_id>9e5e7297dbf290d89a4dcac5059619d0</instance_id>
+        <instance_name>appengine4gov</instance_name>
+        <name>sys_rte_eb_etl_field_90da90371b5ab910ce2b6579b04bcb6b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field"><sys_rte_eb_etl_field action="INSERT_OR_UPDATE"><coalesce>true</coalesce><coercion_action>create</coercion_action><field>opened_by</field><name>Opened by</name><sys_class_name>sys_rte_eb_etl_field</sys_class_name><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2023-11-10 22:12:11</sys_created_on><sys_id>90da90371b5ab910ce2b6579b04bcb6b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Opened by</sys_name><sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package><sys_policy/><sys_rte_eb_definition display_value="Order Data Mapping_etl_ihub">32ba1cf31b5ab910ce2b6579b04bcbdd</sys_rte_eb_definition><sys_rte_eb_entity display_value="Target_x_snc_uib_examples_order">0bba5cf31b5ab910ce2b6579b04bcb3c</sys_rte_eb_entity><sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope><sys_update_name>sys_rte_eb_etl_field_90da90371b5ab910ce2b6579b04bcb6b</sys_update_name><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2023-11-10 22:15:17</sys_updated_on></sys_rte_eb_etl_field></record_update>]]></payload>
+        <payload_hash>-1101574600</payload_hash>
+        <record_name>Opened by</record_name>
+        <reverted_from/>
+        <source>d89407831b567510b00dddf6b04bcba5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-10 22:15:17</sys_created_on>
+        <sys_id>f98bd8771b5ab910ce2b6579b04bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bbb4dc34c0000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:15:17</sys_updated_on>
+        <type>ETL Entity field</type>
+        <update_guid>318bd8770f5ab910cb083063ae9d24f8</update_guid>
+        <update_guid_history>318bd8770f5ab910cb083063ae9d24f8:-1101574600,10da9037535ab910990dd185bc43156c:-1093364465</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-10 22:20:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_field">sys_rte_eb_etl_field</sys_db_object>
+        <sys_id>01aca0753c954666866c52cd1260efb1</sys_id>
+        <sys_metadata>90da90371b5ab910ce2b6579b04bcb6b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Opened by</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_scope_delete display_value="">4e87e5c7db26498091c96a6b2a7a0e10</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_field_90da90371b5ab910ce2b6579b04bcb6b</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_field_90da90371b5ab910ce2b6579b04bcb6b">f98bd8771b5ab910ce2b6579b04bcbf8</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:20:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

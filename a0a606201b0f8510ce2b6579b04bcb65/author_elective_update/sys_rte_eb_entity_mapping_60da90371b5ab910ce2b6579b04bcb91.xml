@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="DELETE">
+        <condition_script><![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group/>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>IHUB_SOURCE_TEMP_MAPPING</name>
+        <order>50</order>
+        <source_sys_rte_eb_entity display_value="Source_x_snc_uib_examples_ihub_import_eebad4f31b5ab910ce2b6579b04bcb80">47ba5cf31b5ab910ce2b6579b04bcb2a</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-10 22:12:11</sys_created_on>
+        <sys_id>60da90371b5ab910ce2b6579b04bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_SOURCE_TEMP_MAPPING</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Order Data Mapping_etl_ihub">32ba1cf31b5ab910ce2b6579b04bcbdd</sys_rte_eb_definition>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_60da90371b5ab910ce2b6579b04bcb91</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:12:11</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_snc_uib_examples_order">6cda90371b5ab910ce2b6579b04bcb8e</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</application>
+        <file_path/>
+        <instance_id>9e5e7297dbf290d89a4dcac5059619d0</instance_id>
+        <instance_name>appengine4gov</instance_name>
+        <name>sys_rte_eb_entity_mapping_60da90371b5ab910ce2b6579b04bcb91</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_entity_mapping"&gt;&lt;sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE"&gt;&lt;condition_script&gt;&lt;![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input &amp;&amp; input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]&gt;&lt;/condition_script&gt;&lt;encoded_query/&gt;&lt;entity_mapping_group/&gt;&lt;ignore&gt;false&lt;/ignore&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;IHUB_SOURCE_TEMP_MAPPING&lt;/name&gt;&lt;order&gt;50&lt;/order&gt;&lt;source_sys_rte_eb_entity display_value="Source_x_snc_uib_examples_ihub_import_eebad4f31b5ab910ce2b6579b04bcb80"&gt;47ba5cf31b5ab910ce2b6579b04bcb2a&lt;/source_sys_rte_eb_entity&gt;&lt;sys_class_name&gt;sys_rte_eb_entity_mapping&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Marc.Mouries&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-10 22:12:11&lt;/sys_created_on&gt;&lt;sys_id&gt;60da90371b5ab910ce2b6579b04bcb91&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;IHUB_SOURCE_TEMP_MAPPING&lt;/sys_name&gt;&lt;sys_package display_value="UIB Examples" source="x_snc_uib_examples"&gt;a0a606201b0f8510ce2b6579b04bcb65&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="Order Data Mapping_etl_ihub"&gt;32ba1cf31b5ab910ce2b6579b04bcbdd&lt;/sys_rte_eb_definition&gt;&lt;sys_scope display_value="UIB Examples"&gt;a0a606201b0f8510ce2b6579b04bcb65&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_entity_mapping_60da90371b5ab910ce2b6579b04bcb91&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Marc.Mouries&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-10 22:12:11&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_snc_uib_examples_order"&gt;6cda90371b5ab910ce2b6579b04bcb8e&lt;/target_sys_rte_eb_entity&gt;&lt;/sys_rte_eb_entity_mapping&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>344376189</payload_hash>
+        <record_name>IHUB_SOURCE_TEMP_MAPPING</record_name>
+        <reverted_from/>
+        <source>d89407831b567510b00dddf6b04bcba5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-10 22:12:11</sys_created_on>
+        <sys_id>acda90371b5ab910ce2b6579b04bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bbb4aedd20000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:12:11</sys_updated_on>
+        <type>RTE Entity Mapping</type>
+        <update_guid>a0da90376a5ab9107caca75276f84192</update_guid>
+        <update_guid_history>a0da90376a5ab9107caca75276f84192:344376189</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-10 22:15:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_entity_mapping">sys_rte_eb_entity_mapping</sys_db_object>
+        <sys_id>1c0f62c465bd404093e5faa5b3a82400</sys_id>
+        <sys_metadata>60da90371b5ab910ce2b6579b04bcb91</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_SOURCE_TEMP_MAPPING</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_scope_delete display_value="">4e87e5c7db26498091c96a6b2a7a0e10</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_entity_mapping_60da90371b5ab910ce2b6579b04bcb91</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_entity_mapping_60da90371b5ab910ce2b6579b04bcb91">acda90371b5ab910ce2b6579b04bcb92</sys_update_version>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:15:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

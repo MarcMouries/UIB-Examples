@@ -26,13 +26,13 @@
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-11-09 02:57:45</sys_created_on>
+            <sys_created_on>2023-11-10 22:19:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-11-09 02:59:08</sys_updated_on>
-            <value>Order Placed</value>
+            <sys_updated_on>2023-11-10 22:19:59</sys_updated_on>
+            <value>order_placed</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -45,13 +45,13 @@
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-11-09 02:57:56</sys_created_on>
+            <sys_created_on>2023-11-10 22:19:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-11-09 02:59:11</sys_updated_on>
-            <value>Preparation</value>
+            <sys_updated_on>2023-11-10 22:20:04</sys_updated_on>
+            <value>preparation</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -64,13 +64,13 @@
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-11-09 02:58:27</sys_created_on>
+            <sys_created_on>2023-11-10 22:19:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-11-09 02:59:17</sys_updated_on>
-            <value>Quality Check</value>
+            <sys_updated_on>2023-11-10 22:20:07</sys_updated_on>
+            <value>quality_check</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -83,13 +83,13 @@
             <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-11-09 02:58:52</sys_created_on>
+            <sys_created_on>2023-11-10 22:19:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-11-09 02:59:20</sys_updated_on>
-            <value>Out for Delivery</value>
+            <sys_updated_on>2023-11-10 22:20:11</sys_updated_on>
+            <value>out_for_delivery</value>
         </sys_choice>
     </sys_choice>
 </record_update>

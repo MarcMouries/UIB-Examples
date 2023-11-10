@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="DELETE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>u_priority_sn_ihub_pill_uid_1533667989977</field>
+        <name>Priority_sn_ihub_target_priority</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-10 22:15:18</sys_created_on>
+        <sys_id>428b1c771b5ab910ce2b6579b04bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Priority_sn_ihub_target_priority</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Order Data Mapping_etl_ihub">32ba1cf31b5ab910ce2b6579b04bcbdd</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_snc_uib_examples_order">068b1c771b5ab910ce2b6579b04bcb70</sys_rte_eb_entity>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_428b1c771b5ab910ce2b6579b04bcb8e</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:15:18</sys_updated_on>
+    </sys_rte_eb_etl_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</application>
+        <file_path/>
+        <instance_id>9e5e7297dbf290d89a4dcac5059619d0</instance_id>
+        <instance_name>appengine4gov</instance_name>
+        <name>sys_rte_eb_etl_field_428b1c771b5ab910ce2b6579b04bcb8e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field"><sys_rte_eb_etl_field action="INSERT_OR_UPDATE"><coalesce>false</coalesce><coercion_action>create</coercion_action><field>u_priority_sn_ihub_pill_uid_1533667989977</field><name>Priority_sn_ihub_target_priority</name><sys_class_name>sys_rte_eb_etl_field</sys_class_name><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2023-11-10 22:15:18</sys_created_on><sys_id>428b1c771b5ab910ce2b6579b04bcb8e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Priority_sn_ihub_target_priority</sys_name><sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package><sys_policy/><sys_rte_eb_definition display_value="Order Data Mapping_etl_ihub">32ba1cf31b5ab910ce2b6579b04bcbdd</sys_rte_eb_definition><sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_snc_uib_examples_order">068b1c771b5ab910ce2b6579b04bcb70</sys_rte_eb_entity><sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope><sys_update_name>sys_rte_eb_etl_field_428b1c771b5ab910ce2b6579b04bcb8e</sys_update_name><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2023-11-10 22:15:18</sys_updated_on></sys_rte_eb_etl_field></record_update>]]></payload>
+        <payload_hash>1534557050</payload_hash>
+        <record_name>Priority_sn_ihub_target_priority</record_name>
+        <reverted_from/>
+        <source>d89407831b567510b00dddf6b04bcba5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-10 22:15:18</sys_created_on>
+        <sys_id>0e8b1c771b5ab910ce2b6579b04bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bbb4dc6900000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:15:18</sys_updated_on>
+        <type>ETL Entity field</type>
+        <update_guid>028b1c77205ab9101a84e728e3e5b88f</update_guid>
+        <update_guid_history>028b1c77205ab9101a84e728e3e5b88f:1534557050</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-10 22:20:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_field">sys_rte_eb_etl_field</sys_db_object>
+        <sys_id>168190bd00414db48af58b3fa226bba4</sys_id>
+        <sys_metadata>428b1c771b5ab910ce2b6579b04bcb8e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Priority_sn_ihub_target_priority</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_scope_delete display_value="">4e87e5c7db26498091c96a6b2a7a0e10</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_field_428b1c771b5ab910ce2b6579b04bcb8e</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_field_428b1c771b5ab910ce2b6579b04bcb8e">0e8b1c771b5ab910ce2b6579b04bcb8f</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:20:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

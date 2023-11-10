@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_definition">
+    <sys_rte_eb_etl_definition action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>true</copy_empty_fields>
+        <description>ETL definition for Order Data Mapping</description>
+        <name>Order Data Mapping_etl_ihub</name>
+        <on_after_script><![CDATA[(function onAfter(source, target, importLog) {
+
+	// Add your on after code here
+
+})(source, target, importLog);]]></on_after_script>
+        <on_after_script_bool>false</on_after_script_bool>
+        <on_before_script><![CDATA[(function onBefore(source, target, importLog) {
+
+	// Add your on before code here
+
+})(source, target, importLog);]]></on_before_script>
+        <on_before_script_bool>false</on_before_script_bool>
+        <sys_class_name>sys_rte_eb_etl_definition</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-10 22:11:48</sys_created_on>
+        <sys_id>32ba1cf31b5ab910ce2b6579b04bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Data Mapping_etl_ihub</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_definition_32ba1cf31b5ab910ce2b6579b04bcbdd</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:11:48</sys_updated_on>
+    </sys_rte_eb_etl_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</application>
+        <file_path/>
+        <instance_id>9e5e7297dbf290d89a4dcac5059619d0</instance_id>
+        <instance_name>appengine4gov</instance_name>
+        <name>sys_rte_eb_etl_definition_32ba1cf31b5ab910ce2b6579b04bcbdd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_etl_definition"&gt;&lt;sys_rte_eb_etl_definition action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;true&lt;/copy_empty_fields&gt;&lt;description&gt;ETL definition for Order Data Mapping&lt;/description&gt;&lt;name&gt;Order Data Mapping_etl_ihub&lt;/name&gt;&lt;on_after_script&gt;&lt;![CDATA[(function onAfter(source, target, importLog) {
+
+	// Add your on after code here
+
+})(source, target, importLog);]]&gt;&lt;/on_after_script&gt;&lt;on_after_script_bool&gt;false&lt;/on_after_script_bool&gt;&lt;on_before_script&gt;&lt;![CDATA[(function onBefore(source, target, importLog) {
+
+	// Add your on before code here
+
+})(source, target, importLog);]]&gt;&lt;/on_before_script&gt;&lt;on_before_script_bool&gt;false&lt;/on_before_script_bool&gt;&lt;sys_class_name&gt;sys_rte_eb_etl_definition&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Marc.Mouries&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-10 22:11:48&lt;/sys_created_on&gt;&lt;sys_id&gt;32ba1cf31b5ab910ce2b6579b04bcbdd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Order Data Mapping_etl_ihub&lt;/sys_name&gt;&lt;sys_package display_value="UIB Examples" source="x_snc_uib_examples"&gt;a0a606201b0f8510ce2b6579b04bcb65&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="UIB Examples"&gt;a0a606201b0f8510ce2b6579b04bcb65&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_etl_definition_32ba1cf31b5ab910ce2b6579b04bcbdd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Marc.Mouries&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-10 22:11:48&lt;/sys_updated_on&gt;&lt;/sys_rte_eb_etl_definition&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1405570875</payload_hash>
+        <record_name>Order Data Mapping_etl_ihub</record_name>
+        <reverted_from/>
+        <source>d89407831b567510b00dddf6b04bcba5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-10 22:11:48</sys_created_on>
+        <sys_id>32ba5cf31b5ab910ce2b6579b04bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bbb4a94710000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:11:48</sys_updated_on>
+        <type>ETL Definition</type>
+        <update_guid>36ba5cf36c5ab9109798146051fd851d</update_guid>
+        <update_guid_history>36ba5cf36c5ab9109798146051fd851d:-1405570875</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-10 22:20:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_definition">sys_rte_eb_etl_definition</sys_db_object>
+        <sys_id>3ce59c7c4add4924a36c454a0a2ff901</sys_id>
+        <sys_metadata>32ba1cf31b5ab910ce2b6579b04bcbdd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Data Mapping_etl_ihub</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_scope_delete display_value="">4e87e5c7db26498091c96a6b2a7a0e10</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_definition_32ba1cf31b5ab910ce2b6579b04bcbdd</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_definition_32ba1cf31b5ab910ce2b6579b04bcbdd">32ba5cf31b5ab910ce2b6579b04bcb1e</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:20:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

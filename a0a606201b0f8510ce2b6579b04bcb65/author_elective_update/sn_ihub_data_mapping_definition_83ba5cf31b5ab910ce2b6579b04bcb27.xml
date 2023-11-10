@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition">
+    <sn_ihub_data_mapping_definition action="DELETE">
+        <integration_table>sys_data_source</integration_table>
+        <published_source_structure/>
+        <record_id>a6bad4f31b5ab910ce2b6579b04bcb82</record_id>
+        <source_structure/>
+        <sys_class_name>sn_ihub_data_mapping_definition</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-10 22:11:49</sys_created_on>
+        <sys_id>83ba5cf31b5ab910ce2b6579b04bcb27</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sn_ihub_data_mapping_definition_83ba5cf31b5ab910ce2b6579b04bcb27</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:11:49</sys_updated_on>
+    </sn_ihub_data_mapping_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</application>
+        <file_path/>
+        <instance_id>9e5e7297dbf290d89a4dcac5059619d0</instance_id>
+        <instance_name>appengine4gov</instance_name>
+        <name>sn_ihub_data_mapping_definition_83ba5cf31b5ab910ce2b6579b04bcb27</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition"><sn_ihub_data_mapping_definition action="INSERT_OR_UPDATE"><integration_table>sys_data_source</integration_table><published_source_structure/><record_id>a6bad4f31b5ab910ce2b6579b04bcb82</record_id><source_structure/><sys_class_name>sn_ihub_data_mapping_definition</sys_class_name><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2023-11-10 22:11:49</sys_created_on><sys_id>83ba5cf31b5ab910ce2b6579b04bcb27</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package><sys_policy/><sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope><sys_update_name>sn_ihub_data_mapping_definition_83ba5cf31b5ab910ce2b6579b04bcb27</sys_update_name><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2023-11-10 22:11:49</sys_updated_on></sn_ihub_data_mapping_definition></record_update>]]></payload>
+        <payload_hash>955269140</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>157348c21b5430107d4c2171604bcb12</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-10 22:20:57</sys_created_on>
+        <sys_id>70dc907b1b5ab910ce2b6579b04bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bbb52f43c0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:20:57</sys_updated_on>
+        <type>Integration Data Mapping Definition</type>
+        <update_guid>7cdc907b085ab9109faa09f801d20e15</update_guid>
+        <update_guid_history>7cdc907b085ab9109faa09f801d20e15:0,70dc507b8b5ab91035dca58936b61bfa:0,0fba9c73815ab91068a6a589201132fa:-1300148645,8bba5cf3615ab9104785882748b06a28:1587788611</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c1dc907b1b5ab910ce2b6579b04bcb1c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-10 22:20:58</sys_created_on>
+        <sys_db_object display_value="" name="sn_ihub_data_mapping_definition">sn_ihub_data_mapping_definition</sys_db_object>
+        <sys_id>0286f0c6dd4f434e8138d50aa5a25299</sys_id>
+        <sys_metadata>83ba5cf31b5ab910ce2b6579b04bcb27</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_scope_delete display_value="">4e87e5c7db26498091c96a6b2a7a0e10</sys_scope_delete>
+        <sys_update_name>sn_ihub_data_mapping_definition_83ba5cf31b5ab910ce2b6579b04bcb27</sys_update_name>
+        <sys_update_version display_value="sn_ihub_data_mapping_definition_83ba5cf31b5ab910ce2b6579b04bcb27">70dc907b1b5ab910ce2b6579b04bcb16</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:20:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

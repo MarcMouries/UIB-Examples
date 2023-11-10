@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_snc_uib_examples_order</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-09 02:50:28</sys_created_on>
+        <sys_id>d157874b1b567510b00dddf6b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_uib_examples_order</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_security_acl_d157874b1b567510b00dddf6b04bcb2e</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-09 02:50:28</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</application>
+        <file_path/>
+        <instance_id>9e5e7297dbf290d89a4dcac5059619d0</instance_id>
+        <instance_name>appengine4gov</instance_name>
+        <name>sys_security_acl_d157874b1b567510b00dddf6b04bcb2e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><local_or_existing>Local</local_or_existing><name>x_snc_uib_examples_order</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2023-11-09 02:50:28</sys_created_on><sys_id>d157874b1b567510b00dddf6b04bcb2e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_uib_examples_order</sys_name><sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package><sys_policy/><sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope><sys_update_name>sys_security_acl_d157874b1b567510b00dddf6b04bcb2e</sys_update_name><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2023-11-09 02:50:28</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-202062334</payload_hash>
+        <record_name>x_snc_uib_examples_order</record_name>
+        <reverted_from/>
+        <source>d89407831b567510b00dddf6b04bcba5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-09 02:50:28</sys_created_on>
+        <sys_id>9d57874b1b567510b00dddf6b04bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bb1fcfc380000002</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-09 02:50:28</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>9157874be656751056cf50a3303ab531</update_guid>
+        <update_guid_history>9157874be656751056cf50a3303ab531:-202062334</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-10 22:07:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0c5adbf6d51e41d0a9de092df9a6fac4</sys_id>
+        <sys_metadata>d157874b1b567510b00dddf6b04bcb2e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_uib_examples_order</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_parent display_value="">4747834b1b567510b00dddf6b04bcbfa</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_scope_delete display_value="">4e87e5c7db26498091c96a6b2a7a0e10</sys_scope_delete>
+        <sys_update_name>sys_security_acl_d157874b1b567510b00dddf6b04bcb2e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_d157874b1b567510b00dddf6b04bcb2e">9d57874b1b567510b00dddf6b04bcb31</sys_update_version>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:07:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

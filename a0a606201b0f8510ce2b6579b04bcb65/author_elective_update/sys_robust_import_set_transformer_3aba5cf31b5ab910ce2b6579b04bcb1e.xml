@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="DELETE">
+        <active>true</active>
+        <batch_size>10</batch_size>
+        <description>RTE definition for Order Data Mapping</description>
+        <name>Order Data Mapping_rte_ihub</name>
+        <properties/>
+        <robust_transform_engine/>
+        <source_table>x_snc_uib_examples_ihub_import_eebad4f31b5ab910ce2b6579b04bcb80</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-10 22:11:48</sys_created_on>
+        <sys_id>3aba5cf31b5ab910ce2b6579b04bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Data Mapping_rte_ihub</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_3aba5cf31b5ab910ce2b6579b04bcb1e</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:11:48</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</application>
+        <file_path/>
+        <instance_id>9e5e7297dbf290d89a4dcac5059619d0</instance_id>
+        <instance_name>appengine4gov</instance_name>
+        <name>sys_robust_import_set_transformer_3aba5cf31b5ab910ce2b6579b04bcb1e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer"><sys_robust_import_set_transformer action="INSERT_OR_UPDATE"><active>true</active><batch_size>10</batch_size><description>RTE definition for Order Data Mapping</description><name>Order Data Mapping_rte_ihub</name><properties/><robust_transform_engine/><source_table>x_snc_uib_examples_ihub_import_eebad4f31b5ab910ce2b6579b04bcb80</source_table><sys_class_name>sys_robust_import_set_transformer</sys_class_name><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2023-11-10 22:11:48</sys_created_on><sys_id>3aba5cf31b5ab910ce2b6579b04bcb1e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Order Data Mapping_rte_ihub</sys_name><sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package><sys_policy/><sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope><sys_update_name>sys_robust_import_set_transformer_3aba5cf31b5ab910ce2b6579b04bcb1e</sys_update_name><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2023-11-10 22:11:48</sys_updated_on><verbose>false</verbose></sys_robust_import_set_transformer></record_update>]]></payload>
+        <payload_hash>-806215476</payload_hash>
+        <record_name>Order Data Mapping_rte_ihub</record_name>
+        <reverted_from/>
+        <source>157348c21b5430107d4c2171604bcb12</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-10 22:20:57</sys_created_on>
+        <sys_id>3cdc507b1b5ab910ce2b6579b04bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bbb52f2ba0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:20:57</sys_updated_on>
+        <type>Robust Import Set Transformer</type>
+        <update_guid>38dc507b415ab910d329482081edc9d3</update_guid>
+        <update_guid_history>38dc507b415ab910d329482081edc9d3:0,7aba5cf3035ab910f433a26a3c1a0020:1177507027</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-10 22:20:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_robust_import_set_transformer">sys_robust_import_set_transformer</sys_db_object>
+        <sys_id>3d2457dc05ed468c8028effbc880b6c4</sys_id>
+        <sys_metadata>3aba5cf31b5ab910ce2b6579b04bcb1e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Data Mapping_rte_ihub</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_scope_delete display_value="">4e87e5c7db26498091c96a6b2a7a0e10</sys_scope_delete>
+        <sys_update_name>sys_robust_import_set_transformer_3aba5cf31b5ab910ce2b6579b04bcb1e</sys_update_name>
+        <sys_update_version display_value="sys_robust_import_set_transformer_3aba5cf31b5ab910ce2b6579b04bcb1e">3cdc507b1b5ab910ce2b6579b04bcbd3</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-10 22:20:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
