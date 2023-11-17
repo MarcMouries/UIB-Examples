@@ -2,7 +2,7 @@
     <sys_ux_client_script action="INSERT_OR_UPDATE">
         <controller_preset/>
         <includes/>
-        <macroponent display_value="Repeater default">f00b620d1b8f0910ce2b6579b04bcb20</macroponent>
+        <macroponent display_value="Dynamic list default">f00b620d1b8f0910ce2b6579b04bcb20</macroponent>
         <name>Add random vegetables</name>
         <preset/>
         <required_translations>[ ]</required_translations>

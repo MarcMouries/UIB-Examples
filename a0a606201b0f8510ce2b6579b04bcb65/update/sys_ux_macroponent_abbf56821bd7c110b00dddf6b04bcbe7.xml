@@ -1,10 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <bundles/>
+        <bundles>[
+    {
+        "definitionId": "d6c0f4f531825510f8773d3775164e01",
+        "instanceId": "form_1",
+        "useByReference": false
+    }
+]</bundles>
         <category>page</category>
         <component_dependencies/>
         <composition>[
+    {
+        "bundleLink": {
+            "bundleInstanceId": "form_1",
+            "elementType": "member"
+        },
+        "definition": {
+            "id": "61c315e9ccb8970546c30f3e2da41a32",
+            "type": "MACROPONENT_VIEWPORT"
+        },
+        "elementId": "modalcontainerviewport",
+        "elementLabel": "Modal Container (Viewport)",
+        "eventMappings": [
+            
+        ],
+        "extensionPoints": [
+            {
+                "controllerDependencyMap": null,
+                "controllerElementId": "record",
+                "name": "Record page modals",
+                "sysId": "e38960c1c30301103581a5a1d840dd45"
+            }
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "preset": {
+            "controllerElementId": "record",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "b76d5b8043432110379ea5dccbb8f297"
+        },
+        "propertyValues": {},
+        "slot": null,
+        "styles": {
+            "width": "100%"
+        }
+    },
     {
         "definition": {
             "id": "d356d14b6e293a3020a244b63d278d8f",
@@ -54,7 +105,7 @@
                             "value": {
                                 "code": null,
                                 "comment": "",
-                                "message": "Milestones"
+                                "message": "Tracking Stages Progress"
                             }
                         }
                     },
@@ -167,7 +218,7 @@
                         },
                         "tag": {
                             "type": "JSON_LITERAL",
-                            "value": "h3"
+                            "value": "h2"
                         },
                         "text": {
                             "type": "TRANSLATION_LITERAL",
@@ -324,7 +375,7 @@
                         },
                         "tag": {
                             "type": "JSON_LITERAL",
-                            "value": "h3"
+                            "value": "h2"
                         },
                         "text": {
                             "type": "TRANSLATION_LITERAL",
@@ -362,14 +413,14 @@
                         },
                         "tag": {
                             "type": "JSON_LITERAL",
-                            "value": "h3"
+                            "value": "h2"
                         },
                         "text": {
                             "type": "TRANSLATION_LITERAL",
                             "value": {
                                 "code": null,
                                 "comment": "",
-                                "message": "With Custom Milestone Component"
+                                "message": "With Custom Stage Tracker Component"
                             }
                         }
                     },
@@ -396,11 +447,130 @@
                         "composition": [
                             {
                                 "definition": {
+                                    "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "stylized_text_5",
+                                "elementLabel": "Stylized text 5",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHero": false,
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "isNonDestructive": false,
+                                "preset": null,
+                                "propertyValues": {
+                                    "css": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "* { }"
+                                    },
+                                    "tag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "h3"
+                                    },
+                                    "text": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "AES Stage Tracker Static"
+                                        }
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
                                     "id": "6e9066c735c2f03067547684522a21e2",
                                     "type": "MACROPONENT"
                                 },
-                                "elementId": "milestone_tracker_1",
-                                "elementLabel": "Milestone Tracker 1",
+                                "elementId": "aes_stage_tracker_static",
+                                "elementLabel": "AES Stage Tracker Static",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "currentStage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "Your"
+                                    },
+                                    "mode": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "STATIC"
+                                    },
+                                    "stages": {
+                                        "type": "JSON_LITERAL",
+                                        "value": [
+                                            "Set",
+                                            "Your",
+                                            "Own",
+                                            "Stages"
+                                        ]
+                                    },
+                                    "sysId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "table": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "stylized_text_6",
+                                "elementLabel": "Stylized text 6",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "css": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "* { }"
+                                    },
+                                    "tag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "h3"
+                                    },
+                                    "text": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "AES Stage Tracker Record"
+                                        }
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "6e9066c735c2f03067547684522a21e2",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "aes_stage_tracker_record",
+                                "elementLabel": "AES Stage Tracker Record",
                                 "eventMappings": [
                                     
                                 ],
@@ -422,7 +592,7 @@
                                     },
                                     "currentStage": {
                                         "type": "JSON_LITERAL",
-                                        "value": "Stage 2"
+                                        "value": ""
                                     },
                                     "items": {
                                         "container": [
@@ -503,15 +673,18 @@
                                     },
                                     "mode": {
                                         "type": "JSON_LITERAL",
-                                        "value": "STATIC"
+                                        "value": "RECORD"
                                     },
                                     "stages_NEW": {
                                         "type": "JSON_LITERAL",
                                         "value": [
-                                            "A",
-                                            "B",
-                                            "Y",
-                                            "Z"
+                                            
+                                        ]
+                                    },
+                                    "stages_OLD": {
+                                        "type": "JSON_LITERAL",
+                                        "value": [
+                                            
                                         ]
                                     },
                                     "sysId": {
@@ -533,7 +706,19 @@
                                 "isInline": null,
                                 "items": [
                                     {
-                                        "element_id": "milestone_tracker_1",
+                                        "element_id": "stylized_text_5",
+                                        "styles": {}
+                                    },
+                                    {
+                                        "element_id": "aes_stage_tracker_static",
+                                        "styles": {}
+                                    },
+                                    {
+                                        "element_id": "stylized_text_6",
+                                        "styles": {}
+                                    },
+                                    {
+                                        "element_id": "aes_stage_tracker_record",
                                         "styles": {}
                                     }
                                 ],
@@ -667,11 +852,440 @@
         },
         "slot": null,
         "styles": null
+    },
+    {
+        "bundleLink": {
+            "bundleInstanceId": "form_1",
+            "elementType": "root"
+        },
+        "definition": {
+            "id": "cdf8d604a3fda59e69ccd6dd407263d6",
+            "type": "MACROPONENT"
+        },
+        "elementId": "form_default",
+        "elementLabel": "Form Default",
+        "eventMappings": [
+            
+        ],
+        "extensionPoints": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "preset": {
+            "controllerElementId": "record",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "187b98f917f400e17ab765dee8b4fb04"
+        },
+        "propertyValues": {
+            "disableCollapse": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "inRecordPageTab": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "inUiBuilder": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "isContextMenuHidden": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "isFormOptionsHidden": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "isRemovePaddingLeft": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "isSectionMenuHidden": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "isSectionTitleHidden": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "scrollableHost": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "slot": null,
+        "styles": null
     }
 ]</composition>
         <da_relay_models/>
         <data>[
-    
+    {
+        "bundleLinks": [
+            {
+                "bundleInstanceId": "form_1",
+                "elementType": "controller"
+            }
+        ],
+        "definition": {
+            "id": "029f04e053610110ac9bddeeff7b1294",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "record",
+        "elementLabel": "Form Controller",
+        "eventMappings": [
+            {
+                "eventMappingId": "srp_on_load_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uib_base_aw.SRP_UI_CTRL#ADD_NOTIFICATIONS",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uib_base_aw.SRP_UI_CTRL#ADD_NOTIFICATIONS",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "form_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": null
+                        },
+                        "operation": null,
+                        "targetId": "srp_on_load_notification",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_add_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#ADD_NOTIFICATION_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#ADD_NOTIFICATION_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "form_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            }
+                        },
+                        "operation": null,
+                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrffb0",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_clear_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#REMOVE_ALL_NOTIFICATIONS_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#REMOVE_ALL_NOTIFICATIONS_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "form_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#CLEAR_NOTIFICATIONS",
+                            "payload": {}
+                        },
+                        "operation": null,
+                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrffb0",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_remove_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#REMOVE_NOTIFICATION_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#REMOVE_NOTIFICATION_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "form_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#REMOVE_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            }
+                        },
+                        "operation": null,
+                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrffb0",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_set_loading_state",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#FORM_LOADING_STATE_CHANGED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#FORM_LOADING_STATE_CHANGED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "form_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#SET_LOADING_STATE",
+                            "payload": {
+                                "container": {
+                                    "label": {
+                                        "binding": {
+                                            "address": [
+                                                "label"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    },
+                                    "loading": {
+                                        "binding": {
+                                            "address": [
+                                                "loading"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "0404f68486f1baab1dc7ef2a27a3de50"
+                        },
+                        "operation": null,
+                        "targetId": "formSetLoadingState",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "activityLogs": {
+                "binding": {
+                    "address": [
+                        "activityLogs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "detailsContext": {
+                "binding": {
+                    "address": [
+                        "activityLogs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "fields": {
+                "binding": {
+                    "address": [
+                        "fields"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "forcedViewName": {
+                "binding": {
+                    "address": [
+                        "views"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputExtraParams": {
+                "binding": {
+                    "address": [
+                        "extraParams"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputQuery": {
+                "binding": {
+                    "address": [
+                        "query"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputSysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputTable": {
+                "binding": {
+                    "address": [
+                        "table"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "screen": {
+                "binding": {
+                    "address": [
+                        "screen"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "selectedTabIndex": {
+                "binding": {
+                    "address": [
+                        "selectedTabIndex"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "userPrefs": {
+                "binding": {
+                    "address": [
+                        "userPrefs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "view": {
+                "binding": {
+                    "address": [
+                        "view"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
 ]</data>
         <description/>
         <dispatched_events/>
@@ -692,6 +1306,14 @@
                 "styles": {
                     "width": "100%"
                 }
+            },
+            {
+                "element_id": "form_default",
+                "styles": {
+                    "background-color": "inherit",
+                    "margin-top": "calc(var(--now-scale-space--xl, 1)*1.5rem)",
+                    "padding-inline-end": "calc(var(--now-scale-space--xl, 1)*1.5rem)"
+                }
             }
         ],
         "root": null,
@@ -708,13 +1330,145 @@
         <name>Milestone</name>
         <output_prop_mapping/>
         <props>[
-    
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpccwoemiaabbenddbhhpcgggdweeec",
+        "inherited": false,
+        "label": "table",
+        "mandatory": false,
+        "name": "table",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpccwoemjaabbeoddbhhpggjjuddbhhgi",
+        "inherited": false,
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpccwoemjaabbepddbhhpndojjuhzt",
+        "inherited": false,
+        "label": "query",
+        "mandatory": false,
+        "name": "query",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpccwoemjaabbeqddbhhpgglnlbbidk",
+        "inherited": false,
+        "label": "views",
+        "mandatory": false,
+        "name": "views",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpccwoemjaabberddbhhpaaotxffdgo",
+        "inherited": false,
+        "label": "activityLogs",
+        "mandatory": false,
+        "name": "activityLogs",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpccwoemjaabbesddbhhplaaexykccjj",
+        "inherited": false,
+        "label": "extraParams",
+        "mandatory": false,
+        "name": "extraParams",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpccwoemjaabbetddbhhpeohdccekc",
+        "inherited": false,
+        "label": "fields",
+        "mandatory": false,
+        "name": "fields",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpccwoemjaabbeuddbhhpxqxhhvfddcc",
+        "inherited": false,
+        "label": "screen",
+        "mandatory": false,
+        "name": "screen",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpccwoemjaabbevddbhhpjhhhhzbyxr",
+        "inherited": false,
+        "label": "selectedTabIndex",
+        "mandatory": false,
+        "name": "selectedTabIndex",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpccwoemjaabbewddbhhpqrcginws",
+        "inherited": false,
+        "label": "userPrefs",
+        "mandatory": false,
+        "name": "userPrefs",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
 ]</props>
         <required_translations>[ {
-  "message" : "Fulfillment",
+  "message" : "AES Stage Tracker Record",
   "comment" : ""
 }, {
-  "message" : "Milestones",
+  "message" : "AES Stage Tracker Static",
+  "comment" : ""
+}, {
+  "message" : "Fulfillment",
   "comment" : ""
 }, {
   "message" : "Order Placed",
@@ -741,6 +1495,9 @@
   "message" : "Submission",
   "comment" : ""
 }, {
+  "message" : "Tracking Stages Progress",
+  "comment" : ""
+}, {
   "message" : "Triage",
   "comment" : ""
 }, {
@@ -750,7 +1507,7 @@
   "message" : "With Breadcrumbs",
   "comment" : ""
 }, {
-  "message" : "With Custom Milestone Component",
+  "message" : "With Custom Stage Tracker Component",
   "comment" : ""
 }, {
   "message" : "With Stepper",
@@ -761,19 +1518,36 @@
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_properties>[
-    
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "x_snc_uib_examples_order"
+        },
+        "name": "table",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "9cab58f31b96b910b00dddf6b04bcb98"
+        },
+        "name": "sysId",
+        "shape": "",
+        "valueType": "string"
+    }
 ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-05-08 01:52:54</sys_created_on>
         <sys_id>abbf56821bd7c110b00dddf6b04bcbe7</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_name>Milestone</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_macroponent_abbf56821bd7c110b00dddf6b04bcbe7</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2023-11-14 04:18:15</sys_updated_on>
+        <sys_updated_on>2023-11-17 17:42:32</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
