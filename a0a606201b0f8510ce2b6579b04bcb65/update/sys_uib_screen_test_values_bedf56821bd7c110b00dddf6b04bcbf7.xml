@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config>{
-    "table": "task",
-    "sysId": "0001e2471b19b950ce2b6579b04bcbce"
+    "table": "x_snc_uib_examples_order",
+    "sysId": "9cab58f31b96b910b00dddf6b04bcb98",
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputSysId": "9cab58f31b96b910b00dddf6b04bcb98",
+        "inputTable": "x_snc_uib_examples_order",
+        "view": "Workspace-UIB-Examples-0"
+    },
+    "query": null,
+    "views": null,
+    "activityLogs": null,
+    "extraParams": null,
+    "fields": null,
+    "screen": null,
+    "selectedTabIndex": null,
+    "userPrefs": null
 }</macroponent_config>
         <screen display_value="milestone default">6bbf56821bd7c110b00dddf6b04bcbea</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-05-08 01:53:24</sys_created_on>
         <sys_id>bedf56821bd7c110b00dddf6b04bcbf7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_bedf56821bd7c110b00dddf6b04bcbf7</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2023-11-17 17:42:33</sys_updated_on>
+        <sys_updated_on>2023-11-17 22:17:58</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

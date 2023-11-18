@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Update</name>
+        <specificity>20</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-18 17:08:47</sys_created_on>
+        <sys_id>fd12a4d21bae3190b00dddf6b04bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_ux_form_action_fd12a4d21bae3190b00dddf6b04bcba9</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-18 17:08:47</sys_updated_on>
+        <table>x_snc_uib_examples_order</table>
+        <ui_action display_value="Update Stage">3421a4521bae3190b00dddf6b04bcbbb</ui_action>
+    </sys_ux_form_action>
+</record_update>

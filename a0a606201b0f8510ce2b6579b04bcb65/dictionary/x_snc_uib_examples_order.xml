@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="update_synch=true" db_object_id="7b8a14f31b5ab910ce2b6579b04bcbd8" extends="sys_metadata" label="Order" max_length="40" name="x_snc_uib_examples_order" type="collection">
         <element label="Due date" max_length="40" name="due_date" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Opened by" max_length="40" name="opened_by" type="string"/>
         <element label="Priority" max_length="40" name="priority" type="string"/>
-        <element label="Short description" max_length="40" name="short_description" type="string"/>
+        <element label="Short description" max_length="40" name="short_description" read_only="true" type="string"/>
         <element choice="3" label="Stage" max_length="40" name="stage" type="workflow">
             <choice>
                 <element inactive_on_update="false" label="Order Placed" sequence="1" value="order_placed"/>
