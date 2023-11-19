@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">ab944d6e1b2ef190b00dddf6b04bcb92</macroponent>
+        <name>Trigger Notifications</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+  api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+    items: [
+      {
+        id: "alert1",
+        status: "info",
+        icon: "info-circle-outline",
+        header: "Title.",
+        content: {
+          type: "html",
+          value: "<span>Hello there, I am HTML content.</span>",
+        },
+        action: { type: "dismiss" },
+      },
+      {
+        id: "alert2",
+        status: "positive",
+        icon: "check-circle-outline",
+        content: "Here is some information!",
+        textLinkProps: {
+          label: "More info",
+          href: "http://www.servicenow.com",
+        },
+        action: { type: "acknowledge" },
+      },
+      {
+        id: "alert3",
+        status: "warning",
+        icon: "exclamation-triangle-outline",
+        header: "WARNING:",
+        content: {
+          type: "html",
+          value:
+            "<span>This is some <em>cool</em> <strong> HTML</strong> content</span>",
+        },
+        action: { type: "open", href: "#" },
+      },
+      {
+        id: "alert4",
+        status: "critical",
+        icon: "exclamation-triangle-outline",
+        content: "Uh oh, there is a problem with this record.",
+        textLinkProps: {
+          label: "SN58693",
+          href:
+            "/nav_to.do?uri=incident.do?sys_id=a83820b58f723300e7e16c7827bdeed2%26sysparm_view=ess",
+        },
+        action: { type: "dismiss" },
+      },
+      {
+        id: "alert2b",
+        status: "positive",
+        icon: "check-circle-outline",
+        content: "Here is some information 2!",
+        textLinkProps: {
+          label: "More info",
+          href: "http://www.servicenow.com",
+        },
+        action: { type: "acknowledge" },
+      },
+      {
+        id: "alert5",
+        status: "high",
+        icon: "info-circle-outline",
+        content:
+          "Lorem ipsum dolor amet cornhole chambray fingerstache, affogato salviaflexitarian portland kogi unicorn brooklyn viral coloring book kitsch poke. Poutine gluten-free leggings, direct trade irony sustainable mixtape kale chips etsy banjocoloring book mustache. Taxidermy cray hell of poutine unicorn smallbatch. Iceland bicycle rights stumptown, retro jianbing twee rampsadaptogen artisan cliche man braid marfa green juice.",
+        action: { type: "dismiss" },
+      },
+    ],
+  });
+helpers.timing.setTimeout(() =>  api.emit("NOW_UXF_PAGE#REMOVE_NOTIFICATIONS", {
+    items: [{id: "alert1"}]
+}), 5000);
+helpers.timing.setTimeout(() =>  api.emit("NOW_UXF_PAGE#REMOVE_NOTIFICATIONS", {
+    items: [{id: "alert2"}]
+}), 6000);
+helpers.timing.setTimeout(() =>  api.emit("NOW_UXF_PAGE#REMOVE_NOTIFICATIONS", {
+    items: [{id: "alert3"}]
+}), 7000);
+helpers.timing.setTimeout(() =>  api.emit("NOW_UXF_PAGE#REMOVE_NOTIFICATIONS", {
+    items: [{id: "alert4"}]
+}), 8000);
+helpers.timing.setTimeout(() =>  api.emit("NOW_UXF_PAGE#REMOVE_NOTIFICATIONS", {
+    items: [{id: "alert5"}]
+}), 9000);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-19 14:19:46</sys_created_on>
+        <sys_id>fda40dae1b2ef190b00dddf6b04bcb99</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Trigger Notifications</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_ux_client_script_fda40dae1b2ef190b00dddf6b04bcb99</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-11-19 14:19:46</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
