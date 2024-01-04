@@ -14,16 +14,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3d80be921bf35114b00dddf6b04bcbf0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>uib example</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>UIB Examples</sys_name>
         <sys_overrides/>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_app_application_3d80be921bf35114b00dddf6b04bcbf0</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2022-12-18 14:27:17</sys_updated_on>
-        <title>uib example</title>
+        <sys_updated_on>2024-01-04 17:01:07</sys_updated_on>
+        <title>UIB Examples</title>
         <view_name/>
     </sys_app_application>
 </record_update>
