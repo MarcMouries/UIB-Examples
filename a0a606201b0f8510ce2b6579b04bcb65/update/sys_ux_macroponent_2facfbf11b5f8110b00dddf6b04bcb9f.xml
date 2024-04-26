@@ -1,304 +1,515 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
+        <bundles/>
         <category>page</category>
         <component_dependencies/>
-        <composition>[ {
-  "elementId" : "stylized_text_1",
-  "elementLabel" : "Stylized text 1",
-  "propertyValues" : {
-    "text" : {
-      "type" : "TRANSLATION_LITERAL",
-      "value" : {
-        "code" : null,
-        "message" : "Example of links",
-        "comment" : ""
-      }
-    },
-    "tag" : {
-      "type" : "JSON_LITERAL",
-      "value" : "h1"
-    },
-    "css" : {
-      "type" : "JSON_LITERAL",
-      "value" : "* { }"
-    }
-  },
-  "eventMappings" : [ ],
-  "slot" : null,
-  "definition" : {
-    "id" : "4335ba6dca80378f7ba7a67cd6667bec",
-    "type" : "MACROPONENT"
-  },
-  "overrides" : null,
-  "isHidden" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  },
-  "isHero" : false,
-  "isNonDestructive" : false,
-  "styles" : { }
-}, {
-  "elementId" : "container_1",
-  "elementLabel" : "Container 1",
-  "propertyValues" : {
-    "ariaRegionName" : {
-      "type" : "TRANSLATION_LITERAL",
-      "value" : {
-        "code" : null,
-        "message" : "",
-        "comment" : ""
-      }
-    },
-    "includeAriaHeading" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "ariaRegionHeadingLevel" : {
-      "type" : "JSON_LITERAL",
-      "value" : "1"
-    },
-    "type" : {
-      "type" : "JSON_LITERAL",
-      "value" : "section"
-    },
-    "ariaRole" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    }
-  },
-  "eventMappings" : [ ],
-  "slot" : null,
-  "definition" : {
-    "id" : "d356d14b6e293a3020a244b63d278d8f",
-    "type" : "MACROPONENT"
-  },
-  "overrides" : {
-    "composition" : [ {
-      "elementId" : "button_1",
-      "elementLabel" : "Button 1",
-      "propertyValues" : {
-        "variant" : {
-          "type" : "JSON_LITERAL",
-          "value" : "primary"
+        <composition>[
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
         },
-        "size" : {
-          "type" : "JSON_LITERAL",
-          "value" : "md"
+        "elementId": "stylized_text_1",
+        "elementLabel": "Stylized text 1",
+        "eventMappings": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
         },
-        "label" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "code" : null,
-            "message" : "Open a non-UIB Page",
-            "comment" : ""
-          }
-        },
-        "icon" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
-        },
-        "disabled" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "tooltipContent" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "code" : null,
-            "message" : "Open an External Page",
-            "comment" : ""
-          }
-        },
-        "configAria" : {
-          "type" : "MAP_CONTAINER",
-          "container" : { }
-        }
-      },
-      "eventMappings" : [ {
-        "eventMappingId" : "clccvxuccdoaaddiiggddgggzyibbfvghgg",
-        "isConfiguration" : false,
-        "offRowStorageId" : null,
-        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
-        "sourceEventCorrelationId" : null,
-        "sourceEventDefinition" : {
-          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
-          "id" : null,
-          "type" : "UXEVENT"
-        },
-        "sourceEventSysId" : null,
-        "targets" : [ {
-          "broker" : null,
-          "clientScript" : null,
-          "conditional" : null,
-          "declarativeAction" : null,
-          "event" : {
-            "apiName" : "x_snc_uib_examples.NAV_ITEM_SELECTED_RELAY_2facfbf11b5f8110b00dddf6b04bcb9f",
-            "payload" : {
-              "type" : "JSON_LITERAL",
-              "value" : {
-                "route" : "iframe",
-                "fields" : null,
-                "params" : null,
-                "redirect" : true,
-                "passiveNavigation" : null,
-                "title" : null,
-                "multiInstField" : null,
-                "targetRoute" : null,
-                "external" : null
-              }
+        "isNonDestructive": false,
+        "overrides": null,
+        "propertyValues": {
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* { }"
             },
-            "sysId" : "3c234cc61b13c110ce2b6579b04bcbc0"
-          },
-          "operation" : null,
-          "targetId" : "clccvxuccdoaaddiihhddgggzlazaadowb",
-          "type" : "EVENT"
-        } ]
-      } ],
-      "slot" : null,
-      "definition" : {
-        "id" : "d37ce8abca89d02905fed903c8e34d8e",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : null,
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : null
-      },
-      "isHero" : false,
-      "isNonDestructive" : false,
-      "styles" : { }
-    }, {
-      "elementId" : "button_2",
-      "elementLabel" : "Button 2",
-      "propertyValues" : {
-        "variant" : {
-          "type" : "JSON_LITERAL",
-          "value" : "primary-positive"
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "h1"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Example of links"
+                }
+            }
         },
-        "size" : {
-          "type" : "JSON_LITERAL",
-          "value" : "md"
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
         },
-        "label" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "code" : null,
-            "message" : "Open in-place",
-            "comment" : ""
-          }
+        "elementId": "container_1",
+        "elementLabel": "Container 1",
+        "eventMappings": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
         },
-        "icon" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
+        "isNonDestructive": false,
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d37ce8abca89d02905fed903c8e34d8e",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "button_1",
+                    "elementLabel": "Button 1",
+                    "eventMappings": [
+                        {
+                            "eventMappingId": "clccvxuccdoaaddiiggddgggzyibbfvghgg",
+                            "isConfiguration": false,
+                            "offRowStorageId": null,
+                            "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                            "sourceEventCorrelationId": null,
+                            "sourceEventDefinition": {
+                                "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                "id": null,
+                                "type": "UXEVENT"
+                            },
+                            "sourceEventSysId": null,
+                            "targets": [
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_snc_uib_examples.NAV_ITEM_SELECTED_RELAY_2facfbf11b5f8110b00dddf6b04bcb9f",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "external": null,
+                                                "fields": null,
+                                                "multiInstField": null,
+                                                "params": null,
+                                                "passiveNavigation": null,
+                                                "redirect": true,
+                                                "route": "iframe",
+                                                "targetRoute": null,
+                                                "title": null
+                                            }
+                                        },
+                                        "sysId": "3c234cc61b13c110ce2b6579b04bcbc0"
+                                    },
+                                    "operation": null,
+                                    "targetId": "clccvxuccdoaaddiihhddgggzlazaadowb",
+                                    "type": "EVENT"
+                                }
+                            ]
+                        }
+                    ],
+                    "isHero": false,
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "isNonDestructive": false,
+                    "overrides": null,
+                    "propertyValues": {
+                        "configAria": {
+                            "container": {},
+                            "type": "MAP_CONTAINER"
+                        },
+                        "disabled": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "icon": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "label": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Open a non-UIB Page"
+                            }
+                        },
+                        "size": {
+                            "type": "JSON_LITERAL",
+                            "value": "md"
+                        },
+                        "tooltipContent": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Open an External Page"
+                            }
+                        },
+                        "variant": {
+                            "type": "JSON_LITERAL",
+                            "value": "primary"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "d37ce8abca89d02905fed903c8e34d8e",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "button_2",
+                    "elementLabel": "Button 2",
+                    "eventMappings": [
+                        {
+                            "eventMappingId": "clccwaalqvccaaccgguddfhhaayljjvbgeo",
+                            "isConfiguration": false,
+                            "offRowStorageId": null,
+                            "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                            "sourceEventCorrelationId": null,
+                            "sourceEventDefinition": {
+                                "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                "id": null,
+                                "type": "UXEVENT"
+                            },
+                            "sourceEventSysId": null,
+                            "targets": [
+                                {
+                                    "broker": null,
+                                    "clientScript": {
+                                        "sysId": "dd9d3ff11b5f8110b00dddf6b04bcb8f"
+                                    },
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": null,
+                                    "operation": null,
+                                    "targetId": "clccwaalqvccaaccggvddfhhaamaggmciiue",
+                                    "type": "CLIENT_SCRIPT"
+                                }
+                            ]
+                        }
+                    ],
+                    "isHero": false,
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "isNonDestructive": false,
+                    "overrides": null,
+                    "propertyValues": {
+                        "configAria": {
+                            "container": {},
+                            "type": "MAP_CONTAINER"
+                        },
+                        "disabled": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "icon": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "label": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Open in-place"
+                            }
+                        },
+                        "size": {
+                            "type": "JSON_LITERAL",
+                            "value": "md"
+                        },
+                        "tooltipContent": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Enter a label"
+                            }
+                        },
+                        "variant": {
+                            "type": "JSON_LITERAL",
+                            "value": "primary-positive"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "isInline": null,
+                    "items": [
+                        {
+                            "element_id": "button_1",
+                            "styles": {}
+                        },
+                        {
+                            "element_id": "button_2",
+                            "styles": {}
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "row",
+                        "justify-content": "space-around",
+                        "margin": "var(--now-static-space--lg)"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
         },
-        "disabled" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
         },
-        "tooltipContent" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "code" : null,
-            "message" : "Enter a label",
-            "comment" : ""
-          }
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
         },
-        "configAria" : {
-          "type" : "MAP_CONTAINER",
-          "container" : { }
-        }
-      },
-      "eventMappings" : [ {
-        "eventMappingId" : "clccwaalqvccaaccgguddfhhaayljjvbgeo",
-        "isConfiguration" : false,
-        "offRowStorageId" : null,
-        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
-        "sourceEventCorrelationId" : null,
-        "sourceEventDefinition" : {
-          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
-          "id" : null,
-          "type" : "UXEVENT"
+        "elementId": "container_2",
+        "elementLabel": "Container 2",
+        "eventMappings": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
         },
-        "sourceEventSysId" : null,
-        "targets" : [ {
-          "broker" : null,
-          "clientScript" : {
-            "sysId" : "dd9d3ff11b5f8110b00dddf6b04bcb8f"
-          },
-          "conditional" : null,
-          "declarativeAction" : null,
-          "event" : null,
-          "operation" : null,
-          "targetId" : "clccwaalqvccaaccggvddfhhaamaggmciiue",
-          "type" : "CLIENT_SCRIPT"
-        } ]
-      } ],
-      "slot" : null,
-      "definition" : {
-        "id" : "d37ce8abca89d02905fed903c8e34d8e",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : null,
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : null
-      },
-      "isHero" : false,
-      "isNonDestructive" : false,
-      "styles" : { }
-    } ],
-    "layout" : {
-      "default" : {
-        "children" : null,
-        "isInline" : null,
-        "items" : [{"element_id":"button_1","styles":{}},{"element_id":"button_2","styles":{}}],
-        "root" : null,
-        "rules" : null,
-        "styles" : {"flex-direction":"row","margin":"var(--now-static-space--lg)","justify-content":"space-around"},
-        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-        "type" : "flex"
-      },
-      "version" : "3.0.0"
+        "isNonDestructive": false,
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "abe7db0526ec8705a0eff03521febfa3",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "text_link_1",
+                    "elementLabel": "Text link 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "aria-label": "Accessible Label"
+                            }
+                        },
+                        "download": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "href": {
+                            "script": {
+                                "apiVersion": "2.0.0",
+                                "controllerElementId": null,
+                                "inlineScript": "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {TransformApiHelpers} params.helpers\n  */\nfunction evaluateProperty({api, helpers}) {\n  const users = [\"marc.mouries@servicenow.com\", \"steve.daly@servicenow.com\", \"\"];\nconst topicName = \"Prep For Meeting Tomorrow\";\nconst message = \"Hi folks, kicking off a chat about our meeting tomorrow\";\nconst teamsUrl = generateTeamsUrl(users, topicName, message);\nconsole.log(teamsUrl);\n\nreturn teamsUrl;\n\n\nfunction generateTeamsUrl(users, topicName, message) {\n    const encodedUsers = users.join(',');\n    const encodedTopicName = encodeURIComponent(topicName);\n    const encodedMessage = encodeURIComponent(message);\n\n    // Construct the URL with dynamic parameters\n    const baseUrl = \"https://teams.microsoft.com/l/chat/0/0\";\n    const query = `?users=${encodedUsers}&amp;topicName=${encodedTopicName}&amp;message=${encodedMessage}`;\n\n    return baseUrl + query;\n}\n}",
+                                "scriptSysId": "9c8c503493f1ce50df5f3ca47aba10a8",
+                                "target": null
+                            },
+                            "type": "CLIENT_TRANSFORM_SCRIPT"
+                        },
+                        "iconEnd": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "iconStart": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "label": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Start a Ms Teams Message"
+                            }
+                        },
+                        "opensWindow": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "underlined": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "variant": {
+                            "type": "JSON_LITERAL",
+                            "value": "primary"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "isInline": null,
+                    "items": [
+                        {
+                            "element_id": "text_link_1",
+                            "styles": {
+                                "border-color": "rgb(var(--now-color_surface--brand-4))",
+                                "border-style": "solid",
+                                "border-width": "var(--now-static-space--xxs)",
+                                "font-size": "16px",
+                                "padding-bottom": "var(--now-scalable-space--sm)",
+                                "padding-left": "var(--now-scalable-space--sm)",
+                                "padding-right": "var(--now-scalable-space--sm)",
+                                "padding-top": "var(--now-scalable-space--sm)"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "row",
+                        "justify-content": "space-around",
+                        "margin": "var(--now-static-space--lg)"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": null,
+        "styles": null
     }
-  },
-  "isHidden" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  },
-  "isHero" : false,
-  "isNonDestructive" : false,
-  "styles" : {
-    "width" : "100%"
-  }
-} ]</composition>
+]</composition>
         <da_relay_models/>
-        <data>[ ]</data>
+        <data>[
+    
+]</data>
         <description/>
         <dispatched_events>3c234cc61b13c110ce2b6579b04bcbc0</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
-        <internal_event_mappings>{ }</internal_event_mappings>
+        <internal_event_mappings>{}</internal_event_mappings>
         <layout>{
-  "default" : {
-    "children" : null,
-    "isInline" : null,
-    "items" : [{"element_id":"stylized_text_1","styles":{}},{"element_id":"button_1","styles":{}},{"element_id":"container_1","styles":{}}],
-    "root" : null,
-    "rules" : null,
-    "styles" : {"flex-direction":"column"},
-    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-    "type" : "flex"
-  },
-  "version" : "3.0.0"
+    "default": {
+        "children": null,
+        "isInline": null,
+        "items": [
+            {
+                "element_id": "stylized_text_1",
+                "styles": {}
+            },
+            {
+                "element_id": "button_1",
+                "styles": {}
+            },
+            {
+                "element_id": "container_1",
+                "styles": {
+                    "width": "100%"
+                }
+            },
+            {
+                "element_id": "container_2",
+                "styles": {
+                    "width": "100%"
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
 }</layout>
         <macroponent_dependencies/>
         <name>links</name>
         <output_prop_mapping/>
-        <props>[ ]</props>
+        <props>[
+    
+]</props>
         <required_translations>[ {
   "message" : "Enter a label",
   "comment" : ""
@@ -314,23 +525,29 @@
 }, {
   "message" : "Open in-place",
   "comment" : ""
+}, {
+  "message" : "Start a Ms Teams Message",
+  "comment" : ""
 } ]</required_translations>
         <root_component/>
-        <root_component_config>{ }</root_component_config>
+        <root_component_config>{}</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ ]</state_properties>
+        <state_properties>[
+    
+]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-05-07 14:00:28</sys_created_on>
         <sys_id>2facfbf11b5f8110b00dddf6b04bcb9f</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>links</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_macroponent_2facfbf11b5f8110b00dddf6b04bcb9f</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2022-05-07 15:25:59</sys_updated_on>
+        <sys_updated_on>2024-04-23 19:01:19</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=2facfbf11b5f8110b00dddf6b04bcb9f"/>
 </record_update>
