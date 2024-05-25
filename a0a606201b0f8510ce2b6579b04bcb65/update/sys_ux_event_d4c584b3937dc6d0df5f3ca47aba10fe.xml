@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>MODAL_SELECTED_RELAY_e2954cf3937dc6d0df5f3ca47aba1086</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Open or close modal dialog Relay (Default)</label>
+        <props>[
+    {
+        "defaultValue": null,
+        "description": "Select an available modal dialog",
+        "fieldType": "string",
+        "interfaceApiName": "global.modal",
+        "label": "Modal",
+        "name": "modalId",
+        "type": "string",
+        "typeMetadata": {
+            "schema": {
+                "type": "string"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Option to open the modal dialog",
+        "fieldType": "boolean",
+        "label": "Open modal dialog",
+        "name": "showModal",
+        "type": "boolean",
+        "typeMetadata": {
+            "schema": {
+                "type": "boolean"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Modal display options allows users to add properties that are forwarded directly to the modal. An example would be setting properties such as { \"size\": \"lg\"} to control Modal size or if you were using a bare modal you could include \"disableDismiss\": true } to remove the (X) functionality from the modal.",
+        "fieldType": "json",
+        "label": "Display options (advanced)",
+        "name": "displayOptions",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "disableDismiss": {
+                        "type": "boolean"
+                    },
+                    "size": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "boolean",
+        "interfaceApiName": "global.modal",
+        "label": "Use bare modal",
+        "name": "bare",
+        "type": "boolean",
+        "typeMetadata": {
+            "schema": {
+                "type": "boolean"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Viewport component id to be rendered in the modal",
+        "disabled": true,
+        "fieldType": "string",
+        "label": "Viewport ID",
+        "name": "viewportElementId",
+        "type": "string",
+        "typeMetadata": {
+            "schema": {
+                "type": "string"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Route to be rendered in the viewport inside the modal",
+        "disabled": true,
+        "fieldType": "string",
+        "label": "Viewport Route",
+        "name": "viewportRoute",
+        "type": "string",
+        "typeMetadata": {
+            "schema": {
+                "type": "string"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Fields which are required to render the viewport contents in the modal",
+        "fieldType": "json",
+        "label": "Viewport Fields",
+        "name": "viewportFields",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {},
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "description": "Params which are optional to render the viewport contents in the modal",
+        "fieldType": "json",
+        "label": "Viewport Params",
+        "name": "viewportParams",
+        "type": "json",
+        "typeMetadata": {
+            "schema": {
+                "properties": {},
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Display options (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Fields which are required to render the viewport contents in the modal",
+  "comment" : ""
+}, {
+  "message" : "Modal",
+  "comment" : ""
+}, {
+  "message" : "Modal display options allows users to add properties that are forwarded directly to the modal. An example would be setting properties such as { \"size\": \"lg\"} to control Modal size or if you were using a bare modal you could include \"disableDismiss\": true } to remove the (X) functionality from the modal.",
+  "comment" : ""
+}, {
+  "message" : "Open modal dialog",
+  "comment" : ""
+}, {
+  "message" : "Option to open the modal dialog",
+  "comment" : ""
+}, {
+  "message" : "Params which are optional to render the viewport contents in the modal",
+  "comment" : ""
+}, {
+  "message" : "Route to be rendered in the viewport inside the modal",
+  "comment" : ""
+}, {
+  "message" : "Select an available modal dialog",
+  "comment" : ""
+}, {
+  "message" : "Use bare modal",
+  "comment" : ""
+}, {
+  "message" : "Viewport Fields",
+  "comment" : ""
+}, {
+  "message" : "Viewport ID",
+  "comment" : ""
+}, {
+  "message" : "Viewport Params",
+  "comment" : ""
+}, {
+  "message" : "Viewport Route",
+  "comment" : ""
+}, {
+  "message" : "Viewport component id to be rendered in the modal",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-05-02 20:26:42</sys_created_on>
+        <sys_id>d4c584b3937dc6d0df5f3ca47aba10fe</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Open or close modal dialog Relay (Default)</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_ux_event_d4c584b3937dc6d0df5f3ca47aba10fe</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:29:48</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=d4c584b3937dc6d0df5f3ca47aba10fe"/>
+</record_update>

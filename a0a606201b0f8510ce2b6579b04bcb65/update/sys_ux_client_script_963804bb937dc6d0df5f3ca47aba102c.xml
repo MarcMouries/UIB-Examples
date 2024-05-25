@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">e2954cf3937dc6d0df5f3ca47aba1086</macroponent>
+        <name>openModal</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    api.setState("selectedItem", "clvppccffxggaabbeggddbhhraagkqnmuii");
+
+    helpers.modal.open("Modal_with_Tabs", {
+        "bare": true,
+        "selectedItem ": "clvppccffxggaabbeggddbhhraagkqnmuii",
+        'params': {
+            'selectedItem': "clvppccffxggaabbeggddbhhraagkqnmuii"
+        }
+    });
+
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-05-02 20:30:55</sys_created_on>
+        <sys_id>963804bb937dc6d0df5f3ca47aba102c</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>openModal</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_ux_client_script_963804bb937dc6d0df5f3ca47aba102c</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-05-02 22:54:09</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
