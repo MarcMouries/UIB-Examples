@@ -3,21 +3,22 @@
         <active>true</active>
         <app_config display_value="UIB Examples Config">87178e207f0f85104cd904285d5ebb8b</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings/>
-        <macroponent/>
+        <macroponent display_value="KPI Details">823bc034b702011008341664de11a93a</macroponent>
         <macroponent_config>{
-  "label" : "",
-  "bare" : true,
-  "scrollable" : "y",
-  "headerLevel" : "1",
-  "interceptNotifications" : false,
-  "propagateNotifications" : false,
-  "sysId" : "",
-  "views" : "",
-  "selectedTabIndex" : 0,
-  "table" : "",
-  "mode" : "",
-  "listView" : ""
+    "bare": true,
+    "headerLevel": "1",
+    "interceptNotifications": false,
+    "label": "",
+    "listView": "",
+    "mode": "",
+    "propagateNotifications": false,
+    "scrollable": "y",
+    "selectedTabIndex": 0,
+    "sysId": "",
+    "table": "",
+    "views": ""
 }</macroponent_config>
         <name>KPI Details default</name>
         <order>0</order>
@@ -32,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>47178e20f90f85101e61149c133b5088</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>KPI Details default</sys_name>
         <sys_overrides/>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
@@ -40,7 +41,7 @@
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_screen_47178e20f90f85101e61149c133b5088</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2022-04-20 21:58:42</sys_updated_on>
+        <sys_updated_on>2024-06-18 18:48:19</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=47178e20f90f85101e61149c133b5088"/>
 </record_update>

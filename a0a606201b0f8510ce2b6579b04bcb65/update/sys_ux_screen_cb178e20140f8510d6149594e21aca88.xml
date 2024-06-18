@@ -3,97 +3,118 @@
         <active>true</active>
         <app_config display_value="UIB Examples Config">87178e207f0f85104cd904285d5ebb8b</app_config>
         <description/>
-        <event_mappings>[ {
-  "eventMappingId" : "ckssfygffiiaaaaccccddhiiffxjjxcczlhee",
-  "isConfiguration" : false,
-  "offRowStorageId" : null,
-  "sourceEventApiName" : "sn_base_ac.NAV_ITEM_SELECTED_RELAY_70fffc42c3b02010ec37e0dd9740dd88",
-  "sourceEventCorrelationId" : null,
-  "sourceEventDefinition" : {
-    "apiName" : "sn_base_ac.NAV_ITEM_SELECTED_RELAY_70fffc42c3b02010ec37e0dd9740dd88",
-    "id" : null,
-    "type" : "UXEVENT"
-  },
-  "sourceEventSysId" : null,
-  "targets" : [ {
-    "broker" : null,
-    "clientScript" : null,
-    "declarativeAction" : null,
-    "event" : {
-      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
-      "payload" : {
-        "type" : "MAP_CONTAINER",
-        "container" : {
-          "route" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "route" ]
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    {
+        "eventMappingId": "ckssfygffiiaaaaccccddhiiffxjjxcczlhee",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "sn_base_ac.NAV_ITEM_SELECTED_RELAY_70fffc42c3b02010ec37e0dd9740dd88",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "sn_base_ac.NAV_ITEM_SELECTED_RELAY_70fffc42c3b02010ec37e0dd9740dd88",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_canvas_core.NAV_ITEM_SELECTED",
+                    "payload": {
+                        "container": {
+                            "external": {
+                                "type": "JSON_LITERAL",
+                                "value": null
+                            },
+                            "fields": {
+                                "binding": {
+                                    "address": [
+                                        "fields"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "multiInstField": {
+                                "binding": {
+                                    "address": [
+                                        "multiInstField"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "params": {
+                                "binding": {
+                                    "address": [
+                                        "params"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "passiveNavigation": {
+                                "binding": {
+                                    "address": [
+                                        "passiveNavigation"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "redirect": {
+                                "binding": {
+                                    "address": [
+                                        "redirect"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "route": {
+                                "binding": {
+                                    "address": [
+                                        "route"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "targetRoute": {
+                                "binding": {
+                                    "address": [
+                                        "targetRoute"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "title": {
+                                "binding": {
+                                    "address": [
+                                        "title"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
+                },
+                "operation": null,
+                "targetId": "ckssfygffiiaaaaccddddhiiffzjgnaaaaldd",
+                "type": "EVENT"
             }
-          },
-          "fields" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "fields" ]
-            }
-          },
-          "params" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "params" ]
-            }
-          },
-          "redirect" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "redirect" ]
-            }
-          },
-          "passiveNavigation" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "passiveNavigation" ]
-            }
-          },
-          "title" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "title" ]
-            }
-          },
-          "multiInstField" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "multiInstField" ]
-            }
-          },
-          "targetRoute" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "targetRoute" ]
-            }
-          },
-          "external" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          }
-        }
-      },
-      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
-    },
-    "operation" : null,
-    "targetId" : "ckssfygffiiaaaaccddddhiiffzjgnaaaaldd",
-    "type" : "EVENT"
-  } ]
-} ]</event_mappings>
-        <macroponent/>
+        ]
+    }
+]</event_mappings>
+        <macroponent display_value="Dashboard overview">a6a8b88ec3702010ec37e0dd9740dd43</macroponent>
         <macroponent_config>{
-  "sysId" : "",
-  "label" : "",
-  "bare" : true,
-  "scrollable" : "y",
-  "headerLevel" : "1",
-  "interceptNotifications" : false,
-  "propagateNotifications" : false
+    "bare": true,
+    "headerLevel": "1",
+    "interceptNotifications": false,
+    "label": "",
+    "propagateNotifications": false,
+    "scrollable": "y",
+    "sysId": ""
 }</macroponent_config>
         <name>Dashboard default</name>
         <order>0</order>
@@ -108,7 +129,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cb178e20140f8510d6149594e21aca88</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Dashboard default</sys_name>
         <sys_overrides/>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
@@ -116,7 +137,7 @@
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_screen_cb178e20140f8510d6149594e21aca88</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2022-04-20 21:58:42</sys_updated_on>
+        <sys_updated_on>2024-06-18 18:43:31</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=cb178e20140f8510d6149594e21aca88"/>
 </record_update>
