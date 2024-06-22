@@ -12,12 +12,18 @@ columnField: The field in the selected table that determines the column headers 
 KanbanBoardUtil.prototype = {
     initialize: function() {
         this.laneValues = {};
-        this.primaryColors = ["#f48897", "#f4e488", "#88d8f4", "#88f488"]; // Primary colors: red, yellow, blue, green
+        this.primaryColors = ["#ff6b6b", "#ffd93b", "#4caf50", "#2196f3"]; // Colors for Backlog, Doing, Review, Done
     },
 
     getKanbanData: function(tableName, columnField, filter) {
         if (!gs.tableExists(tableName)) {
-            return { lanes: [], cards: [], cardCount: 0, tableName: tableName, tableLabel: "" };
+            return {
+                lanes: [],
+                cards: [],
+                cardCount: 0,
+                tableName: tableName,
+                tableLabel: ""
+            };
         }
         this._populateLaneValues(tableName, columnField);
         this._populateLaneCountAndTotalCount(tableName, columnField, filter);
@@ -73,6 +79,8 @@ KanbanBoardUtil.prototype = {
         var lanes = [];
         var colorIndex = 0;
         for (var laneValue in this.laneValues) {
+            var headerColor = this.laneColors[colorIndex];
+            var backgroundColor = this._lightenColor(headerColor, 0.8);
             lanes.push({
                 id: laneValue,
                 title: this.laneValues[laneValue].label,
@@ -87,10 +95,11 @@ KanbanBoardUtil.prototype = {
                         "height": "100%",
                         "overflow-y": "auto",
                         "padding": "3px",
-                        "width": "285px"
+                        "width": "285px",
+                        "background": backgroundColor
                     },
                     "sn-vtb-lane-header": {
-                        "background": this.laneColors[colorIndex]
+                        "background": headerColor
                     }
                 },
                 options: {
@@ -123,13 +132,22 @@ KanbanBoardUtil.prototype = {
                 order: cards.length,
                 lane_id: gr.getValue(columnField),
                 options: {
-                    "board_type": "FREEFORM",
-                    "card_type": "classic",
+                    board_type: "FREEFORM",
+                    card_type: "classic",
+                    show_labels: true, //displays the labels (dots) between header and description
+                    show_card_info: true, //displays record fields as label value tabbed
+                    show_cover_image: true, //displays attachments
+                    due_date_field: "due_date", //record field that is used for the due date in sn-vtb-card-info-inline
+                    show_sla: true //displays the SLA in sn-vtb-card-info-inline
                 },
                 attachments: [],
                 record: {
-                    short_description: { display_value: gr.getDisplayValue('short_description') },
-                    description: { display_value: gr.getDisplayValue('description') },
+                    short_description: {
+                        display_value: gr.getDisplayValue('short_description')
+                    },
+                    description: {
+                        display_value: gr.getDisplayValue('description')
+                    },
                 }
             });
         }
@@ -158,7 +176,11 @@ KanbanBoardUtil.prototype = {
         var r = (bigint >> 16) & 255;
         var g = (bigint >> 8) & 255;
         var b = bigint & 255;
-        return { r: r, g: g, b: b };
+        return {
+            r: r,
+            g: g,
+            b: b
+        };
     },
 
     _rgbToHex: function(rgb) {
@@ -172,23 +194,34 @@ KanbanBoardUtil.prototype = {
         var r = Math.round(color1.r + factor * (color2.r - color1.r));
         var g = Math.round(color1.g + factor * (color2.g - color1.g));
         var b = Math.round(color1.b + factor * (color2.b - color1.b));
-        return { r: r, g: g, b: b };
+        return {
+            r: r,
+            g: g,
+            b: b
+        };
+    },
+
+    _lightenColor: function(color, factor) {
+        var rgb = this._hexToRgb(color);
+        rgb.r = Math.round(rgb.r + factor * (255 - rgb.r));
+        rgb.g = Math.round(rgb.g + factor * (255 - rgb.g));
+        rgb.b = Math.round(rgb.b + factor * (255 - rgb.b));
+        return this._rgbToHex(rgb);
     },
 
     type: 'KanbanBoardUtil'
-};
-]]></script>
+};]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2024-06-21 22:51:55</sys_created_on>
         <sys_id>14b70eb7c3b24a1016eb2385e0013165</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>KanbanBoardUtil</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_script_include_14b70eb7c3b24a1016eb2385e0013165</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-06-22 17:57:21</sys_updated_on>
+        <sys_updated_on>2024-06-22 18:28:23</sys_updated_on>
     </sys_script_include>
 </record_update>
