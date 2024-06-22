@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_uib_examples_example">
+    <x_snc_uib_examples_example action="INSERT_OR_UPDATE">
+        <description/>
+        <description_html/>
+        <image>0122d2fbc3f24a1016eb2385e0013197</image>
+        <name>Kanban board</name>
+        <page_route>kanban</page_route>
+        <sys_class_name>x_snc_uib_examples_example</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-06-21 23:13:46</sys_created_on>
+        <sys_id>2bfc46b3c3f24a1016eb2385e001310f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Kanban board</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>x_snc_uib_examples_example_2bfc46b3c3f24a1016eb2385e001310f</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-06-21 23:36:05</sys_updated_on>
+    </x_snc_uib_examples_example>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <encryption_context/>
+        <file_name>image</file_name>
+        <hash>007e8d6ff29fcbbbd556a85c17f286f2b434e3861b6546508c0c650da75649f8</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>34607</size_bytes>
+        <size_compressed>3947</size_compressed>
+        <state>available</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-06-21 23:36:04</sys_created_on>
+        <sys_id>0122d2fbc3f24a1016eb2385e0013197</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-06-21 23:36:05</sys_updated_on>
+        <table_name>ZZ_YYx_snc_uib_examples_example</table_name>
+        <table_sys_id>2bfc46b3c3f24a1016eb2385e001310f</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="0122d2fbc3f24a1016eb2385e0013197">0122d2fbc3f24a1016eb2385e0013197</sys_attachment>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-06-21 23:36:04</sys_created_on>
+        <sys_id>4122d2fbc3f24a1016eb2385e0013197</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>7VzZjtvIFX33VzDyw4wBkap9US+D8RgeZ0ECOMkEyJtaoroJq0mFYnfb8/W5RUrcKZFssaWxbcOwxFp5T91zbl2WePnT5/uV9eiGGy/wr0bYQSPL9efBwvNvr0b//td7W42sTTTzF7NV4LtXIz8Y/XT96vJPtm39ErqzyF1YT150Z/3Z/7SZz9au9eNdFK2nk8nT05PjbS86QXg7eWPZ9vWrV5ebx9tXlgWtFtEdjKgJGpnvd653exfBBYS4wzGLLz567tPb4PPVCFnI4kg62vyxiBAOYoRsK2Wzx/EFb3E1glF4/AXub7pZz+Yw93Xobtzw0d1d9zdXo9xsn2g8T4IQmkDzrNYUvrWsGS6WdTUxzHqCyIQQG2rYmy9+NPts+5vXuabzedpybizrPbrz4P4+8DdxF8XKi6zy+iFcxTUW84m7cu9dP9pMwBST0fVl5EUr17RKjBJ/ZQJpNrr+68y/mfnW22AWLi4nccn15cJdbrLq5huBXpbeKnLD5LoFq+HLCow5D1ZBaHs+lKyDFUw38O2kItjr469vR7v6pqekgEqEdHodULWRgzCmVHFF0utfkuuIS8E4xun13YJxECFCyqxBunKgM4DE3Nzl0n2/CoLFroplLc1XO4CF4EUwAnKYVohms9nViG/rahTe3vyIxvD3Ta4GLJ+HFQwU18xdj+8wGZAKQHpkTcwMfgnu18HGi9xcTb+mtU+uRv8MHsK5+2s4W99581xhsHbDWWRm5Pk1M5nvhsCV6aSjG6vj7ZR+nT1sNt7Mf7t6CIuzqu1pEy3euY9eDK6xGa+Zwg10VRk8P44Zn27H/8dyuXGjrPbCuHau9SKGBtcME8QtKwMlHZoh+H6rNxk4tn6l88zsAbDLPsOT/YaX8awmyfo/qicR/JV7koQbOjtPwvS0noT54J6E5Tl6EtaDeRKlX70nEXp2nkT4aT2JyME9iRyIBE7jSRQP5kmMf/WeRA/EGSfwJCpP60lUD+5J7EAkcBpPYnQoT1KqqkmEEsaZKHsSJVRzzXSdJzHBNK7zJCGhQJzUk5Q8O01S8rSapOTgmqTkOWqSUoNpktJVTWrwJKwww5KSTp5EpdScntaT1NlpklKn1SSlBtckpc9Rk5QeTJM0km09KQ7hsOCdPIlJwkDnT+pJ+sDe9wSelKYTT+NJOs0dDuZJGh2IBE7iSXqbURzCk3A1C94U3Rl5IVJ08iRQeYbIST1Jo7PLgmt82iy4xoNnwTU+xyy4xoNlwTWtZsEbPIlxyhkl3fZJmjETm57Uk8jZZcE1OW0WXJPBs+CanGMWXJPBsuCatc44EEXBYbjq5Ekc9JSf2JPo2WUcND1txkHTwTMOmp5jxkGzwTIOmrfPOMT5ho6aRJKA8KSexM4u46DZaTMOJgM7tCfxc8w4mOzXUJ4kWmcckuiOdnKkOLg78TaJn13CQfMTJxzE8AkHcZYJBzFcwgFJm7R1pT9w8s4+uwBPaW2fWJgQttELpPDsswzzELeHSz5wbrdOP/yBQz2gjjPzKgj2bHHqcO8FvIpj+0xDPru0fZqYs+LXl7ev0har2Rc3NIoQuvOo5G7QajV9jZAiWl+YL7uVPMUXmygMPrl27B5TcBzFsRC04ICmR00wKvsSR6riRcWfCpg/n41rSSkoF8q1Mc97agJp5H5OZ9z084H83QR+ZMefp34Q3s9WF/GVp3gGhUsb73d3SojDpVTrzxcrz3ftZKJT7BCeVFrO7r3Vl+lm5m9sGM9bXjzdgdnteBZTmMSF58ctk96QchRSFwtvswaTT5Oyi8TCy/hPvYVhYlCvZG1i8jqFRBDB1DxQQAVCI9ShGCtECrAYs2mwd3oxCuEelnD/V6P7WRR6n3/EhoPGOD7/BX/HNlWO0ErSMXGIVFxo+sb8bAHu1c8WYO00GiaynYrpgCumdLW3Im5blG6C1eLC3v1exU7QWrtzb+nNY66Y/pABYr2F2j+M8l0WBpWVX1eYkuvc/2Cp1FmSxreUm5xE1VHAvaYP4erH17nfULypM3H8EbTLBaa3wVxgT2PL26Jlbinhwmx61rPors4oycLBS7JkB1wTVywQOybMsFCwEzrEHUUpZYXC1E1hGWOJaKHQeKpwNDSipFAAyHPiaCAGoQoFMId7i2DHlAgxTitZd5aWDoWPklkzizmExn/G6SeLcQtZeFvE0gLrNwsM5ihORVNLTJOmdqmt9SGbyv5Bty2h6e6TtbIMilo7YBRB9YGhK+2p9XtMZftRhv2vlodQhuWCWNXKO2ToWHBHJFZ+tGzlMIE5jJ9MWDHYTIzTT4UJwxWVTNh8AogYkIFUxPwvCVB2ctcY9ukY4XH6KYMqvrArgNGVwxHnGluYOCL5qdgHS2hADyFol07Z+m9l6RpDAZVsH1tObosqsF8HDinB4yyEwCGqU4eYd7bNQjea31X1AoM0AE4d9KIbj221Aktywxb9tSJ2VwZOBptNUmRpAbhwLFU5pjMWplyBBNeQdMqopkaRF17G2i9l3GaDNpm0ZNTrt7P5p1VwW9YXs4grGpPj317awdVxtOOiVtoIftMoKjY5oqxQINYOkoIZTaijTlJUG0XJCmJqb83sdqk5EFo6GevnfePG9zjOxOs3i0tg85gJW6lJVzFxhVJ9xSSea38hkft0hB9FRrAm8exkMtl9EmLzAUSkaTvRXR6OyPdYgvdJTmhHwrdr4/Ii5dvfMOnX2bXM+u8Cz2/H+UQ+k/PZkJxP6T7Ot9XxWJ8IAqQiRBfmN/kDaTjzGMzfeS+R0f6dZbcbNN2FpFuJrsTfcRehFOwj3J7En0JyXPKHtiCzMf8DkY/RERQAADArgCT/YbDMHv43b834NhSAaOZoTXVZAbabLtGsADZtowG2/HZVoM62Jetef3TNO1LayQB6pgygIWWA8f0yYLPjCQFVPGG6DkJAld4y1cm3AF21gPbXgo6bAKXcFgugQQt2qDwno3R0LTBIpWrw2F8Pts+rvgFFYIQ6WEgtK4rAtVnu+xTBVu00wRbfrirU2bdkYdgb+G6dJuSdt8jce54UZY6LKKhDLX0rlYvid9RNJWbZLLeMvWUukT2r3rE1lQ5iOE++RgORw6lmMuOL5E6JJChH7EkwyRwpiUJqnFYAN1XK0cB3iHTk6EeLgONL4MrOwfqHbCqdE/+/WZIavqG06aFBp6T/UVHWWDegbKPcUYjDSGNHFg7JprusNihLFKe/eAXlzrsxDaMqJWQPAT48Xt1GrBu0L4mskM3IVh60NyNLhGM4ixYet6ehU+EZMgIXoSr3uDgJAjTd7rfTCj3QZUaqzdsCceOjtwZwWT9wTXrVRJtaNtFMA7RscGRZEzMDspVDfs3IMuLEN0IOItvgtxmyz/ZbjGCaBy3diOzetHkW5+9Geb7blrZiissuT2GKEXdhcdwszN9DR2i0NMfPSnFXvAxU/jVy2TkaBrdrlDhXtFsGKjaOEPmHMYbA4Y4BWpw/TgVLASJ6YAOWv5pwOHQDhmJ6vKthonVhfu/KdLv1kJaw9ApOK+PKIsitnw/Z8F3Vef9YrQS5D4JgV4CjCcDCzngLoYRdHsNK42dDqJVjfvDFZDOGaRUAUZgtFyek1TELKjNU2oAo8xFWXwz7Qbg3eu4DYgnCqshWIWwG0FCxJuC1CJOiyEoTh+bes7WlYgh84C7FOK2Qg64THbfCLc/A7Uap6uth1HIQN9Bu7lD7yWnXZuo4zAtqGmPZknlByzSoWw3z8k4no1rRbu4cFUDfaphKzqoV57445ULwRI9Du/X4NdNuCmAN7dKOoVQH56U55z0wTDXt2AfBmhy24kodx4OfHVUj+aZucSRxdXVhVOPqbGHUJZ3NM+DdMY+SYwPNm/wtLS8MzFR82FCO0yq7+HpvwEsYduhYma0wNSHuo8UYbOJQj7xH731xNvozA+xciH3waUVPFq/yeCkbuYfL97PBFnYR+3fxEUQDI+yg5ziJ3Qqc0IfVW1ECywPej9SPwOm9WB0JVAhwa8DEdWAK7iAlOSJHAhNj5GgD1D4w00pgZy4cQZBqF1b3Cc5iMNuN8jw0jwdmWaJrRbr+AEmdUD8Hz5pwqwJnLuDqJdftNrqFiKunXvcLuYxgN4i2fSDfgQlxpJHAMeFgLZNqGV7AbbJHwm1UE959V/GXV3Gbv6CO158x/q7kf1Alt/l3Lf+6tLzeQb+r+T5Ej6zmAu/X8hdOogFpi6pS90ikVROo+xMxWRK1StWHstJH4uqWye9Oue8Bnl6UqbqGqGtSJnU03Q/COoIuQVhDz93cuS89t3Pmngi+YC4UqLkGwx750AYMm/LZGYRVQu72JKM/IXd8ltHxYca+fKgk5Dhk/OztFOf7NlO45lnHvs2UYk68NlhpbVSOGyT+TTSs0eLl0pGDtEqfIwewmZLC6XjcgHY9bkCQhg2fOfHaYrAGT6/ZQcWvr81dz0p4Md6qXT82dpTAlHIBC8mRRCOOcXUtVdZTS3EXnBWjsjp9R6UaO4mHjbU5LaBKxfvDvi3HMFh7uBTgJWuJUkfFrywuFm3Xk3K4ZlKN02pG8oF4gMgHDufbjTJION8LW0U4kmUr1oBbOtefwkvBLwjRpU3Bs+FloEhgxnKrMry7amB5CpEBF6TT7rvbw1EDb7tRngVv3VGzF4C39DvOoQEWyBHFU011+G5r9YS3e7z+AvDm4wR3tfLWGzdvgx5hX2U7Hv+iATioyMhzcyhdUHODhTeQQYkBRCNgSqqKMIdm+60dxagsghjGTYDZBWJk70YUYh/7QPRjU4jQNJEExAs2TAI2+zXidexAyMb7QyG75sjd92DohYIhWzaHQyWmOt+AyP4eEn3dIZFdItLvUdHXFxXZZSC+x0WDuvBLxEWlwyMvFBmZf/duNFvMotmrdFK7K0wgbV74Fy6W04/v3l9fzufT/wThp6xvUzK7CR5gcUG9xXwaedHKLb3DML1sKkC/7jVBhNoIwh0dl8bXTOE8dM1LRuOBfr51/SjX519c3/eWbmi9n63mQb7XSVZ7ku8EPq9m/u3D7Na9dv24LP1uRlh5c9cvQmruJ3Q38atRr0Z3UbSeTiZxh96jOw/u7wN/4wTh7WTbdjO5+TJhDpokVt3aJ+79b+Xec7bq0nHc2doN771o02uq/ub1R3cdBouHuflhaTzT53f5zoO17d085LsM3f89eNBB3z7/HkRw98fq7eeoMsHn3rMbeo9xgUF5k2K+hRq+pJ4y2fkQfNw83l6/+j+adf77L4cAAA==</data>
+        <length>5252</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="0122d2fbc3f24a1016eb2385e0013197">0122d2fbc3f24a1016eb2385e0013197</sys_attachment>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-06-21 23:36:04</sys_created_on>
+        <sys_id>c122d2fbc3f24a1016eb2385e0013197</sys_id>
+    </sys_attachment_doc>
+</record_update>
