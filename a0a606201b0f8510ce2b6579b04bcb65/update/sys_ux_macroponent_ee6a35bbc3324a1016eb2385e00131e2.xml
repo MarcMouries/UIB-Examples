@@ -37,13 +37,61 @@
                     },
                     "overrides": {
                         "composition": [
-                            
+                            {
+                                "definition": {
+                                    "id": "1f6e0643eca7a637e36bd7833549ec9e",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "heading_1",
+                                "elementLabel": "Heading 1",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "hasNoMargin": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "label": {
+                                        "binding": {
+                                            "address": [
+                                                "get_kanban_board_data",
+                                                "output",
+                                                "tableLabel"
+                                            ]
+                                        },
+                                        "type": "DATA_OUTPUT_BINDING"
+                                    },
+                                    "level": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    },
+                                    "variant": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "header-primary"
+                                    },
+                                    "wontWrap": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
                         ],
                         "layout": {
                             "default": {
                                 "children": null,
                                 "items": [
-                                    
+                                    {
+                                        "element_id": "heading_1",
+                                        "styles": {}
+                                    }
                                 ],
                                 "root": null,
                                 "rules": null,
@@ -188,7 +236,7 @@
                     "root": null,
                     "rules": null,
                     "styles": {
-                        "flex-direction": "column",
+                        "flex-direction": "row",
                         "width": "100%"
                     },
                     "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
@@ -237,11 +285,11 @@
     },
     {
         "definition": {
-            "id": "4e24b0556fdcf0a629b41408a5b98d86",
+            "id": "d356d14b6e293a3020a244b63d278d8f",
             "type": "MACROPONENT"
         },
-        "elementId": "kanban_board_1",
-        "elementLabel": "Kanban Board 1",
+        "elementId": "container_Board",
+        "elementLabel": "Container Board",
         "eventMappings": [
             
         ],
@@ -249,167 +297,255 @@
             "type": "JSON_LITERAL",
             "value": null
         },
-        "preset": null,
-        "propertyValues": {
-            "arrowNavigableElements": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "cardConfigOverride": {
-                "type": "JSON_LITERAL",
-                "value": {}
-            },
-            "cardDragPlaceholderTag": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "cardDraggable": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "cardDropPlaceholderTag": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "cardTag": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "cards": {
-                "type": "JSON_LITERAL",
-                "value": [
-                    
-                ]
-            },
-            "cellHeaderTag": {
-                "type": "JSON_LITERAL",
-                "value": "sn-vtb-cell-header"
-            },
-            "cellHeaders": {
-                "type": "JSON_LITERAL",
-                "value": [
-                    
-                ]
-            },
-            "cloneMode": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "customScrollOptions": {
-                "type": "JSON_LITERAL",
-                "value": {}
-            },
-            "daActionMapping": {
-                "type": "JSON_LITERAL",
-                "value": {}
-            },
-            "daClientActionContract": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "dependencyLines": {
-                "type": "JSON_LITERAL",
-                "value": [
-                    
-                ]
-            },
-            "enableDependencyLines": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "laneConfigOverride": {
-                "type": "JSON_LITERAL",
-                "value": {}
-            },
-            "laneDragPlaceholderTag": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "laneDraggable": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "laneDropPlaceholderTag": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "laneFooterTag": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "laneHeaderTag": {
-                "type": "JSON_LITERAL",
-                "value": "sn-vtb-lane-header"
-            },
-            "lanes": {
-                "binding": {
-                    "address": [
-                        "get_kanban_board_data",
-                        "output",
-                        "laneData"
-                    ]
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "4e24b0556fdcf0a629b41408a5b98d86",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "kanban_board",
+                    "elementLabel": "Kanban Board",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "arrowNavigableElements": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "cardConfigOverride": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "cardDragPlaceholderTag": {
+                            "type": "JSON_LITERAL",
+                            "value": "sn-vtb-card-src-placeholder"
+                        },
+                        "cardDraggable": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "cardDropPlaceholderTag": {
+                            "type": "JSON_LITERAL",
+                            "value": "sn-vtb-card-dest-placeholder"
+                        },
+                        "cardTag": {
+                            "type": "JSON_LITERAL",
+                            "value": "sn-vtb-card"
+                        },
+                        "cards": {
+                            "binding": {
+                                "address": [
+                                    "get_kanban_board_data",
+                                    "output",
+                                    "cards"
+                                ]
+                            },
+                            "type": "DATA_OUTPUT_BINDING"
+                        },
+                        "cellHeaderTag": {
+                            "type": "JSON_LITERAL",
+                            "value": "sn-vtb-cell-header"
+                        },
+                        "cellHeaders": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                
+                            ]
+                        },
+                        "cloneMode": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "customScrollOptions": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "enableScroll": true,
+                                "laneScroll": true,
+                                "scrollTrackCSS": {
+                                    "overflow": "auto"
+                                }
+                            }
+                        },
+                        "daActionMapping": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "daClientActionContract": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "dependencyLines": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                
+                            ]
+                        },
+                        "enableDependencyLines": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "laneConfigOverride": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "laneDragPlaceholderTag": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "laneDraggable": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "laneDropPlaceholderTag": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "laneFooterTag": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "laneHeaderTag": {
+                            "type": "JSON_LITERAL",
+                            "value": "sn-vtb-lane-header"
+                        },
+                        "lanes": {
+                            "binding": {
+                                "address": [
+                                    "get_kanban_board_data",
+                                    "output",
+                                    "lanes"
+                                ]
+                            },
+                            "type": "DATA_OUTPUT_BINDING"
+                        },
+                        "loadTagsFromUxf": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "rowLaneConfig": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "rowLaneHeaderTag": {
+                            "type": "JSON_LITERAL",
+                            "value": "sn-vtb-lane-header"
+                        },
+                        "showSwimlaneAsRow": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "styles": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "swimlaneConfigOverride": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "swimlaneDragPlaceholderTag": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "swimlaneDraggable": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "swimlaneDropPlaceholderTag": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "swimlaneHeaderCloneTag": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "swimlaneHeaderTag": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "swimlanes": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                
+                            ]
+                        },
+                        "useArrowNavigation": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "wrapperDomEvents": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                
+                            ]
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "kanban_board",
+                            "styles": {
+                                "height": "500px",
+                                "margin-top": "0"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column",
+                        "width": "100%"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
                 },
-                "type": "DATA_OUTPUT_BINDING"
+                "version": "3.0.0"
+            }
+        },
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
             },
-            "loadTagsFromUxf": {
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
                 "type": "JSON_LITERAL",
                 "value": true
             },
-            "rowLaneConfig": {
-                "type": "JSON_LITERAL",
-                "value": {}
-            },
-            "rowLaneHeaderTag": {
-                "type": "JSON_LITERAL",
-                "value": "sn-vtb-lane-header"
-            },
-            "showSwimlaneAsRow": {
+            "includeAriaHeading": {
                 "type": "JSON_LITERAL",
                 "value": false
             },
-            "styles": {
+            "slotWrapperBehavior": {
                 "type": "JSON_LITERAL",
-                "value": {}
+                "value": "fullheight"
             },
-            "swimlaneConfigOverride": {
+            "type": {
                 "type": "JSON_LITERAL",
-                "value": {}
-            },
-            "swimlaneDragPlaceholderTag": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "swimlaneDraggable": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "swimlaneDropPlaceholderTag": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "swimlaneHeaderCloneTag": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "swimlaneHeaderTag": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "swimlanes": {
-                "type": "JSON_LITERAL",
-                "value": [
-                    
-                ]
-            },
-            "useArrowNavigation": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "wrapperDomEvents": {
-                "type": "JSON_LITERAL",
-                "value": [
-                    
-                ]
+                "value": "section"
             }
         },
         "slot": null,
@@ -463,17 +599,26 @@
                 "styles": {}
             },
             {
-                "element_id": "kanban_board_1",
-                "styles": {}
+                "element_id": "container_Board",
+                "styles": {
+                    "height": "100%"
+                }
             }
         ],
         "root": null,
         "rules": null,
         "styles": {
-            "flex-direction": "column"
+            "display": "grid",
+            "grid-auto-columns": "1fr",
+            "grid-auto-rows": "1fr",
+            "grid-template-columns": "1fr",
+            "grid-template-rows": "max-content minmax(0px, 1fr)",
+            "height": "100%",
+            "overflow-x": "auto",
+            "width": "100%"
         },
         "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
-        "type": "flex"
+        "type": "grid"
     },
     "version": "3.0.0"
 }</layout>
@@ -488,19 +633,30 @@
         <root_component_config/>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties/>
+        <state_properties>[
+    {
+        "id": "",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "name": "table",
+        "shape": "",
+        "valueType": "string"
+    }
+]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2024-06-21 21:52:24</sys_created_on>
         <sys_id>ee6a35bbc3324a1016eb2385e00131e2</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_macroponent_ee6a35bbc3324a1016eb2385e00131e2</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-06-22 15:24:53</sys_updated_on>
+        <sys_updated_on>2024-06-22 18:08:46</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=ee6a35bbc3324a1016eb2385e00131e2"/>
 </record_update>

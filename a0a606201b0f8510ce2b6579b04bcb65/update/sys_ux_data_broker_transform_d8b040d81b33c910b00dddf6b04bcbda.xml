@@ -45,30 +45,23 @@
 } ]</required_translations>
         <schema_version>1.0.0</schema_version>
         <script><![CDATA[function transform(input) {
-
-	if (!input || !input.table_name || !input.column_field) return [];
-
-    var TaskKanbanUtil = new x_snc_uib_examples.TaskKanbanUtil();
-
-    // TODO 
-    var filter = ''; // Add your filter if needed
-
-    var result = {};
-    result.laneData = TaskKanbanUtil.getVerticalLaneData(input.table_name, input.column_field, filter);
-	return result;
+	if (!input || !input.table_name || !input.column_field) return [];    
+	var KanbanBoardUtil = new x_snc_uib_examples.KanbanBoardUtil();
+	var kanbanBoardData = KanbanBoardUtil.getKanbanData(input.table_name, input.column_field, input.filter);
+	return kanbanBoardData;
 }]]></script>
         <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-05-27 00:20:19</sys_created_on>
         <sys_id>d8b040d81b33c910b00dddf6b04bcbda</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Get Kanban board data</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_data_broker_transform_d8b040d81b33c910b00dddf6b04bcbda</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-06-22 00:17:22</sys_updated_on>
+        <sys_updated_on>2024-06-22 18:06:44</sys_updated_on>
     </sys_ux_data_broker_transform>
     <sys_translated_text action="delete_multiple" query="documentkey=d8b040d81b33c910b00dddf6b04bcbda"/>
 </record_update>

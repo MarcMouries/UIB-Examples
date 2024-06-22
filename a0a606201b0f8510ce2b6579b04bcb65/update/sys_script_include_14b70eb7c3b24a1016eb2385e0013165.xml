@@ -2,38 +2,55 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_snc_uib_examples.TaskKanbanUtil</api_name>
+        <api_name>x_snc_uib_examples.KanbanBoardUtil</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
         <description>tableName: The name of the table from which the data will be retrieved. This table will be used to populate the columns and tasks on the Kanban board.&#13;
 columnField: The field in the selected table that determines the column headers for the Kanban board. This field will be used to categorize tasks into different columns based on its values.</description>
-        <name>TaskKanbanUtil</name>
-        <script><![CDATA[var TaskKanbanUtil = Class.create();
-TaskKanbanUtil.prototype = {
+        <name>KanbanBoardUtil</name>
+        <script><![CDATA[var KanbanBoardUtil = Class.create();
+KanbanBoardUtil.prototype = {
     initialize: function() {
         this.laneValues = {};
-        this.laneColors = ["#f48897", "#f4e488", "#88f488", "#88d8f4"]; // Colors for Backlog, Doing, Review, Done
+        this.primaryColors = ["#f48897", "#f4e488", "#88d8f4", "#88f488"]; // Primary colors: red, yellow, blue, green
     },
 
-    getVerticalLaneData: function(tableName, columnField, filter) {
+    getKanbanData: function(tableName, columnField, filter) {
         if (!gs.tableExists(tableName)) {
-            return [];
+            return { lanes: [], cards: [], cardCount: 0, tableName: tableName, tableLabel: "" };
         }
         this._populateLaneValues(tableName, columnField);
         this._populateLaneCountAndTotalCount(tableName, columnField, filter);
-        return this._buildLaneData();
+        this.laneColors = this._generateColors(Object.keys(this.laneValues).length); // Generate colors based on the number of lanes
+
+        var lanes = this._buildLaneData();
+        var cards = this._getCards(tableName, columnField, filter);
+        var tableLabel = this._getTableLabel(tableName);
+
+        return {
+            lanes: lanes,
+            cards: cards,
+            cardCount: cards.length,
+            tableName: tableName,
+            tableLabel: tableLabel
+        };
+    },
+
+    _getTableLabel: function(tableName) {
+        var gr = new GlideRecord(tableName);
+        return gr.getLabel();
     },
 
     _populateLaneValues: function(tableName, columnField) {
-        var choiceList = GlideChoiceList.getChoiceList(tableName, columnField);
-        for (var i = 0; i < choiceList.getSize(); i++) {
-            var value = choiceList.getChoice(i).getValue();
-            if (value) {
-                this.laneValues[value] = {
-                    "label": choiceList.getChoice(i).getLabel(),
-                    "count": 0
-                };
-            }
+        var ga = new GlideAggregate(tableName);
+        ga.groupBy(columnField);
+        ga.query();
+        while (ga.next()) {
+            var value = ga.getValue(columnField);
+            this.laneValues[value] = {
+                "label": ga.getDisplayValue(columnField),
+                "count": 0
+            };
         }
     },
 
@@ -53,65 +70,125 @@ TaskKanbanUtil.prototype = {
     },
 
     _buildLaneData: function() {
-        var laneData = [];
+        var lanes = [];
         var colorIndex = 0;
         for (var laneValue in this.laneValues) {
-            laneData.push(this._getLaneBaseJson(laneValue, this.laneValues[laneValue], this.laneColors[colorIndex]));
+            lanes.push({
+                id: laneValue,
+                title: this.laneValues[laneValue].label,
+                name: this.laneValues[laneValue].label,
+                cardsCount: this.laneValues[laneValue].count,
+                _style_: {
+                    "lane-footer-container": {
+                        "bottom": "30px",
+                        "position": "sticky"
+                    },
+                    "sn-lane": {
+                        "height": "100%",
+                        "overflow-y": "auto",
+                        "padding": "3px",
+                        "width": "285px"
+                    },
+                    "sn-vtb-lane-header": {
+                        "background": this.laneColors[colorIndex]
+                    }
+                },
+                options: {
+                    "board_type": "FREEFORM",
+                    "can_add_task": true,
+                    "highest_lane_order": 2,
+                    "is2DBoard": false,
+                    "lane_count": 3,
+                    "lane_field": "__KANBAN__",
+                    "lane_filter": "",
+                    "swimlane_field": "",
+                    "table": "task",
+                    "total_lane_count": 3
+                }
+            });
             colorIndex = (colorIndex + 1) % this.laneColors.length;
         }
-        return laneData;
+        return lanes;
     },
 
-    _getLaneBaseJson: function(laneValue, laneDetails, color) {
-        return {
-            "id": laneValue,
-            "name": laneDetails.label,
-            "cardsCount": laneDetails.count,  // Correctly populate cardsCount
-            "_style_": {
-                "lane-footer-container": {
-                    "bottom": "30px",
-                    "position": "sticky"
+    _getCards: function(tableName, columnField, filter) {
+        var cards = [];
+        var gr = new GlideRecord(tableName);
+        gr.addEncodedQuery(filter);
+        gr.query();
+        while (gr.next()) {
+            cards.push({
+                id: gr.getUniqueValue(),
+                title: gr.getDisplayValue(),
+                order: cards.length,
+                lane_id: gr.getValue(columnField),
+                options: {
+                    "board_type": "FREEFORM",
+                    "card_type": "classic",
                 },
-                "sn-lane": {
-                    "height": "100%",
-                    "overflow-y": "auto",
-                    "padding": "3px",
-                    "width": "285px"
-                },
-                "sn-vtb-lane-header": {
-                    "background": color
+                attachments: [],
+                record: {
+                    short_description: { display_value: gr.getDisplayValue('short_description') },
+                    description: { display_value: gr.getDisplayValue('description') },
                 }
-            },
-            "options": {
-                "board_type": "GUIDED",  // boardType option = 'GUIDED' or FREEFORM
-                "can_add_task": true,
-                "highest_lane_order": 2,
-                "is2DBoard": false,
-                "lane_count": 3,
-                "lane_field": "__KANBAN__",
-                "lane_filter": "",
-                "swimlane_field": "",
-                "table": "task",
-                "total_lane_count": 3
-            },
-            "title": laneDetails.label
-        };
+            });
+        }
+        return cards;
     },
 
-    type: 'TaskKanbanUtil'
+    _generateColors: function(numColors) {
+        var colors = [];
+        for (var i = 0; i < this.primaryColors.length - 1; i++) {
+            colors.push(this.primaryColors[i]);
+            var nextColor = this.primaryColors[i + 1];
+            var startColor = this._hexToRgb(this.primaryColors[i]);
+            var endColor = this._hexToRgb(nextColor);
+            var stepCount = Math.ceil(numColors / (this.primaryColors.length - 1));
+            for (var j = 1; j < stepCount; j++) {
+                var stepColor = this._interpolateColor(startColor, endColor, j / stepCount);
+                colors.push(this._rgbToHex(stepColor));
+            }
+        }
+        colors.push(this.primaryColors[this.primaryColors.length - 1]);
+        return colors.slice(0, numColors);
+    },
+
+    _hexToRgb: function(hex) {
+        var bigint = parseInt(hex.slice(1), 16);
+        var r = (bigint >> 16) & 255;
+        var g = (bigint >> 8) & 255;
+        var b = bigint & 255;
+        return { r: r, g: g, b: b };
+    },
+
+    _rgbToHex: function(rgb) {
+        var r = rgb.r.toString(16).padStart(2, '0');
+        var g = rgb.g.toString(16).padStart(2, '0');
+        var b = rgb.b.toString(16).padStart(2, '0');
+        return `#${r}${g}${b}`;
+    },
+
+    _interpolateColor: function(color1, color2, factor) {
+        var r = Math.round(color1.r + factor * (color2.r - color1.r));
+        var g = Math.round(color1.g + factor * (color2.g - color1.g));
+        var b = Math.round(color1.b + factor * (color2.b - color1.b));
+        return { r: r, g: g, b: b };
+    },
+
+    type: 'KanbanBoardUtil'
 };
 ]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2024-06-21 22:51:55</sys_created_on>
         <sys_id>14b70eb7c3b24a1016eb2385e0013165</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>TaskKanbanUtil</sys_name>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>KanbanBoardUtil</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_script_include_14b70eb7c3b24a1016eb2385e0013165</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-06-22 15:02:53</sys_updated_on>
+        <sys_updated_on>2024-06-22 17:57:21</sys_updated_on>
     </sys_script_include>
 </record_update>
