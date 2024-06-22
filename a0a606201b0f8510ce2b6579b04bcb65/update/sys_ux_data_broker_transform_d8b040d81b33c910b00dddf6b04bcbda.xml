@@ -1,29 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
     <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
         <acl_failure_result/>
-        <api_name>x_snc_uib_examples.Data Broker Server Script</api_name>
-        <description>Data Broker Server Script&#13;
-New record</description>
+        <api_name>x_snc_uib_examples.Get Kanban board data</api_name>
+        <description/>
         <mutates_server_data>false</mutates_server_data>
-        <name>Data Broker Server Script</name>
+        <name>Get Kanban board data</name>
         <output_schema/>
         <private>false</private>
-        <props/>
-        <required_translations>[ ]</required_translations>
+        <props>[&#13;
+    {&#13;
+        "name": "table_name",&#13;
+        "label": "Table",&#13;
+        "description": "Table from which the data will be retrieved. ",&#13;
+        "readOnly": false,&#13;
+        "fieldType": "table_name",&#13;
+        "mandatory": true,&#13;
+        "defaultValue": ""&#13;
+    },&#13;
+    {&#13;
+        "name": "column_field",&#13;
+        "label": "Column Header Field",&#13;
+        "description": "Field in the selected table that determines the column headers for the Kanban board. ",&#13;
+        "readOnly": false,&#13;
+        "fieldType": "field",&#13;
+        "mandatory": false,&#13;
+        "typeMetadata": {&#13;
+            "table": "@table_name"&#13;
+        },&#13;
+        "defaultValue": "name"&#13;
+    }&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "Column Header Field",
+  "comment" : ""
+}, {
+  "message" : "Field in the selected table that determines the column headers for the Kanban board. ",
+  "comment" : ""
+}, {
+  "message" : "Table",
+  "comment" : ""
+}, {
+  "message" : "Table from which the data will be retrieved. ",
+  "comment" : ""
+} ]</required_translations>
         <schema_version>1.0.0</schema_version>
-        <script/>
+        <script><![CDATA[function transform(input) {
+
+	if (!input || !input.table_name || !input.column_field) return [];
+
+    var TaskKanbanUtil = new x_snc_uib_examples.TaskKanbanUtil();
+
+    // TODO 
+    var filter = ''; // Add your filter if needed
+
+    var result = {};
+    result.laneData = TaskKanbanUtil.getVerticalLaneData(input.table_name, input.column_field, filter);
+	return result;
+}]]></script>
         <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-05-27 00:20:19</sys_created_on>
         <sys_id>d8b040d81b33c910b00dddf6b04bcbda</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Data Broker Server Script</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Get Kanban board data</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_data_broker_transform_d8b040d81b33c910b00dddf6b04bcbda</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2022-05-27 00:20:19</sys_updated_on>
+        <sys_updated_on>2024-06-22 00:17:22</sys_updated_on>
     </sys_ux_data_broker_transform>
     <sys_translated_text action="delete_multiple" query="documentkey=d8b040d81b33c910b00dddf6b04bcbda"/>
 </record_update>

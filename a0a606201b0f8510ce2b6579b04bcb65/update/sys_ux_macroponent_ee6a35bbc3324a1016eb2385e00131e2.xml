@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "header_container",
+        "elementLabel": "Header Container",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "container_left",
+                    "elementLabel": "Container Left",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "flex-direction": "column"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "ariaRegionHeadingLevel": {
+                            "type": "JSON_LITERAL",
+                            "value": "1"
+                        },
+                        "ariaRegionName": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": ""
+                            }
+                        },
+                        "ariaRole": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "hideEmptyStateUi": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "includeAriaHeading": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "fullheight"
+                        },
+                        "type": {
+                            "type": "JSON_LITERAL",
+                            "value": "section"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "container_right",
+                    "elementLabel": "Container Right",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "flex-direction": "column"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "ariaRegionHeadingLevel": {
+                            "type": "JSON_LITERAL",
+                            "value": "1"
+                        },
+                        "ariaRegionName": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": ""
+                            }
+                        },
+                        "ariaRole": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "hideEmptyStateUi": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "includeAriaHeading": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "fullheight"
+                        },
+                        "type": {
+                            "type": "JSON_LITERAL",
+                            "value": "section"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "container_left",
+                            "styles": {
+                                "width": "100%"
+                            }
+                        },
+                        {
+                            "element_id": "container_right",
+                            "styles": {
+                                "width": "100%"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column",
+                        "width": "100%"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4e24b0556fdcf0a629b41408a5b98d86",
+            "type": "MACROPONENT"
+        },
+        "elementId": "kanban_board_1",
+        "elementLabel": "Kanban Board 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "arrowNavigableElements": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "cardConfigOverride": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "cardDragPlaceholderTag": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "cardDraggable": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "cardDropPlaceholderTag": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "cardTag": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "cards": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    
+                ]
+            },
+            "cellHeaderTag": {
+                "type": "JSON_LITERAL",
+                "value": "sn-vtb-cell-header"
+            },
+            "cellHeaders": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    
+                ]
+            },
+            "cloneMode": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "customScrollOptions": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "daActionMapping": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "daClientActionContract": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "dependencyLines": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    
+                ]
+            },
+            "enableDependencyLines": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "laneConfigOverride": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "laneDragPlaceholderTag": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "laneDraggable": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "laneDropPlaceholderTag": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "laneFooterTag": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "laneHeaderTag": {
+                "type": "JSON_LITERAL",
+                "value": "sn-vtb-lane-header"
+            },
+            "lanes": {
+                "binding": {
+                    "address": [
+                        "get_kanban_board_data",
+                        "output",
+                        "laneData"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
+            },
+            "loadTagsFromUxf": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "rowLaneConfig": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "rowLaneHeaderTag": {
+                "type": "JSON_LITERAL",
+                "value": "sn-vtb-lane-header"
+            },
+            "showSwimlaneAsRow": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "styles": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "swimlaneConfigOverride": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "swimlaneDragPlaceholderTag": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "swimlaneDraggable": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "swimlaneDropPlaceholderTag": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "swimlaneHeaderCloneTag": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "swimlaneHeaderTag": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "swimlanes": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    
+                ]
+            },
+            "useArrowNavigation": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "wrapperDomEvents": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    
+                ]
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "d8b040d81b33c910b00dddf6b04bcbda",
+            "type": "TRANSFORM"
+        },
+        "elementId": "get_kanban_board_data",
+        "elementLabel": "Get Kanban board data",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "column_field": {
+                "type": "JSON_LITERAL",
+                "value": "stage"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_snc_award_mgmt_deliverable"
+            },
+            "table_name": {
+                "type": "JSON_LITERAL",
+                "value": "x_snc_award_mgmt_deliverable"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "header_container",
+                "styles": {}
+            },
+            {
+                "element_id": "kanban_board_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-06-21 21:52:24</sys_created_on>
+        <sys_id>ee6a35bbc3324a1016eb2385e00131e2</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_ux_macroponent_ee6a35bbc3324a1016eb2385e00131e2</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-06-22 15:24:53</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=ee6a35bbc3324a1016eb2385e00131e2"/>
+</record_update>

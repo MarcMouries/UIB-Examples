@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_uib_examples.TaskKanbanUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>tableName: The name of the table from which the data will be retrieved. This table will be used to populate the columns and tasks on the Kanban board.&#13;
+columnField: The field in the selected table that determines the column headers for the Kanban board. This field will be used to categorize tasks into different columns based on its values.</description>
+        <name>TaskKanbanUtil</name>
+        <script><![CDATA[var TaskKanbanUtil = Class.create();
+TaskKanbanUtil.prototype = {
+    initialize: function() {
+        this.laneValues = {};
+        this.laneColors = ["#f48897", "#f4e488", "#88f488", "#88d8f4"]; // Colors for Backlog, Doing, Review, Done
+    },
+
+    getVerticalLaneData: function(tableName, columnField, filter) {
+        if (!gs.tableExists(tableName)) {
+            return [];
+        }
+        this._populateLaneValues(tableName, columnField);
+        this._populateLaneCountAndTotalCount(tableName, columnField, filter);
+        return this._buildLaneData();
+    },
+
+    _populateLaneValues: function(tableName, columnField) {
+        var choiceList = GlideChoiceList.getChoiceList(tableName, columnField);
+        for (var i = 0; i < choiceList.getSize(); i++) {
+            var value = choiceList.getChoice(i).getValue();
+            if (value) {
+                this.laneValues[value] = {
+                    "label": choiceList.getChoice(i).getLabel(),
+                    "count": 0
+                };
+            }
+        }
+    },
+
+    _populateLaneCountAndTotalCount: function(tableName, columnField, filter) {
+        var ga = new GlideAggregate(tableName);
+        ga.addAggregate('COUNT');
+        ga.groupBy(columnField);
+        ga.addEncodedQuery(filter);
+        ga.query();
+        while (ga.next()) {
+            var laneValue = ga.getValue(columnField);
+            var laneCount = Number(ga.getAggregate('COUNT'));
+            if (this.laneValues[laneValue]) {
+                this.laneValues[laneValue].count = laneCount;
+            }
+        }
+    },
+
+    _buildLaneData: function() {
+        var laneData = [];
+        var colorIndex = 0;
+        for (var laneValue in this.laneValues) {
+            laneData.push(this._getLaneBaseJson(laneValue, this.laneValues[laneValue], this.laneColors[colorIndex]));
+            colorIndex = (colorIndex + 1) % this.laneColors.length;
+        }
+        return laneData;
+    },
+
+    _getLaneBaseJson: function(laneValue, laneDetails, color) {
+        return {
+            "id": laneValue,
+            "name": laneDetails.label,
+            "cardsCount": laneDetails.count,  // Correctly populate cardsCount
+            "_style_": {
+                "lane-footer-container": {
+                    "bottom": "30px",
+                    "position": "sticky"
+                },
+                "sn-lane": {
+                    "height": "100%",
+                    "overflow-y": "auto",
+                    "padding": "3px",
+                    "width": "285px"
+                },
+                "sn-vtb-lane-header": {
+                    "background": color
+                }
+            },
+            "options": {
+                "board_type": "GUIDED",  // boardType option = 'GUIDED' or FREEFORM
+                "can_add_task": true,
+                "highest_lane_order": 2,
+                "is2DBoard": false,
+                "lane_count": 3,
+                "lane_field": "__KANBAN__",
+                "lane_filter": "",
+                "swimlane_field": "",
+                "table": "task",
+                "total_lane_count": 3
+            },
+            "title": laneDetails.label
+        };
+    },
+
+    type: 'TaskKanbanUtil'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-06-21 22:51:55</sys_created_on>
+        <sys_id>14b70eb7c3b24a1016eb2385e0013165</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>TaskKanbanUtil</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_script_include_14b70eb7c3b24a1016eb2385e0013165</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-06-22 15:02:53</sys_updated_on>
+    </sys_script_include>
+</record_update>
