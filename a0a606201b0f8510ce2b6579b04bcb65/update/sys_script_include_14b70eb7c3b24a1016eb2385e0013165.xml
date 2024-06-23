@@ -16,15 +16,9 @@ KanbanBoardUtil.prototype = {
     },
 
     getKanbanData: function(tableName, columnField, filter) {
-        if (!gs.tableExists(tableName)) {
-            return {
-                lanes: [],
-                cards: [],
-                cardCount: 0,
-                tableName: tableName,
-                tableLabel: ""
-            };
-        }
+        // Default the filter parameter to an empty string if it is not provided
+        filter = filter || '';
+       
         this._populateLaneValues(tableName, columnField);
         this._populateLaneCountAndTotalCount(tableName, columnField, filter);
         this.laneColors = this._generateColors(Object.keys(this.laneValues).length); // Generate colors based on the number of lanes
@@ -222,13 +216,13 @@ KanbanBoardUtil.prototype = {
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2024-06-21 22:51:55</sys_created_on>
         <sys_id>14b70eb7c3b24a1016eb2385e0013165</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>KanbanBoardUtil</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_script_include_14b70eb7c3b24a1016eb2385e0013165</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-06-23 15:16:03</sys_updated_on>
+        <sys_updated_on>2024-06-23 17:50:37</sys_updated_on>
     </sys_script_include>
 </record_update>

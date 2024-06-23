@@ -7,7 +7,7 @@
         <event_mappings>[
     
 ]</event_mappings>
-        <macroponent display_value="dashboard card">e63c09591b034910b00dddf6b04bcbf8</macroponent>
+        <macroponent display_value="Dashboard card default">e63c09591b034910b00dddf6b04bcbf8</macroponent>
         <macroponent_config>{
     "bare": {
         "type": "JSON_LITERAL",
@@ -42,28 +42,28 @@
         "value": "y"
     }
 }</macroponent_config>
-        <name>dashboard card default</name>
+        <name>Dashboard card default</name>
         <order>0</order>
         <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>
-        <screen_type display_value="dashboard card">923c41591b034910b00dddf6b04bcbe9</screen_type>
+        <screen_type display_value="Dashboard card">923c41591b034910b00dddf6b04bcbe9</screen_type>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-04-23 01:36:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>663c09591b034910b00dddf6b04bcbfa</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_name>dashboard card default</sys_name>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Dashboard card default</sys_name>
         <sys_overrides/>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_screen_663c09591b034910b00dddf6b04bcbfa</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-04-26 13:57:45</sys_updated_on>
+        <sys_updated_on>2024-06-23 15:38:01</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=663c09591b034910b00dddf6b04bcbfa"/>
 </record_update>
