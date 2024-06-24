@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_uib_examples_example">
     <x_snc_uib_examples_example action="INSERT_OR_UPDATE">
         <description>Foundational example to learn how to use the Repeater component to  static data</description>
-        <description_html><![CDATA[<p>Foundational example to learn how to use the Repeater component along with a script to manage a dynamic list of items.</p>]]></description_html>
+        <description_html><![CDATA[<p>Teaches how to use the Repeater component and scripting to manage a dynamic list of items.</p>]]></description_html>
         <image>ad1b52cc47bd71505d6c8fd4f16d4328</image>
         <name>Dynamic list</name>
         <page_route>repeaterjson</page_route>
@@ -9,14 +9,14 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2023-09-28 20:09:33</sys_created_on>
         <sys_id>c622627d47a5b1105d6c8fd4f16d43f4</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Dynamic list</sys_name>
-        <sys_package/>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>x_snc_uib_examples_example_c622627d47a5b1105d6c8fd4f16d43f4</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-13 23:05:41</sys_updated_on>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-06-24 04:04:36</sys_updated_on>
     </x_snc_uib_examples_example>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#f1eee9</average_image_color>

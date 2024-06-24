@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_uib_examples_example">
     <x_snc_uib_examples_example action="INSERT_OR_UPDATE">
         <description>This foundational example shows how to use events and script. It allows incrementing and resetting a counter with the simple click of a button.</description>
-        <description_html><![CDATA[<p>This foundational example shows how to use events and script. It allows incrementing and resetting a counter with the simple click of a button.</p>]]></description_html>
+        <description_html><![CDATA[<p>Shows how to use events and scripting to increment and reset a counter with a button click.</p>]]></description_html>
         <image>b9fa12cc47bd71505d6c8fd4f16d436b</image>
         <name>Counter</name>
         <page_route>counter</page_route>
@@ -9,14 +9,14 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2023-09-28 11:45:44</sys_created_on>
         <sys_id>681fe87147a971105d6c8fd4f16d437c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Counter</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>x_snc_uib_examples_example_681fe87147a971105d6c8fd4f16d437c</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-13 23:08:29</sys_updated_on>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-06-24 04:03:07</sys_updated_on>
     </x_snc_uib_examples_example>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#f5f6f5</average_image_color>

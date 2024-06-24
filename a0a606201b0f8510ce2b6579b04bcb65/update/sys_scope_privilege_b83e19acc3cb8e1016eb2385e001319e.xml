@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-06-24 03:44:35</sys_created_on>
+        <sys_id>b83e19acc3cb8e1016eb2385e001319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_teleworkdone_telework_case</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_scope_privilege_b83e19acc3cb8e1016eb2385e001319e</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-06-24 03:44:35</sys_updated_on>
+        <target_name>x_snc_teleworkdone_telework_case</target_name>
+        <target_scope display_value="Telework Case Management">8532b207d51eb1107f44c40407b40b17</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

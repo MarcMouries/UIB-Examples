@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_uib_examples_example">
     <x_snc_uib_examples_example action="INSERT_OR_UPDATE">
         <description>Shows how to use card to filter down records</description>
-        <description_html><![CDATA[<p>Illustrates the use of the card component on a dashboard, where users can select a card to streamline and filter records.</p>]]></description_html>
+        <description_html><![CDATA[<p>Demonstrates the card component on a dashboard, enabling users to select and filter records efficiently.</p>]]></description_html>
         <image>f90b92cc47bd71505d6c8fd4f16d43d8</image>
         <name>Dashboard Card</name>
         <page_route>dashboard-card</page_route>
@@ -9,14 +9,14 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2023-10-05 13:45:57</sys_created_on>
         <sys_id>187d8d0c47b571505d6c8fd4f16d4396</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Dashboard Card</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>x_snc_uib_examples_example_187d8d0c47b571505d6c8fd4f16d4396</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-13 23:08:58</sys_updated_on>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-06-24 04:03:45</sys_updated_on>
     </x_snc_uib_examples_example>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#d7deef</average_image_color>

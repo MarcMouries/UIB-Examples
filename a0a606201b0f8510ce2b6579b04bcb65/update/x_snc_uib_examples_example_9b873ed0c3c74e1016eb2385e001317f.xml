@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_uib_examples_example">
     <x_snc_uib_examples_example action="INSERT_OR_UPDATE">
         <description/>
-        <description_html><![CDATA[<p>text</p>]]></description_html>
+        <description_html><![CDATA[<p>Shows a custom map component allowing users to move a circle and adjust its radius to select items within the area.</p>]]></description_html>
         <image>ab3e412cc34b8e1016eb2385e0013176</image>
         <name>Map</name>
         <page_route>map-component</page_route>
@@ -9,14 +9,14 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2024-06-23 15:38:48</sys_created_on>
         <sys_id>9b873ed0c3c74e1016eb2385e001317f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Map</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>x_snc_uib_examples_example_9b873ed0c3c74e1016eb2385e001317f</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-06-24 02:47:32</sys_updated_on>
+        <sys_updated_on>2024-06-24 04:08:17</sys_updated_on>
     </x_snc_uib_examples_example>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#d9ddd5</average_image_color>

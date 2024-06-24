@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_uib_examples_example">
     <x_snc_uib_examples_example action="INSERT_OR_UPDATE">
         <description/>
-        <description_html><![CDATA[<p>Shows how to Trigger Notifications, it uses the Alert component which provides a message to the user as helpful information or a warning.</p>
+        <description_html><![CDATA[<p>Demonstrates how to trigger notifications using the Alert component to provide users with helpful information or warnings.</p>
 <div id="alert-component-uib-setup__prereq_ipp_4vl_qnb"></div>]]></description_html>
         <image>794789dc1b57f910ce2b6579b04bcbd9</image>
         <name>Notifications</name>
@@ -10,14 +10,14 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2023-11-19 14:22:15</sys_created_on>
         <sys_id>f175c1621b6ef190b00dddf6b04bcb97</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Notifications</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>x_snc_uib_examples_example_f175c1621b6ef190b00dddf6b04bcb97</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-06-24 02:49:27</sys_updated_on>
+        <sys_updated_on>2024-06-24 04:09:26</sys_updated_on>
     </x_snc_uib_examples_example>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#e2e2da</average_image_color>

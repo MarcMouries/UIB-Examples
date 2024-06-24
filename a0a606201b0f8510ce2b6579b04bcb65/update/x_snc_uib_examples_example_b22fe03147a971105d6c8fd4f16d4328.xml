@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_uib_examples_example">
     <x_snc_uib_examples_example action="INSERT_OR_UPDATE">
         <description>Demonstrates using the comparator component to compare two versions of a knowledge article, including filtering out a selected version from the list of versions.</description>
-        <description_html><![CDATA[<p>Demonstrates using the comparator component to compare two versions of a knowledge article, including filtering out a selected version from the list of versions.</p>]]></description_html>
+        <description_html><![CDATA[<p>Demonstrates the comparator component, allowing users to compare different versions of a knowledge article and filter out specific versions.</p>]]></description_html>
         <image>6c91cf624771b1105d6c8fd4f16d4365</image>
         <name>Comparator</name>
         <page_route>comparator</page_route>
@@ -9,14 +9,14 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2023-09-28 11:46:10</sys_created_on>
         <sys_id>b22fe03147a971105d6c8fd4f16d4328</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Comparator</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>x_snc_uib_examples_example_b22fe03147a971105d6c8fd4f16d4328</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-13 23:07:40</sys_updated_on>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-06-24 04:02:42</sys_updated_on>
     </x_snc_uib_examples_example>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#f5f2f5</average_image_color>
