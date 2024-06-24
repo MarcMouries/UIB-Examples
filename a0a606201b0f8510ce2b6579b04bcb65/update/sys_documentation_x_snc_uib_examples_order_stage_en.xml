@@ -10,7 +10,7 @@
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-11-10 22:12:07</sys_created_on>
+            <sys_created_on>2024-06-24 14:22:36</sys_created_on>
             <sys_mod_count>3</sys_mod_count>
             <sys_name>Stage</sys_name>
             <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
@@ -18,7 +18,7 @@
             <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
             <sys_update_name>sys_documentation_x_snc_uib_examples_order_stage_en</sys_update_name>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-11-10 22:12:09</sys_updated_on>
+            <sys_updated_on>2024-06-24 14:22:36</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

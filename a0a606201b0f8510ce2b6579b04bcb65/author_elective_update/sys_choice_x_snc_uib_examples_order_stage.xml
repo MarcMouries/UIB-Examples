@@ -20,18 +20,18 @@
             <element>stage</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Order Placed</label>
+            <label>Order placed</label>
             <language>en</language>
             <name>x_snc_uib_examples_order</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-11-10 22:19:53</sys_created_on>
+            <sys_created_on>2024-06-24 14:24:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-11-10 22:19:59</sys_updated_on>
+            <sys_updated_on>2024-06-24 14:25:43</sys_updated_on>
             <value>order_placed</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -45,12 +45,12 @@
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-11-10 22:19:36</sys_created_on>
+            <sys_created_on>2024-06-24 14:24:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-11-10 22:20:04</sys_updated_on>
+            <sys_updated_on>2024-06-24 14:25:52</sys_updated_on>
             <value>preparation</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -58,18 +58,18 @@
             <element>stage</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Quality Check</label>
+            <label>Quality check</label>
             <language>en</language>
             <name>x_snc_uib_examples_order</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-11-10 22:19:24</sys_created_on>
+            <sys_created_on>2024-06-24 14:24:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-11-10 22:20:07</sys_updated_on>
+            <sys_updated_on>2024-06-24 14:25:55</sys_updated_on>
             <value>quality_check</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -77,18 +77,18 @@
             <element>stage</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Out for Delivery</label>
+            <label>Out for delivery</label>
             <language>en</language>
             <name>x_snc_uib_examples_order</name>
             <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-11-10 22:19:01</sys_created_on>
+            <sys_created_on>2024-06-24 14:25:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-11-10 22:20:11</sys_updated_on>
+            <sys_updated_on>2024-06-24 14:25:57</sys_updated_on>
             <value>out_for_delivery</value>
         </sys_choice>
     </sys_choice>
