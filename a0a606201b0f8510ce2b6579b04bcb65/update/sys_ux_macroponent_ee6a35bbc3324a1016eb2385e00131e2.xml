@@ -82,6 +82,52 @@
                                 },
                                 "slot": null,
                                 "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "9763e50210a643fd4a73407b5ee174f2",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "badge_1",
+                                "elementLabel": "Badge 1",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "round": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "size": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "md"
+                                    },
+                                    "status": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "gray"
+                                    },
+                                    "value": {
+                                        "binding": {
+                                            "address": [
+                                                "get_kanban_board_data",
+                                                "output",
+                                                "cardsCount"
+                                            ]
+                                        },
+                                        "type": "DATA_OUTPUT_BINDING"
+                                    },
+                                    "variant": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "secondary"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
                             }
                         ],
                         "layout": {
@@ -90,13 +136,21 @@
                                 "items": [
                                     {
                                         "element_id": "heading_1",
-                                        "styles": {}
+                                        "styles": {
+                                            "align-self": "flex-start"
+                                        }
+                                    },
+                                    {
+                                        "element_id": "badge_1",
+                                        "styles": {
+                                            "padding-left": "var(--now-scalable-space--xs)"
+                                        }
                                     }
                                 ],
                                 "root": null,
                                 "rules": null,
                                 "styles": {
-                                    "flex-direction": "column"
+                                    "flex-direction": "row"
                                 },
                                 "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
                                 "type": "flex"
@@ -158,18 +212,65 @@
                     },
                     "overrides": {
                         "composition": [
-                            
+                            {
+                                "definition": {
+                                    "id": "1f6e0643eca7a637e36bd7833549ec9e",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "heading_2",
+                                "elementLabel": "Heading 2",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "hasNoMargin": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "label": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "View by"
+                                        }
+                                    },
+                                    "level": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    },
+                                    "variant": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "title-tertiary"
+                                    },
+                                    "wontWrap": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
                         ],
                         "layout": {
                             "default": {
                                 "children": null,
                                 "items": [
-                                    
+                                    {
+                                        "element_id": "heading_2",
+                                        "styles": {}
+                                    }
                                 ],
                                 "root": null,
                                 "rules": null,
                                 "styles": {
-                                    "flex-direction": "column"
+                                    "flex-direction": "column",
+                                    "padding-top": "0"
                                 },
                                 "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
                                 "type": "flex"
@@ -229,6 +330,7 @@
                         {
                             "element_id": "container_right",
                             "styles": {
+                                "align-self": "stretch",
                                 "width": "100%"
                             }
                         }
@@ -237,6 +339,10 @@
                     "rules": null,
                     "styles": {
                         "flex-direction": "row",
+                        "padding-bottom": "var(--now-scalable-space--lg)",
+                        "padding-left": "var(--now-scalable-space--lg)",
+                        "padding-right": "var(--now-scalable-space--lg)",
+                        "padding-top": "var(--now-scalable-space--lg)",
                         "width": "100%"
                     },
                     "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
@@ -497,7 +603,7 @@
                         {
                             "element_id": "kanban_board",
                             "styles": {
-                                "height": "500px",
+                                "height": "100%",
                                 "margin-top": "0"
                             }
                         }
@@ -628,7 +734,10 @@
         <props>[
     
 ]</props>
-        <required_translations>[ ]</required_translations>
+        <required_translations>[ {
+  "message" : "View by",
+  "comment" : ""
+} ]</required_translations>
         <root_component/>
         <root_component_config/>
         <root_component_definition/>
@@ -649,14 +758,14 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2024-06-21 21:52:24</sys_created_on>
         <sys_id>ee6a35bbc3324a1016eb2385e00131e2</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Kanban board Default</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_macroponent_ee6a35bbc3324a1016eb2385e00131e2</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-06-23 15:48:18</sys_updated_on>
+        <sys_updated_on>2024-06-23 18:12:31</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=ee6a35bbc3324a1016eb2385e00131e2"/>
 </record_update>
