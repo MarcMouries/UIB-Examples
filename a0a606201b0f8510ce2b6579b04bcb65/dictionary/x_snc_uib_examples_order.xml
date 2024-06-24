@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="99dfefa0c3cfce1016eb2385e00131b4" extends="task" label="Order" max_length="40" name="x_snc_uib_examples_order" type="collection">
-        <element label="Stage" max_length="80" name="stage" type="workflow"/>
+        <element choice="1" label="Stage" max_length="80" name="stage" type="workflow">
+            <choice>
+                <element inactive_on_update="false" label="Preparation" sequence="1" value="preparation"/>
+                <element inactive_on_update="false" label="Order placed" sequence="0" value="order_placed"/>
+                <element inactive_on_update="false" label="Quality check" sequence="2" value="quality_check"/>
+                <element inactive_on_update="false" label="Out for delivery" sequence="3" value="out_for_delivery"/>
+            </choice>
+        </element>
     </element>
 </database>

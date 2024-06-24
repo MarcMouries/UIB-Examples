@@ -564,6 +564,46 @@
                             },
                             {
                                 "definition": {
+                                    "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "stylized_text_7",
+                                "elementLabel": "Stylized text 7",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "configAria": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {}
+                                    },
+                                    "css": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "* { }"
+                                    },
+                                    "tag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "p"
+                                    },
+                                    "text": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "The data is set automatically at runtime by the component"
+                                        }
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
                                     "id": "6e9066c735c2f03067547684522a21e2",
                                     "type": "MACROPONENT"
                                 },
@@ -727,6 +767,10 @@
                                     },
                                     {
                                         "element_id": "stylized_text_6",
+                                        "styles": {}
+                                    },
+                                    {
+                                        "element_id": "stylized_text_7",
                                         "styles": {}
                                     },
                                     {
@@ -2182,6 +2226,9 @@
   "message" : "Submission",
   "comment" : ""
 }, {
+  "message" : "The data is set automatically at runtime by the component",
+  "comment" : ""
+}, {
   "message" : "Tracking Stages Progress",
   "comment" : ""
 }, {
@@ -2219,13 +2266,14 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-05-08 01:52:54</sys_created_on>
         <sys_id>abbf56821bd7c110b00dddf6b04bcbe7</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>77</sys_mod_count>
         <sys_name>Milestone</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_macroponent_abbf56821bd7c110b00dddf6b04bcbe7</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-01-03 14:44:35</sys_updated_on>
+        <sys_updated_on>2024-06-24 15:30:28</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=abbf56821bd7c110b00dddf6b04bcbe7"/>
 </record_update>
