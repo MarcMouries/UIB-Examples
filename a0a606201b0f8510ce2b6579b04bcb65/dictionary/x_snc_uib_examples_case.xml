@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f9412f24c34fce1016eb2385e00131ff" extends="task" label="Inspection case" max_length="40" name="x_snc_uib_examples_case" type="collection"/>
+</database>

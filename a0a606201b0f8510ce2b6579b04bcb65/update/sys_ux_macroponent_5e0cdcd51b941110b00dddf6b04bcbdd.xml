@@ -114,18 +114,9 @@
         ],
         "overrides": null,
         "propertyValues": {
-            "columns": {
-                "type": "JSON_LITERAL",
-                "value": "number,description"
-            },
-            "fixedQuery": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "groupByField": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
+            "columns": null,
+            "fixedQuery": null,
+            "groupByField": null,
             "hideCellFilter": {
                 "type": "JSON_LITERAL",
                 "value": true
@@ -339,10 +330,7 @@
                 "type": "JSON_LITERAL",
                 "value": 1
             },
-            "query": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
+            "query": null,
             "recordSelectedQuery": {
                 "type": "JSON_LITERAL",
                 "value": ""
@@ -364,12 +352,348 @@
                 "value": null
             },
             "table": {
-                "type": "JSON_LITERAL",
-                "value": "task"
+                "binding": {
+                    "address": [
+                        "table_name"
+                    ]
+                },
+                "type": "STATE_BINDING"
             },
             "wordWrap": {
                 "type": "JSON_LITERAL",
                 "value": true
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "66ee7d86e81f696c9f9be19d8424cc0d",
+            "type": "MACROPONENT"
+        },
+        "elementId": "list_1",
+        "elementLabel": "List 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "actionConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "allRecordsSelected": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "columns": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "daClientActionContract": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "error": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "exceptedRecords": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    
+                ]
+            },
+            "fixedQuery": null,
+            "groupByField": null,
+            "headerSize": {
+                "type": "JSON_LITERAL",
+                "value": "md"
+            },
+            "headingLevel": {
+                "type": "JSON_LITERAL",
+                "value": 1
+            },
+            "hideCellFilter": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideCheckboxHover": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideColumnFiltering": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideColumnGrouping": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideColumnReorder": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideColumnResizing": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideColumnSorting": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideDeclarativeActions": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideDotwalk": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideDragDrop": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "hideEmptyStateImage": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideFilterPanel": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideFirstPage": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideHeader": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideHighlightContent": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideHighlightedValues": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideInlineEditing": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideLastPage": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideLastRefreshedText": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideLimitSelector": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideLinks": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideListSharing": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "hideMenuButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideNextPage": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideOptionToSaveAs": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hidePages": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hidePagination": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hidePanelAdvanced": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hidePanelConditionDelete": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hidePanelFooter": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hidePanelRestore": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hidePersonalization": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hidePreviousPage": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideQuickEdit": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideRange": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideRefreshButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideRowCount": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideRowSelector": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideSelectAll": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideTitle": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideTitleRowCount": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideUnnecessaryRowSelectors": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "highlightContent": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "color": "",
+                    "patterns": [
+                        
+                    ]
+                }
+            },
+            "highlightedValueConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "isRefList": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "limit": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "listMenuOpen": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "listTitle": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "All Active Tasks"
+                }
+            },
+            "maxCharLimit": {
+                "type": "JSON_LITERAL",
+                "value": 4000
+            },
+            "maxColumns": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "menuSelection": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "nrlLandmark": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "overrideWordWrapUserPref": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "page": {
+                "type": "JSON_LITERAL",
+                "value": 1
+            },
+            "query": null,
+            "recordSelectedQuery": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "recordSelectedSysId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "recordSelectedTable": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "recordSelectedView": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "refreshRequested": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "selectedListId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "selectedRecords": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    
+                ]
+            },
+            "table": {
+                "binding": {
+                    "address": [
+                        "table_name"
+                    ]
+                },
+                "type": "STATE_BINDING"
+            },
+            "tiny": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "view": {
+                "type": "JSON_LITERAL",
+                "value": "Default"
+            },
+            "wordWrap": {
+                "type": "JSON_LITERAL",
+                "value": false
             }
         },
         "slot": null,
@@ -396,6 +720,10 @@
         "items": [
             {
                 "element_id": "list__simple_1",
+                "styles": {}
+            },
+            {
+                "element_id": "list_1",
                 "styles": {}
             }
         ],
@@ -424,20 +752,29 @@
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_properties>[
-    
+    {
+        "id": "",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "x_snc_uib_examples_case"
+        },
+        "name": "table_name",
+        "shape": "",
+        "valueType": "string"
+    }
 ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-06-24 01:24:48</sys_created_on>
         <sys_id>5e0cdcd51b941110b00dddf6b04bcbdd</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>list custom</sys_name>
         <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_macroponent_5e0cdcd51b941110b00dddf6b04bcbdd</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-06-21 15:02:04</sys_updated_on>
+        <sys_updated_on>2024-06-24 14:16:48</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=5e0cdcd51b941110b00dddf6b04bcbdd"/>
 </record_update>
