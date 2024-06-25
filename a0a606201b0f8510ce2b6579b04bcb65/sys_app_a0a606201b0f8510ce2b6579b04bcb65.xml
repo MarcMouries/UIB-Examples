@@ -15,7 +15,8 @@
         <license_model>none</license_model>
         <logo>19e646201b0f8510ce2b6579b04bcb3f</logo>
         <menu/>
-        <name>UIB Examples</name>
+        <name>Innovation Gallery</name>
+        <package_json/>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -31,9 +32,9 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-04-20 21:56:36</sys_created_on>
         <sys_id>a0a606201b0f8510ce2b6579b04bcb65</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2023-09-27 01:09:57</sys_updated_on>
+        <sys_updated_on>2024-06-25 05:37:12</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>

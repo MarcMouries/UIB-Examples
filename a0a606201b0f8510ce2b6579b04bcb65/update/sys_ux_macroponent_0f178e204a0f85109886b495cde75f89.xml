@@ -52,7 +52,7 @@
                             "value": {
                                 "code": null,
                                 "comment": "",
-                                "message": "UIB Examples"
+                                "message": "Innovation Gallery"
                             }
                         }
                     },
@@ -90,7 +90,7 @@
                             "value": {
                                 "code": null,
                                 "comment": "",
-                                "message": "Elevate User Experience: Practical Examples with ServiceNow UIB"
+                                "message": "Showcasing best practices with ServiceNow Next Experience &amp; App Engine"
                             }
                         }
                     },
@@ -1323,13 +1323,13 @@
   "message" : "Dashboard Card",
   "comment" : ""
 }, {
-  "message" : "Elevate User Experience: Practical Examples with ServiceNow UIB",
+  "message" : "Innovation Gallery",
   "comment" : ""
 }, {
   "message" : "Repeater JSON",
   "comment" : ""
 }, {
-  "message" : "UIB Examples",
+  "message" : "Showcasing best practices with ServiceNow Next Experience &amp; App Engine",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -1343,14 +1343,14 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-04-20 21:58:42</sys_created_on>
         <sys_id>0f178e204a0f85109886b495cde75f89</sys_id>
-        <sys_mod_count>91</sys_mod_count>
+        <sys_mod_count>93</sys_mod_count>
         <sys_name>Home</sys_name>
-        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_package display_value="Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
-        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_scope display_value="Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_macroponent_0f178e204a0f85109886b495cde75f89</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-06-23 21:32:10</sys_updated_on>
+        <sys_updated_on>2024-06-25 05:41:21</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=0f178e204a0f85109886b495cde75f89"/>
 </record_update>
