@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_uib_examples_example">
+    <x_snc_uib_examples_example action="INSERT_OR_UPDATE">
+        <description/>
+        <description_html><![CDATA[<p>llustrates how to create a visual network of connected nodes to represent relationships between records</p>]]></description_html>
+        <image/>
+        <name>Visualizing Relationships: Node Map</name>
+        <page_route>node-map</page_route>
+        <sys_class_name>x_snc_uib_examples_example</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2025-01-08 15:10:54</sys_created_on>
+        <sys_id>dfd5e31cfbc3d2107b04ff4655efdcd3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Visualizing Relationships: Node Map</sys_name>
+        <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>x_snc_uib_examples_example_dfd5e31cfbc3d2107b04ff4655efdcd3</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-01-08 15:19:37</sys_updated_on>
+    </x_snc_uib_examples_example>
+</record_update>
