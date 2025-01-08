@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{
+  "table" : "incident",
+  "sysId" : "0c5f3cece1b12010f877971dea0b1449"
+}</macroponent_config>
+        <screen display_value="new record page Tokyo default">6760af401b065110b00dddf6b04bcbb8</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-09-15 18:20:21</sys_created_on>
+        <sys_id>2f60af401b065110b00dddf6b04bcbc7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_2f60af401b065110b00dddf6b04bcbc7</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-09-15 18:20:21</sys_updated_on>
+    </sys_uib_screen_test_values>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</application>
+        <file_path/>
+        <instance_id>bed3c2091b56b11ce84d2f8dee4bcbd7</instance_id>
+        <instance_name>marco</instance_name>
+        <name>sys_uib_screen_test_values_2f60af401b065110b00dddf6b04bcbc7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "table" : "incident",
+  "sysId" : "0c5f3cece1b12010f877971dea0b1449"
+}</macroponent_config>
+        <screen display_value="new record page Tokyo default">6760af401b065110b00dddf6b04bcbb8</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-09-15 18:20:21</sys_created_on>
+        <sys_id>2f60af401b065110b00dddf6b04bcbc7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_2f60af401b065110b00dddf6b04bcbc7</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-09-15 18:20:21</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>]]></payload>
+        <payload_hash>-720839071</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>dd5c3986336206504890955a7e5c7b31</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-06-04 01:17:02</sys_created_on>
+        <sys_id>fcacf5c6336206504890955a7e5c7b1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fe0d231b60000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-06-04 01:17:02</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>bcacf5c69962065049c37383abbdaa1d</update_guid>
+        <update_guid_history>bcacf5c69962065049c37383abbdaa1d:-720839071</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2025-01-08 14:49:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>749160b6061e45a5ae4ce4d14fb4b549</sys_id>
+        <sys_metadata>2f60af401b065110b00dddf6b04bcbc7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_scope_delete display_value="">4e87e5c7db26498091c96a6b2a7a0e10</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_2f60af401b065110b00dddf6b04bcbc7</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_2f60af401b065110b00dddf6b04bcbc7">fcacf5c6336206504890955a7e5c7b1d</sys_update_version>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-01-08 14:49:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

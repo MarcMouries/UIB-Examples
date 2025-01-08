@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="UIB Examples Config">87178e207f0f85104cd904285d5ebb8b</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId</fields>
+        <icon/>
+        <name>new record page Tokyo</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>new-record-page-tokyo</route_type>
+        <screen_type display_value="new record page Tokyo">2760eb401b065110b00dddf6b04bcb9d</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-09-15 18:20:21</sys_created_on>
+        <sys_id>ab60af401b065110b00dddf6b04bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>new record page Tokyo</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_ux_app_route_ab60af401b065110b00dddf6b04bcbc9</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-09-15 18:20:21</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=ab60af401b065110b00dddf6b04bcbc9"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</application>
+        <file_path/>
+        <instance_id>bed3c2091b56b11ce84d2f8dee4bcbd7</instance_id>
+        <instance_name>marco</instance_name>
+        <name>sys_ux_app_route_ab60af401b065110b00dddf6b04bcbc9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="UIB Examples Config">87178e207f0f85104cd904285d5ebb8b</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId</fields>
+        <icon/>
+        <name>new record page Tokyo</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>new-record-page-tokyo</route_type>
+        <screen_type display_value="new record page Tokyo">2760eb401b065110b00dddf6b04bcb9d</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-09-15 18:20:21</sys_created_on>
+        <sys_id>ab60af401b065110b00dddf6b04bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>new record page Tokyo</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_ux_app_route_ab60af401b065110b00dddf6b04bcbc9</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-09-15 18:20:21</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=ab60af401b065110b00dddf6b04bcbc9"/>
+</record_update>]]></payload>
+        <payload_hash>-2114506896</payload_hash>
+        <record_name>new record page Tokyo</record_name>
+        <reverted_from/>
+        <source>dd5c3986336206504890955a7e5c7b31</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-06-04 01:17:08</sys_created_on>
+        <sys_id>52ac79c6336206504890955a7e5c7be4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fe0d249b70000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-06-04 01:17:08</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>12ac79c6b56206506bebe22ae58dfbe4</update_guid>
+        <update_guid_history>12ac79c6b56206506bebe22ae58dfbe4:-2114506896</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2025-01-08 14:49:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>5d79ce80748b4a9ea3ba639ef7040979</sys_id>
+        <sys_metadata>ab60af401b065110b00dddf6b04bcbc9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>new record page Tokyo</sys_name>
+        <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_scope_delete display_value="">4e87e5c7db26498091c96a6b2a7a0e10</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_ab60af401b065110b00dddf6b04bcbc9</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_ab60af401b065110b00dddf6b04bcbc9">52ac79c6336206504890955a7e5c7be4</sys_update_version>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-01-08 14:49:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
