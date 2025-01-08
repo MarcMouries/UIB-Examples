@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles>[]</bundles>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "a390c948e0e524bcca0f787dbec2a691",
+            "type": "MACROPONENT"
+        },
+        "elementId": "node_map_1",
+        "elementLabel": "Node map 1",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "unified_map_1",
+            "disabledEventTargetIds": [],
+            "id": "4e3e16d3d74256dd8fc2a779c941754e"
+        },
+        "propertyValues": {
+            "canLabelScale": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "contextualActions": {
+                "type": "JSON_LITERAL",
+                "value": []
+            },
+            "controlPanelButtons": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    {
+                        "behavior": "zoom-in",
+                        "icon": "plus-outline",
+                        "id": "btnZoomIn",
+                        "tooltipContent": "Zoom in"
+                    },
+                    {
+                        "behavior": "zoom-out",
+                        "icon": "minus-outline",
+                        "id": "btnZoomOut",
+                        "tooltipContent": "Zoom out"
+                    },
+                    {
+                        "behavior": "align-home-node",
+                        "icon": "home-outline",
+                        "id": "btnAlignToHomeNode",
+                        "separator": true,
+                        "tooltipContent": "Align to home node"
+                    },
+                    {
+                        "behavior": "fit-to-screen",
+                        "icon": "collapse-outline",
+                        "id": "btnFitToScreen",
+                        "tooltipContent": "Fit to screen"
+                    },
+                    {
+                        "behavior": "choice",
+                        "choices": [
+                            {
+                                "behavior": "export",
+                                "icon": "document-pdf-outline",
+                                "id": "btnExportPDF",
+                                "label": "PDF",
+                                "sublabel": "Export to PDF"
+                            },
+                            {
+                                "behavior": "export-image",
+                                "icon": "document-image-outline",
+                                "id": "btnExportImage",
+                                "label": "image",
+                                "sublabel": "Export to Image"
+                            }
+                        ],
+                        "icon": "circle-download-outline",
+                        "id": "btnExportMap",
+                        "tooltipContent": "Export map"
+                    },
+                    {
+                        "behavior": "collapse-all",
+                        "icon": "sync-outline",
+                        "id": "btnCollapseAll",
+                        "tooltipContent": "Collapse all"
+                    },
+                    {
+                        "behavior": "change-layout-vertical",
+                        "icon": "tree-outline",
+                        "id": "btnLayoutUnifiedVertical",
+                        "separator": true,
+                        "tooltipContent": "Switch to unified vertical layout"
+                    },
+                    {
+                        "behavior": "change-layout-force",
+                        "icon": "combine-outline",
+                        "id": "btnLayoutUnifiedForce",
+                        "tooltipContent": "Switch to unified force layout"
+                    }
+                ]
+            },
+            "controlsPosition": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "controlPanel": "end",
+                    "find": "top-start",
+                    "minimap": "bottom-end"
+                }
+            },
+            "disableAlignHomeNode": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "disableControlPanel": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "disableEdgesContextMenu": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "disableExpand": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "disableFind": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "disableHiddenConnections": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "disableHome": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "disableMapContextMenu": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "disableMinimap": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "disableNodesContextMenu": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "edgeType": {
+                "type": "JSON_LITERAL",
+                "value": "curved"
+            },
+            "edgesAggregation": {
+                "type": "JSON_LITERAL",
+                "value": "managed"
+            },
+            "emptyMessage": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "enableMagnificationEffect": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "errorMessage": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEdgeArrows": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "inactiveEdgeIds": {
+                "type": "JSON_LITERAL",
+                "value": []
+            },
+            "inactiveNodeIds": {
+                "type": "JSON_LITERAL",
+                "value": []
+            },
+            "isEmpty": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "isLoading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "labelPosition": {
+                "type": "JSON_LITERAL",
+                "value": "managed"
+            },
+            "layout": {
+                "type": "JSON_LITERAL",
+                "value": "unified-force"
+            },
+            "loadingMessage": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "manageAutoGroupEdges": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "manageFind": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "mapContextualActions": {
+                "type": "JSON_LITERAL",
+                "value": []
+            },
+            "maxNodeHeight": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "maxNodeWidth": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "mergeEdgeSegments": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "mergePortsThreshold": {
+                "type": "JSON_LITERAL",
+                "value": 0
+            },
+            "nodeHeight": {
+                "type": "JSON_LITERAL",
+                "value": 123
+            },
+            "nodeHeightMode": {
+                "type": "JSON_LITERAL",
+                "value": "nodeHeight"
+            },
+            "nodeMacroponent": {
+                "type": "JSON_LITERAL",
+                "value": "b6e01a3f88f6f797ce96442b4776bc5e"
+            },
+            "nodeSize": {
+                "type": "JSON_LITERAL",
+                "value": "lg"
+            },
+            "nodeWidth": {
+                "type": "JSON_LITERAL",
+                "value": 150
+            },
+            "nodeWidthMode": {
+                "type": "JSON_LITERAL",
+                "value": "nodeWidth"
+            },
+            "popoverConfig": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "clickConfig": {
+                        "clickProperties": {},
+                        "component": "",
+                        "elements": "all"
+                    },
+                    "contentState": "empty",
+                    "hoverConfig": {
+                        "component": "",
+                        "elements": "all",
+                        "hoverProperties": {}
+                    },
+                    "type": "tooltip"
+                }
+            },
+            "reLayoutRequested": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "timestamp": 1699889486659
+                }
+            },
+            "reduceNodeSpacing": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "selectedElements": {
+                "type": "JSON_LITERAL",
+                "value": []
+            },
+            "selectionMode": {
+                "type": "JSON_LITERAL",
+                "value": "single"
+            },
+            "showHiddenControls": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "suspendReLayout": {
+                "type": "JSON_LITERAL",
+                "value": false
+            }
+        },
+        "slot": null,
+        "styles": {
+            "default": {
+                "height": "100%",
+                "width": "100%"
+            }
+        }
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_1",
+        "elementLabel": "Container 1",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "display": "grid",
+                        "grid-auto-columns": "1fr",
+                        "grid-auto-flow": "column",
+                        "grid-auto-rows": "1fr",
+                        "grid-template-columns": "1fr",
+                        "grid-template-rows": "1fr"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "grid"
+                },
+                "queries": [
+                    {
+                        "layout": {
+                            "items": [],
+                            "styles": {
+                                "height": "auto"
+                            },
+                            "type": "flex"
+                        },
+                        "queryId": "custom_ff_1"
+                    }
+                ],
+                "version": "3.1.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": null,
+        "styles": {
+            "default": {
+                "align-self": "stretch",
+                "flex": "1 0 auto",
+                "height": "100%",
+                "width": "100%"
+            },
+            "queries": [
+                {
+                    "queryId": "custom_ff_1",
+                    "value": {
+                        "height": "auto"
+                    }
+                }
+            ]
+        }
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "9585a6bf5b73011046f91c8fb681c7d6",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "unified_map_1",
+        "elementLabel": "Unified Map 1",
+        "eventMappings": [],
+        "inputValues": {
+            "disableCollapseAll": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "edges": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    {
+                        "id": "edge:root_1:inner_group:ckqjews4h00003h6umhpk9vv5",
+                        "label": "root_1 -&gt; inner_group #1",
+                        "sourceId": "root_1",
+                        "targetId": "inner_group"
+                    },
+                    {
+                        "id": "edge:node_0:node_2:ckqjews4h00013h6u6l8frc69",
+                        "label": "node_0 -&gt; node_2",
+                        "sourceId": "node_0",
+                        "targetId": "node_2"
+                    },
+                    {
+                        "id": "edge:node_0:node_7:ckqjews4h00023h6u1mt34z38",
+                        "label": "node_0 -&gt; node_7",
+                        "sourceId": "node_0",
+                        "targetId": "node_7"
+                    },
+                    {
+                        "id": "edge:root_1:inner_group:ckqjews4h00033h6u1sjwyer4",
+                        "label": "root_1 -&gt; inner_group #2",
+                        "sourceId": "root_1",
+                        "targetId": "inner_group"
+                    },
+                    {
+                        "id": "edge:root_1:node_1:ckqjews4h00043h6uyjch4tgr",
+                        "label": "root_1 -&gt; node_1",
+                        "sourceId": "root_1",
+                        "targetId": "node_1"
+                    },
+                    {
+                        "id": "edge:root_1:node_2:ckqjews4h00053h6uqvelaef4",
+                        "label": "root_1 -&gt; node_2 #1",
+                        "sourceId": "root_1",
+                        "targetId": "node_2"
+                    },
+                    {
+                        "id": "edge:node_0:node_3:ckqjews4h00063h6uqaleq6oj",
+                        "label": "node_0 -&gt; node_3",
+                        "sourceId": "node_0",
+                        "targetId": "node_3"
+                    },
+                    {
+                        "id": "edge:node_2:node_4:ckqjews4h00073h6ucji2k9xh",
+                        "label": "node_2 -&gt; node_4",
+                        "sourceId": "node_2",
+                        "targetId": "node_4"
+                    },
+                    {
+                        "id": "edge:node_4:node_6:ckqjews4h00083h6um1wdwpow",
+                        "label": "node_4 -&gt; node_6",
+                        "sourceId": "node_4",
+                        "targetId": "node_6"
+                    },
+                    {
+                        "id": "edge:node_3:node_7:ckqjews4h00093h6u17u5cpkq",
+                        "label": "node_3 -&gt; node_7",
+                        "sourceId": "node_3",
+                        "targetId": "node_7"
+                    },
+                    {
+                        "id": "edge:root_1:node_2:ckqjews4h000a3h6uo6try7jy",
+                        "label": "root_1 -&gt; node_2 #2",
+                        "sourceId": "root_1",
+                        "targetId": "node_2"
+                    },
+                    {
+                        "id": "edge:node_4:node_5:ckqjews4h000b3h6u6cw54rbt",
+                        "label": "node_4 -&gt; node_5",
+                        "sourceId": "node_4",
+                        "targetId": "node_5"
+                    },
+                    {
+                        "id": "edge:node_5:node_8:ckqjews4h000c3h6ul9ryvkah",
+                        "label": "node_5 -&gt; node_8",
+                        "sourceId": "node_5",
+                        "targetId": "node_8"
+                    },
+                    {
+                        "id": "edge:node_8:node_4:ckqjews4h000d3h6u3aj2ijeb",
+                        "label": "node_8 -&gt; node_4",
+                        "sourceId": "node_8",
+                        "targetId": "node_4"
+                    },
+                    {
+                        "id": "edge:node_7:node_4:ckqjews4h000d3h6u3aj2ijeb",
+                        "label": "node_7 -&gt; node_4",
+                        "sourceId": "node_7",
+                        "targetId": "node_4"
+                    }
+                ]
+            },
+            "hiddenEdgeIds": {
+                "type": "JSON_LITERAL",
+                "value": "[]"
+            },
+            "hiddenNodeIds": {
+                "type": "JSON_LITERAL",
+                "value": "[]"
+            },
+            "homeNodeId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "nodes": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    {
+                        "id": "outer_group",
+                        "isGroup": true,
+                        "viewData": {
+                            "groupCount": 1,
+                            "primaryLabel": "Outer group"
+                        }
+                    },
+                    {
+                        "groupIds": [
+                            "outer_group"
+                        ],
+                        "id": "inner_group",
+                        "isGroup": true,
+                        "viewData": {
+                            "groupCount": 3,
+                            "primaryLabel": "Inner group"
+                        }
+                    },
+                    {
+                        "groupIds": [
+                            "inner_group"
+                        ],
+                        "id": "node_0",
+                        "viewData": {
+                            "primaryLabel": "Node #0",
+                            "userName": "Abel Tuter"
+                        }
+                    },
+                    {
+                        "id": "node_1",
+                        "viewData": {
+                            "image": "https://picsum.photos/50",
+                            "primaryLabel": "Node #1"
+                        }
+                    },
+                    {
+                        "groupIds": [
+                            "inner_group"
+                        ],
+                        "id": "node_2",
+                        "viewData": {
+                            "primaryLabel": "Node #2",
+                            "status": "positive"
+                        }
+                    },
+                    {
+                        "id": "node_3",
+                        "viewData": {
+                            "image": "https://picsum.photos/50",
+                            "primaryLabel": "Node #3"
+                        }
+                    },
+                    {
+                        "id": "node_4",
+                        "viewData": {
+                            "primaryLabel": "Node #4"
+                        }
+                    },
+                    {
+                        "id": "node_5",
+                        "viewData": {
+                            "primaryLabel": "Node #5"
+                        }
+                    },
+                    {
+                        "id": "node_6",
+                        "viewData": {
+                            "icon": "bug-outline",
+                            "primaryLabel": "Node #6",
+                            "status": "error"
+                        }
+                    },
+                    {
+                        "groupIds": [
+                            "inner_group"
+                        ],
+                        "id": "node_7",
+                        "viewData": {
+                            "primaryLabel": "Node #7"
+                        }
+                    },
+                    {
+                        "id": "node_8",
+                        "viewData": {
+                            "primaryLabel": "Node #8"
+                        }
+                    },
+                    {
+                        "id": "node_9",
+                        "isInactive": true,
+                        "viewData": {
+                            "primaryLabel": "Node #9",
+                            "secondaryLabel": "(inactive)"
+                        }
+                    },
+                    {
+                        "id": "root_1",
+                        "viewData": {
+                            "primaryLabel": "Root node"
+                        }
+                    }
+                ]
+            },
+            "showError": {
+                "type": "JSON_LITERAL",
+                "value": false
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{
+    "custom_ff_1": {
+        "max-width": 640,
+        "reference": "macroponent"
+    }
+}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "node_map_1"
+            },
+            {
+                "element_id": "container_1"
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "display": "flex",
+            "flex-direction": "column",
+            "height": "100%",
+            "width": "100%"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "queries": [
+        {
+            "layout": {
+                "items": [],
+                "styles": {
+                    "flex-direction": "column",
+                    "height": "auto",
+                    "min-width": null
+                },
+                "type": "flex"
+            },
+            "queryId": "custom_ff_1"
+        }
+    ],
+    "version": "3.1.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[]</props>
+        <required_translations>[ {
+  "message" : "PDF",
+  "comment" : ""
+}, {
+  "message" : "image",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties>[]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2025-01-08 15:15:51</sys_created_on>
+        <sys_id>a537a79cfbc3d2107b04ff4655efdc40</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_ux_macroponent_a537a79cfbc3d2107b04ff4655efdc40</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-01-08 15:26:41</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=a537a79cfbc3d2107b04ff4655efdc40"/>
+</record_update>
