@@ -22,9 +22,7 @@
         },
         "elementId": "modalcontainerviewport",
         "elementLabel": "Modal Container (Viewport)",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "extensionPoints": [
             {
                 "controllerDependencyMap": null,
@@ -39,15 +37,11 @@
             "value": null
         },
         "isNonDestructive": false,
-        "items": [
-            
-        ],
+        "items": [],
         "overrides": null,
         "preset": {
             "controllerElementId": "record",
-            "disabledEventTargetIds": [
-                
-            ],
+            "disabledEventTargetIds": [],
             "id": "b76d5b8043432110379ea5dccbb8f297"
         },
         "propertyValues": {},
@@ -61,9 +55,7 @@
         },
         "elementId": "container_1",
         "elementLabel": "Container 1",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "isHero": false,
         "isHidden": {
             "type": "JSON_LITERAL",
@@ -79,9 +71,7 @@
                     },
                     "elementId": "stylized_text_1",
                     "elementLabel": "Stylized text 1",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHero": false,
                     "isHidden": {
                         "type": "JSON_LITERAL",
@@ -117,9 +107,7 @@
                     },
                     "elementId": "breadcrumbs_1",
                     "elementLabel": "Breadcrumbs 1",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHero": false,
                     "isHidden": {
                         "type": "JSON_LITERAL",
@@ -199,9 +187,7 @@
                     },
                     "elementId": "stylized_text_2",
                     "elementLabel": "Stylized text 2",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHero": false,
                     "isHidden": {
                         "type": "JSON_LITERAL",
@@ -237,9 +223,7 @@
                     },
                     "elementId": "stepper_1",
                     "elementLabel": "Stepper 1",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHero": false,
                     "isHidden": {
                         "type": "JSON_LITERAL",
@@ -356,9 +340,7 @@
                     },
                     "elementId": "stylized_text_3",
                     "elementLabel": "Stylized text 3",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHero": false,
                     "isHidden": {
                         "type": "JSON_LITERAL",
@@ -394,9 +376,7 @@
                     },
                     "elementId": "stylized_text_4",
                     "elementLabel": "Stylized text 4",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHero": false,
                     "isHidden": {
                         "type": "JSON_LITERAL",
@@ -404,7 +384,12 @@
                     },
                     "isNonDestructive": false,
                     "overrides": null,
+                    "preset": null,
                     "propertyValues": {
+                        "configAria": {
+                            "container": {},
+                            "type": "MAP_CONTAINER"
+                        },
                         "css": {
                             "type": "JSON_LITERAL",
                             "value": "* { }"
@@ -418,7 +403,7 @@
                             "value": {
                                 "code": null,
                                 "comment": "",
-                                "message": "With Custom Stage Tracker Component"
+                                "message": "With Custom Milestone Tracker Component"
                             }
                         }
                     },
@@ -432,9 +417,7 @@
                     },
                     "elementId": "container_2",
                     "elementLabel": "Container 2",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHero": false,
                     "isHidden": {
                         "type": "JSON_LITERAL",
@@ -450,9 +433,7 @@
                                 },
                                 "elementId": "stylized_text_5",
                                 "elementLabel": "Stylized text 5",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHero": false,
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
@@ -488,9 +469,7 @@
                                 },
                                 "elementId": "aes_stage_tracker_static",
                                 "elementLabel": "AES Stage Tracker Static",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -533,9 +512,7 @@
                                 },
                                 "elementId": "stylized_text_6",
                                 "elementLabel": "Stylized text 6",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -569,9 +546,7 @@
                                 },
                                 "elementId": "stylized_text_7",
                                 "elementLabel": "Stylized text 7",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -609,9 +584,7 @@
                                 },
                                 "elementId": "aes_stage_tracker_record",
                                 "elementLabel": "AES Stage Tracker Record",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHero": false,
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
@@ -719,15 +692,11 @@
                                     },
                                     "stages_NEW": {
                                         "type": "JSON_LITERAL",
-                                        "value": [
-                                            
-                                        ]
+                                        "value": []
                                     },
                                     "stages_OLD": {
                                         "type": "JSON_LITERAL",
-                                        "value": [
-                                            
-                                        ]
+                                        "value": []
                                     },
                                     "sysId": {
                                         "binding": {
@@ -916,9 +885,7 @@
         },
         "elementId": "column_layout_1",
         "elementLabel": "Column layout 1",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "isHidden": {
             "type": "JSON_LITERAL",
             "value": null
@@ -932,9 +899,7 @@
                     },
                     "elementId": "__clpeeaktxjaaddpaaddbhhpffaawaajjqbt__column_1",
                     "elementLabel": "__clpeeaktxjaaddpaaddbhhpffaawaajjqbt__Column 1",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -948,18 +913,14 @@
                                 },
                                 "elementId": "heading_1",
                                 "elementLabel": "Heading 1",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
                                 },
                                 "preset": {
                                     "controllerElementId": "record",
-                                    "disabledEventTargetIds": [
-                                        
-                                    ],
+                                    "disabledEventTargetIds": [],
                                     "id": "e61aa04af8f8f7b18abc73e3f61ab4e8"
                                 },
                                 "slot": null,
@@ -1033,9 +994,7 @@
                     },
                     "elementId": "__clpeeamlhhmaaddphddbhhpcyellczy__column_2",
                     "elementLabel": "__clpeeamlhhmaaddphddbhhpcyellczy__Column 2",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -1049,18 +1008,14 @@
                                 },
                                 "elementId": "action_bar_1",
                                 "elementLabel": "Action bar 1",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
                                 },
                                 "preset": {
                                     "controllerElementId": "record",
-                                    "disabledEventTargetIds": [
-                                        
-                                    ],
+                                    "disabledEventTargetIds": [],
                                     "id": "2def2c8299bd8376a39d3adfdb576b66"
                                 },
                                 "slot": null,
@@ -1163,9 +1118,7 @@
                         "layout": {
                             "children": null,
                             "isInline": null,
-                            "items": [
-                                
-                            ],
+                            "items": [],
                             "root": null,
                             "rules": null,
                             "styles": {
@@ -1253,9 +1206,7 @@
         },
         "elementId": "column_layout_2",
         "elementLabel": "Column layout 2",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "isHidden": {
             "type": "JSON_LITERAL",
             "value": null
@@ -1269,9 +1220,7 @@
                     },
                     "elementId": "__clpeeanoiiffaaddpyddbhhpfmuminggq__column_1",
                     "elementLabel": "__clpeeanoiiffaaddpyddbhhpfmuminggq__Column 1",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -1322,24 +1271,18 @@
                                         ]
                                     }
                                 ],
-                                "extensionPoints": [
-                                    
-                                ],
+                                "extensionPoints": [],
                                 "isHero": false,
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
                                 },
                                 "isNonDestructive": false,
-                                "items": [
-                                    
-                                ],
+                                "items": [],
                                 "overrides": null,
                                 "preset": {
                                     "controllerElementId": "record",
-                                    "disabledEventTargetIds": [
-                                        
-                                    ],
+                                    "disabledEventTargetIds": [],
                                     "id": "187b98f917f400e17ab765dee8b4fb04"
                                 },
                                 "propertyValues": {
@@ -1477,9 +1420,7 @@
                         "layout": {
                             "children": null,
                             "isInline": null,
-                            "items": [
-                                
-                            ],
+                            "items": [],
                             "root": null,
                             "rules": null,
                             "styles": {
@@ -2013,10 +1954,12 @@
     }
 ]</data>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <dispatched_events/>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
+        <form_factors>{}</form_factors>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -2058,7 +2001,7 @@
     "version": "3.0.0"
 }</layout>
         <macroponent_dependencies/>
-        <name>Milestone</name>
+        <name>Milestone default</name>
         <output_prop_mapping/>
         <props>[
     {
@@ -2241,7 +2184,7 @@
   "message" : "With Breadcrumbs",
   "comment" : ""
 }, {
-  "message" : "With Custom Stage Tracker Component",
+  "message" : "With Custom Milestone Tracker Component",
   "comment" : ""
 }, {
   "message" : "With Stepper",
@@ -2251,6 +2194,7 @@
         <root_component_config>{}</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
         <state_properties>[
     {
         "initialValue": {
@@ -2266,14 +2210,14 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-05-08 01:52:54</sys_created_on>
         <sys_id>abbf56821bd7c110b00dddf6b04bcbe7</sys_id>
-        <sys_mod_count>77</sys_mod_count>
-        <sys_name>Milestone</sys_name>
-        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_mod_count>79</sys_mod_count>
+        <sys_name>Milestone default</sys_name>
+        <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
-        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_macroponent_abbf56821bd7c110b00dddf6b04bcbe7</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-06-24 15:30:28</sys_updated_on>
+        <sys_updated_on>2025-01-08 14:54:35</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=abbf56821bd7c110b00dddf6b04bcbe7"/>
 </record_update>
