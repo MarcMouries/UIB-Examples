@@ -2,7 +2,15 @@
     <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
         <acl_failure_result/>
         <api_name>x_snc_uib_examples.getKbVersions</api_name>
-        <description>Returns all the versions of a Knowledge Base (KB) article</description>
+        <batch_exclude>false</batch_exclude>
+        <description>Returns all the versions of a Knowledge Base (KB) article.&#13;
+Usage: &#13;
+var input = {    KB_Number: "KB10000000"};&#13;
+var versions = transform(input);&#13;
+&#13;
+gs.info("@UIB: getKbVersions \n" +&#13;
+        "Input: " + JSON.stringify(input, null, 4) + "\n" +&#13;
+        "Results: " + JSON.stringify(versions, null, 4));</description>
         <mutates_server_data>false</mutates_server_data>
         <name>getKbVersions</name>
         <output_schema/>
@@ -42,27 +50,35 @@
         var version = kb_record.version.version + "";
         versions.push({
             id: version,
-            label: "Version " + version
+            label: "Version " + version,
+            sys_id: kb_record.getValue("sys_id")
         });
     }
-
-    gs.info("@UIB: getKbVersions \n" +
-        "Input: " + JSON.stringify(input, null, 4) + "\n\n" +
-        "Results: " + JSON.stringify(versions, null, 4));
     return versions;
 }]]></script>
         <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2023-09-27 21:06:51</sys_created_on>
         <sys_id>b70369ad47e175105d6c8fd4f16d432a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>getKbVersions</sys_name>
-        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
-        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_data_broker_transform_b70369ad47e175105d6c8fd4f16d432a</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2023-09-28 11:30:31</sys_updated_on>
+        <sys_updated_on>2025-01-09 22:45:54</sys_updated_on>
     </sys_ux_data_broker_transform>
     <sys_translated_text action="delete_multiple" query="documentkey=b70369ad47e175105d6c8fd4f16d432a"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b70369ad47e175105d6c8fd4f16d432a</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2025-01-09 22:45:54</sys_created_on>
+        <sys_id>3bc7d2b4930b5214df5f3ca47aba1000</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-01-09 22:45:54</sys_updated_on>
+        <table>sys_ux_data_broker_transform</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
