@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4c2e41d98769b11031a07558dabb355e</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_id&gt;c34dc1598769b11031a07558dabb35b0&lt;/article_id&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Marc Mouries"&gt;b5334c02470795103d2cb28a436d43b3&lt;/author&gt;
+        &lt;base_version display_value="KB10000000 v1.0"&gt;c34dc1598769b11031a07558dabb35b0&lt;/base_version&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;display_number&gt;KB10000000 v2.0&lt;/display_number&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;generated_with_now_assist&gt;false&lt;/generated_with_now_assist&gt;
+        &lt;helpful_count&gt;0&lt;/helpful_count&gt;
+        &lt;image/&gt;
+        &lt;instrumentation_metadata/&gt;
+        &lt;kb_category/&gt;
+        &lt;kb_knowledge_base display_value="Knowledge"&gt;dfc19531bf2021003f07e2c1ac0739ab&lt;/kb_knowledge_base&gt;
+        &lt;latest&gt;false&lt;/latest&gt;
+        &lt;latest_aqi/&gt;
+        &lt;meta/&gt;
+        &lt;meta_description&gt;Here is a description of the comparator component The comparator component is used to compare content&lt;/meta_description&gt;
+        &lt;number&gt;KB10000000&lt;/number&gt;
+        &lt;ownership_group/&gt;
+        &lt;published&gt;2023-09-27&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;related_products/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;revised_by display_value="Marc Mouries"&gt;b5334c02470795103d2cb28a436d43b3&lt;/revised_by&gt;
+        &lt;roles/&gt;
+        &lt;scheduled_publish_date/&gt;
+        &lt;short_description&gt;article about the comparator component&lt;/short_description&gt;
+        &lt;sn_grc_source/&gt;
+        &lt;sn_grc_target_table/&gt;
+        &lt;source/&gt;
+        &lt;summary display_value="KB0010006"&gt;a99d85598769b11031a07558dabb3595&lt;/summary&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;Marc.Mouries&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-09-27 00:44:27&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;4c2e41d98769b11031a07558dabb355e&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;Marc.Mouries&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-01-09 20:06:16&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;8&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;Here is a description of the comparator component&lt;/p&gt;
+&lt;p&gt;The comparator component is used to compare content side-by-side by highlighting the differences between the original and changed content; can also be used to edit or translate the changed content in place.&lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;General&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;version display_value="2.0"&gt;a88ec9d98769b11031a07558dabb3512&lt;/version&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;outdated&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=4c2e41d98769b11031a07558dabb355e"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2025-01-09 22:40:14</sys_created_on>
+        <sys_id>a086d6b0930b5214df5f3ca47aba1049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB10000000 v2.0</sys_name>
+        <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_metadata_link_a086d6b0930b5214df5f3ca47aba1049</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-01-09 22:40:14</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>
