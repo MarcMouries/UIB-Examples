@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "5181ffee017e9387ba8b25041d5a5185",
+            "type": "MACROPONENT"
+        },
+        "elementId": "comparator_1",
+        "elementLabel": "Comparator 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "comparisonData": {
+                "binding": {
+                    "address": [
+                        "getkbchangedcontent_1",
+                        "output"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
+            },
+            "mode": {
+                "type": "JSON_LITERAL",
+                "value": "diff"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "edca0ce1476df1105d6c8fd4f16d4345",
+            "type": "TRANSFORM"
+        },
+        "dependencies": {},
+        "elementId": "getkbchangedcontent_1",
+        "elementLabel": "getKBChangedContent 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "kb_number": {
+                "type": "JSON_LITERAL",
+                "value": "KB0010006"
+            },
+            "version_1": {
+                "type": "JSON_LITERAL",
+                "value": "2.0"
+            },
+            "version_2": {
+                "type": "JSON_LITERAL",
+                "value": "3.0"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "comparator_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column",
+            "padding-left": "var(--now-scalable-space--md)",
+            "padding-top": "var(--now-scalable-space--md)"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "kbNumber",
+        "mandatory": false,
+        "name": "kbNumber",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-10-06 02:31:41</sys_created_on>
+        <sys_id>b2fcb3084779b1505d6c8fd4f16d4313</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_ux_macroponent_b2fcb3084779b1505d6c8fd4f16d4313</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-10-08 19:47:31</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="DELETE" query="documentkey=b2fcb3084779b1505d6c8fd4f16d4313"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</application>
+        <file_path/>
+        <instance_id>bed3c2091b56b11ce84d2f8dee4bcbd7</instance_id>
+        <instance_name>marco</instance_name>
+        <name>sys_ux_macroponent_b2fcb3084779b1505d6c8fd4f16d4313</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "5181ffee017e9387ba8b25041d5a5185",
+            "type": "MACROPONENT"
+        },
+        "elementId": "comparator_1",
+        "elementLabel": "Comparator 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "comparisonData": {
+                "binding": {
+                    "address": [
+                        "getkbchangedcontent_1",
+                        "output"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
+            },
+            "mode": {
+                "type": "JSON_LITERAL",
+                "value": "diff"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "edca0ce1476df1105d6c8fd4f16d4345",
+            "type": "TRANSFORM"
+        },
+        "dependencies": {},
+        "elementId": "getkbchangedcontent_1",
+        "elementLabel": "getKBChangedContent 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "kb_number": {
+                "type": "JSON_LITERAL",
+                "value": "KB0010006"
+            },
+            "version_1": {
+                "type": "JSON_LITERAL",
+                "value": "2.0"
+            },
+            "version_2": {
+                "type": "JSON_LITERAL",
+                "value": "3.0"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "comparator_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column",
+            "padding-left": "var(--now-scalable-space--md)",
+            "padding-top": "var(--now-scalable-space--md)"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "kbNumber",
+        "mandatory": false,
+        "name": "kbNumber",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-10-06 02:31:41</sys_created_on>
+        <sys_id>b2fcb3084779b1505d6c8fd4f16d4313</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_ux_macroponent_b2fcb3084779b1505d6c8fd4f16d4313</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-10-08 19:47:31</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=b2fcb3084779b1505d6c8fd4f16d4313"/>
+</record_update>]]></payload>
+        <payload_hash>-2076220945</payload_hash>
+        <record_name>Default</record_name>
+        <reverted_from/>
+        <source>dd5c3986336206504890955a7e5c7b31</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-06-04 01:17:16</sys_created_on>
+        <sys_id>ccbc3dc6336206504890955a7e5c7b2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fe0d268290000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-06-04 01:17:16</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>8cbc3dc64862065041e11a29defe742b</update_guid>
+        <update_guid_history>8cbc3dc64862065041e11a29defe742b:-2076220945</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2025-01-09 23:27:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>2ac614c6f1754c2b952bc3dec1f8a1a9</sys_id>
+        <sys_metadata>b2fcb3084779b1505d6c8fd4f16d4313</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_scope_delete display_value="">4e87e5c7db26498091c96a6b2a7a0e10</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_b2fcb3084779b1505d6c8fd4f16d4313</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_b2fcb3084779b1505d6c8fd4f16d4313">ccbc3dc6336206504890955a7e5c7b2b</sys_update_version>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-01-09 23:27:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
