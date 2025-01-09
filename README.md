@@ -6,12 +6,19 @@ The goal of the **Creator Innovation Gallery** is to provide a quick and interac
 
 ## Table of Contents
 
+- [Pre-requisites](#Pre-requisites)
 - [Versions](#versions)
 - [Installation](#installation)
 - [Update](#update)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+
+
+## Prerequisites
+
+The Comparator example relies on versions of a Knowledge Base (KB) article. To use this example, the **Knowledge Management Advanced** plugin must be installed. This free plugin provides advanced features for Knowledge Management, including version control and subscriptions.
+
 
 ## Versions
 
