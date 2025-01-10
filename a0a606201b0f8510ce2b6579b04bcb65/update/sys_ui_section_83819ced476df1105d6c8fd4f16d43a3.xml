@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2025-01-09 19:41:32</sys_created_on>
-            <sys_id>cf9dad30fbcf16107b04ff4655efdc53</sys_id>
+            <sys_created_on>2025-01-10 17:05:27</sys_created_on>
+            <sys_id>5273d64dfbc396107b04ff4655efdc74</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_uib_examples_example" sys_domain="global" view="Default view">83819ced476df1105d6c8fd4f16d43a3</sys_ui_section>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2025-01-09 19:41:32</sys_updated_on>
+            <sys_updated_on>2025-01-10 17:05:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>page_route</element>
             <position>1</position>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2025-01-09 19:41:32</sys_created_on>
-            <sys_id>c79dad30fbcf16107b04ff4655efdc54</sys_id>
+            <sys_created_on>2025-01-10 17:05:27</sys_created_on>
+            <sys_id>5a73d64dfbc396107b04ff4655efdc74</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_uib_examples_example" sys_domain="global" view="Default view">83819ced476df1105d6c8fd4f16d43a3</sys_ui_section>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2025-01-09 19:41:32</sys_updated_on>
+            <sys_updated_on>2025-01-10 17:05:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>description_html</element>
             <position>2</position>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2025-01-09 19:41:32</sys_created_on>
-            <sys_id>cf9dad30fbcf16107b04ff4655efdc54</sys_id>
+            <sys_created_on>2025-01-10 17:05:27</sys_created_on>
+            <sys_id>5273d64dfbc396107b04ff4655efdc75</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_uib_examples_example" sys_domain="global" view="Default view">83819ced476df1105d6c8fd4f16d43a3</sys_ui_section>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2025-01-09 19:41:32</sys_updated_on>
+            <sys_updated_on>2025-01-10 17:05:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,69 @@
             <element>image</element>
             <position>3</position>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2025-01-09 19:41:32</sys_created_on>
-            <sys_id>c79dad30fbcf16107b04ff4655efdc55</sys_id>
+            <sys_created_on>2025-01-10 17:05:27</sys_created_on>
+            <sys_id>5a73d64dfbc396107b04ff4655efdc75</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_uib_examples_example" sys_domain="global" view="Default view">83819ced476df1105d6c8fd4f16d43a3</sys_ui_section>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2025-01-09 19:41:32</sys_updated_on>
+            <sys_updated_on>2025-01-10 17:05:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2025-01-10 17:05:27</sys_created_on>
+            <sys_id>5273d64dfbc396107b04ff4655efdc76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_uib_examples_example" sys_domain="global" view="Default view">83819ced476df1105d6c8fd4f16d43a3</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2025-01-10 17:05:27</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>example_table</element>
+            <position>5</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2025-01-10 17:05:27</sys_created_on>
+            <sys_id>5a73d64dfbc396107b04ff4655efdc76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_uib_examples_example" sys_domain="global" view="Default view">83819ced476df1105d6c8fd4f16d43a3</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2025-01-10 17:05:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2025-01-10 17:05:27</sys_created_on>
+            <sys_id>5273d64dfbc396107b04ff4655efdc77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_uib_examples_example" sys_domain="global" view="Default view">83819ced476df1105d6c8fd4f16d43a3</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2025-01-10 17:05:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>example_sysid</element>
+            <position>7</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2025-01-10 17:05:27</sys_created_on>
+            <sys_id>5a73d64dfbc396107b04ff4655efdc77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_uib_examples_example" sys_domain="global" view="Default view">83819ced476df1105d6c8fd4f16d43a3</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2025-01-10 17:05:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

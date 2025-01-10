@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="table" table="x_snc_uib_examples_example">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Table</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>50</max_length>
+        <name>x_snc_uib_examples_example</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_db_object">sys_db_object</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2025-01-10 16:39:49</sys_created_on>
+        <sys_id>5442f981fb4396107b04ff4655efdc30</sys_id>
+        <sys_name>Table</sys_name>
+        <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_dictionary_x_snc_uib_examples_example_table</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-01-10 16:39:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</application>
+        <file_path/>
+        <instance_id>bed3c2091b56b11ce84d2f8dee4bcbd7</instance_id>
+        <instance_name>marco</instance_name>
+        <name>sys_dictionary_x_snc_uib_examples_example_table</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="table" table="x_snc_uib_examples_example"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Table&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;50&lt;/max_length&gt;&lt;name&gt;x_snc_uib_examples_example&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_db_object"&gt;sys_db_object&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Marc.Mouries&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-10 16:39:49&lt;/sys_created_on&gt;&lt;sys_id&gt;5442f981fb4396107b04ff4655efdc30&lt;/sys_id&gt;&lt;sys_name&gt;Table&lt;/sys_name&gt;&lt;sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples"&gt;a0a606201b0f8510ce2b6579b04bcb65&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Creator Innovation Gallery"&gt;a0a606201b0f8510ce2b6579b04bcb65&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_snc_uib_examples_example_table&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Marc.Mouries&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-10 16:39:49&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1200668178</payload_hash>
+        <record_name>Examples.Table</record_name>
+        <reverted_from/>
+        <source>a840afd0fbc3d2107b04ff4655efdc83</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2025-01-10 16:39:50</sys_created_on>
+        <sys_id>d39d8281fbc396107b04ff4655efdca5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194511619eb0000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-01-10 16:39:50</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>979d8281c8c39610266657a1385c1ea4</update_guid>
+        <update_guid_history>979d8281c8c39610266657a1385c1ea4:1200668178</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2025-01-10 16:47:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>1f0dbd6a73194e068ffef21d723d19c4</sys_id>
+        <sys_metadata>5442f981fb4396107b04ff4655efdc30</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table</sys_name>
+        <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_parent display_value="Examples">025036921bf35114b00dddf6b04bcbb8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_scope_delete display_value="">4e87e5c7db26498091c96a6b2a7a0e10</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_snc_uib_examples_example_table</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_snc_uib_examples_example_table">d39d8281fbc396107b04ff4655efdca5</sys_update_version>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-01-10 16:47:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -3,7 +3,7 @@
         <controller_preset/>
         <includes/>
         <macroponent display_value="Default">76d0cc61472df1105d6c8fd4f16d43e8</macroponent>
-        <name>Log values</name>
+        <name>Set KB Number</name>
         <preset/>
         <required_translations>[]</required_translations>
         <script><![CDATA[/**
@@ -14,31 +14,23 @@
 * @param {ApiHelpers} params.helpers
 */
 function handler({api, event, helpers, imports}) {
-console.log("Log values: STATE");
-console.log("kb_number : ", api.state.kb_number);
-console.log("version_1 : ", api.state.version_1);
-console.log("version_2 : ", api.state.version_2);
-console.log("");
-console.log("Log values: EVENT");
-console.log(JSON.stringify(event, null, 4));
-console.log("");
-console.log("Log values: API.data");
-console.log("getkbversions = ", JSON.stringify(api.data.getkbversions.output, null, 4));
-console.log("getkbchangedcontent = ", JSON.stringify(api.data.getkbchangedcontent.output, null, 4));
+    console.log("kb_number", api.data.look_up_kb_record.result["number"].value);
+    var kb_number = api.data.look_up_kb_record.result["number"].value;
+    api.setState("kb_number", kb_number);
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
-        <sys_created_on>2023-09-28 11:34:43</sys_created_on>
-        <sys_id>32aba0b9476971105d6c8fd4f16d436a</sys_id>
+        <sys_created_on>2025-01-10 19:01:22</sys_created_on>
+        <sys_id>4d82d2c9fbc396107b04ff4655efdc21</sys_id>
         <sys_mod_count>11</sys_mod_count>
-        <sys_name>Log values</sys_name>
+        <sys_name>Set KB Number</sys_name>
         <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
-        <sys_update_name>sys_ux_client_script_32aba0b9476971105d6c8fd4f16d436a</sys_update_name>
+        <sys_update_name>sys_ux_client_script_4d82d2c9fbc396107b04ff4655efdc21</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2025-01-10 21:59:32</sys_updated_on>
+        <sys_updated_on>2025-01-10 19:34:28</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>

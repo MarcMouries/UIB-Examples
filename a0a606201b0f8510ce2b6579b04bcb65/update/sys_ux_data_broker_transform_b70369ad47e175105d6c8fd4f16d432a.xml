@@ -5,7 +5,7 @@
         <batch_exclude>false</batch_exclude>
         <description>Returns all the versions of a Knowledge Base (KB) article.&#13;
 Usage: &#13;
-var input = {    KB_Number: "KB10000000"};&#13;
+var input = { KB_SysID: "c34dc1598769b11031a07558dabb35b0" };&#13;
 var versions = transform(input);&#13;
 &#13;
 gs.info("@UIB: getKbVersions \n" +&#13;
@@ -17,9 +17,9 @@ gs.info("@UIB: getKbVersions \n" +&#13;
         <private>false</private>
         <props>[&#13;
     {&#13;
-        "name": "KB_Number",&#13;
-        "label": "KB Number",&#13;
-        "description": "Number of the Knowledge Base (KB) article",&#13;
+        "name": "KB_SysID",&#13;
+        "label": "KB SysID",&#13;
+        "description": "SysId of the Knowledge Base (KB) article",&#13;
         "readOnly": false,&#13;
         "fieldType": "string",&#13;
         "mandatory": true,&#13;
@@ -28,46 +28,57 @@ gs.info("@UIB: getKbVersions \n" +&#13;
 ]&#13;
 </props>
         <required_translations>[ {
-  "message" : "KB Number",
+  "message" : "KB SysID",
   "comment" : ""
 }, {
-  "message" : "Number of the Knowledge Base (KB) article",
+  "message" : "SysId of the Knowledge Base (KB) article",
   "comment" : ""
 } ]</required_translations>
         <schema_version>1.0.0</schema_version>
         <script><![CDATA[function transform(input) {
+    var kb_sys_id = input.KB_SysID;
 
-    var kb_number = input.KB_Number;
-
+    // First, get the KB article using the sys_id
     var kb_record = new GlideRecord('kb_knowledge');
-    kb_record.addQuery('number', kb_number);
-    kb_record.orderBy('sys_created_on');
-    kb_record.query();
+    if (!kb_record.get(kb_sys_id)) {
+        gs.error("No KB article found with sys_id: " + kb_sys_id);
+        return [];
+    }
+
+    // Get the KB article number
+    var kb_number = kb_record.getValue('number');
+
+    // Query all versions of the KB article with the same number
+    var all_versions = new GlideRecord('kb_knowledge');
+    all_versions.addQuery('number', kb_number);
+    all_versions.orderBy('sys_created_on'); // Order by creation time
+    all_versions.query();
 
     var versions = [];
-
-    while (kb_record.next()) {
-        var version = kb_record.version.version + "";
+    while (all_versions.next()) {
+        var version = all_versions.version.version + "";
         versions.push({
             id: version,
-            label: "Version " + version,
-            sys_id: kb_record.getValue("sys_id")
+            label: version,
+            //label: "Version " + version,
+            sys_id: all_versions.getValue("sys_id"),
         });
     }
+
     return versions;
 }]]></script>
         <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2023-09-27 21:06:51</sys_created_on>
         <sys_id>b70369ad47e175105d6c8fd4f16d432a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>getKbVersions</sys_name>
         <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_data_broker_transform_b70369ad47e175105d6c8fd4f16d432a</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2025-01-09 22:45:54</sys_updated_on>
+        <sys_updated_on>2025-01-10 21:45:12</sys_updated_on>
     </sys_ux_data_broker_transform>
     <sys_translated_text action="delete_multiple" query="documentkey=b70369ad47e175105d6c8fd4f16d432a"/>
     <sys_es_latest_script action="INSERT_OR_UPDATE">

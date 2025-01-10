@@ -3,62 +3,77 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_snc_uib_examples_example" element="NULL" name="x_snc_uib_examples_example" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f40c9c8e1b66bd50b00dddf6b04bcba8</list_id>
+            <list_id display_value="x_snc_uib_examples_example" element="NULL" name="x_snc_uib_examples_example" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">535f8245fbc396107b04ff4655efdcde</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-11-17 22:03:44</sys_created_on>
-            <sys_id>f40cdc8e1b66bd50b00dddf6b04bcb3e</sys_id>
+            <sys_created_on>2025-01-10 16:47:29</sys_created_on>
+            <sys_id>d35f8245fbc396107b04ff4655efdcdf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-11-17 22:03:44</sys_updated_on>
+            <sys_updated_on>2025-01-10 16:47:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>description</element>
-            <list_id display_value="x_snc_uib_examples_example" element="NULL" name="x_snc_uib_examples_example" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f40c9c8e1b66bd50b00dddf6b04bcba8</list_id>
+            <element>description_html</element>
+            <list_id display_value="x_snc_uib_examples_example" element="NULL" name="x_snc_uib_examples_example" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">535f8245fbc396107b04ff4655efdcde</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-11-17 22:03:44</sys_created_on>
-            <sys_id>f80cdc8e1b66bd50b00dddf6b04bcb3e</sys_id>
+            <sys_created_on>2025-01-10 16:47:29</sys_created_on>
+            <sys_id>db5f8245fbc396107b04ff4655efdcdf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-11-17 22:03:44</sys_updated_on>
+            <sys_updated_on>2025-01-10 16:47:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>description_html</element>
-            <list_id display_value="x_snc_uib_examples_example" element="NULL" name="x_snc_uib_examples_example" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f40c9c8e1b66bd50b00dddf6b04bcba8</list_id>
+            <element>page_route</element>
+            <list_id display_value="x_snc_uib_examples_example" element="NULL" name="x_snc_uib_examples_example" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">535f8245fbc396107b04ff4655efdcde</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-11-17 22:03:44</sys_created_on>
-            <sys_id>fc0cdc8e1b66bd50b00dddf6b04bcb3e</sys_id>
+            <sys_created_on>2025-01-10 16:47:29</sys_created_on>
+            <sys_id>df5f8245fbc396107b04ff4655efdcdf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-11-17 22:03:44</sys_updated_on>
+            <sys_updated_on>2025-01-10 16:47:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>page_route</element>
-            <list_id display_value="x_snc_uib_examples_example" element="NULL" name="x_snc_uib_examples_example" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f40c9c8e1b66bd50b00dddf6b04bcba8</list_id>
+            <element>example_table</element>
+            <list_id display_value="x_snc_uib_examples_example" element="NULL" name="x_snc_uib_examples_example" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">535f8245fbc396107b04ff4655efdcde</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-11-17 22:03:44</sys_created_on>
-            <sys_id>f00cdc8e1b66bd50b00dddf6b04bcb3f</sys_id>
+            <sys_created_on>2025-01-10 16:47:29</sys_created_on>
+            <sys_id>d35f8245fbc396107b04ff4655efdce0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-11-17 22:03:44</sys_updated_on>
+            <sys_updated_on>2025-01-10 16:47:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>example_sysid</element>
+            <list_id display_value="x_snc_uib_examples_example" element="NULL" name="x_snc_uib_examples_example" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">535f8245fbc396107b04ff4655efdcde</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2025-01-10 16:47:29</sys_created_on>
+            <sys_id>d75f8245fbc396107b04ff4655efdce0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2025-01-10 16:47:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -72,18 +87,18 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-11-17 22:03:44</sys_created_on>
+            <sys_created_on>2025-01-10 16:47:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f40c9c8e1b66bd50b00dddf6b04bcba8</sys_id>
+            <sys_id>535f8245fbc396107b04ff4655efdcde</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_snc_uib_examples_example</sys_name>
-            <sys_package display_value="UIB Examples" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+            <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
             <sys_policy/>
-            <sys_scope display_value="UIB Examples">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+            <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
             <sys_update_name>sys_ui_list_x_snc_uib_examples_example_null</sys_update_name>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-11-17 22:03:44</sys_updated_on>
+            <sys_updated_on>2025-01-10 16:47:29</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

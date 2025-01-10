@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">76d0cc61472df1105d6c8fd4f16d43e8</macroponent>
+        <name>version_2/items</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({ api, state, helpers}) {
+    const selectedVersion1 = api.state.version_1[0];
+    const filteredList = api.data.getkbversions.output.filter(version => version.id !== selectedVersion1);
+    return filteredList;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-09-28 22:26:10</sys_created_on>
+        <sys_id>d03d36bd4769b1105d6c8fd4f16d431e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>version_2/items</sys_name>
+        <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_ux_client_script_d03d36bd4769b1105d6c8fd4f16d431e</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-01-10 18:40:23</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</application>
+        <file_path/>
+        <instance_id>bed3c2091b56b11ce84d2f8dee4bcbd7</instance_id>
+        <instance_name>marco</instance_name>
+        <name>sys_ux_client_script_d03d36bd4769b1105d6c8fd4f16d431e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;76d0cc61472df1105d6c8fd4f16d43e8&lt;/macroponent&gt;&lt;name&gt;version_2/items&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({ api, state, helpers}) {
+    const selectedVersion1 = api.state.version_1[0];
+    const filteredList = api.data.getkbversions.output.filter(version =&gt; version.id !== selectedVersion1);
+    return filteredList;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Marc.Mouries&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-28 22:26:10&lt;/sys_created_on&gt;&lt;sys_id&gt;d03d36bd4769b1105d6c8fd4f16d431e&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;version_2/items&lt;/sys_name&gt;&lt;sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples"&gt;a0a606201b0f8510ce2b6579b04bcb65&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Creator Innovation Gallery"&gt;a0a606201b0f8510ce2b6579b04bcb65&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_d03d36bd4769b1105d6c8fd4f16d431e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Marc.Mouries&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-10 18:40:23&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1370374889</payload_hash>
+        <record_name>version_2/items</record_name>
+        <reverted_from/>
+        <source>a840afd0fbc3d2107b04ff4655efdc83</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2025-01-10 18:40:23</sys_created_on>
+        <sys_id>89392e05fbc312107b04ff4655efdc70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194518476bc0000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-01-10 18:40:23</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>0d39ea05f5c3121070d2eca4d7d69013</update_guid>
+        <update_guid_history>0d39ea05f5c3121070d2eca4d7d69013:-1370374889,64b5e2cd8a831210885a06338334a848:1992298917,1facf9c6af6206508f7a4d94ffbd5042:33890447</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2025-01-10 21:25:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>55d7fe60ae1e439489b9cf4e4d8d5e10</sys_id>
+        <sys_metadata>d03d36bd4769b1105d6c8fd4f16d431e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>version_2/items</sys_name>
+        <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_scope_delete display_value="">4e87e5c7db26498091c96a6b2a7a0e10</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_d03d36bd4769b1105d6c8fd4f16d431e</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_d03d36bd4769b1105d6c8fd4f16d431e">89392e05fbc312107b04ff4655efdc70</sys_update_version>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-01-10 21:25:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
