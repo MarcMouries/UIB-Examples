@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="99dfefa0c3cfce1016eb2385e00131b4" extends="task" label="Order" max_length="40" name="x_snc_uib_examples_order" type="collection">
+    <element db_object_id="99dfefa0c3cfce1016eb2385e00131b4" extends="task" label="Order" max_length="40" name="x_snc_uib_examples_order" text_index="true" type="collection">
         <element choice="1" label="Stage" max_length="80" name="stage" type="workflow">
             <choice>
                 <element inactive_on_update="false" label="Preparation" sequence="1" value="preparation"/>
