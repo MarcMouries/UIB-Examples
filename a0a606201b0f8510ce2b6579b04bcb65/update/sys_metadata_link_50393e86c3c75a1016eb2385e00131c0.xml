@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9cab58f31b96b910b00dddf6b04bcb98</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_snc_uib_examples_order">
+    <x_snc_uib_examples_order action="INSERT_OR_UPDATE">
+        <action_status/>
+        <active>false</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval/>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group/>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <credit_cards/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description/>
+        <due_date/>
+        <encrypted_by/>
+        <encryption_context/>
+        <escalation/>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact/>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>false</made_sla>
+        <needs_attention>false</needs_attention>
+        <number>ORD0001001</number>
+        <opened_at/>
+        <opened_by display_value="">Marc Mouries</opened_by>
+        <order/>
+        <parent/>
+        <priority>3</priority>
+        <reassignment_count/>
+        <rejection_goto/>
+        <route_reason/>
+        <service_offering/>
+        <short_description>Pizza</short_description>
+        <skills/>
+        <sla_due/>
+        <sn_esign_document/>
+        <sn_esign_esignature_configuration/>
+        <ssns/>
+        <stage>out_for_delivery</stage>
+        <state/>
+        <sys_class_name>x_snc_uib_examples_order</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-11-10 22:15:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9cab58f31b96b910b00dddf6b04bcb98</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>kate.flood</sys_updated_by>
+        <sys_updated_on>2024-08-14 16:18:24</sys_updated_on>
+        <task_effective_number>ORD0001001</task_effective_number>
+        <time_worked/>
+        <universal_request/>
+        <upon_approval/>
+        <upon_reject/>
+        <urgency/>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_snc_uib_examples_order>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2025-01-13 22:24:10</sys_created_on>
+        <sys_id>50393e86c3c75a1016eb2385e00131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ORD0001001</sys_name>
+        <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+        <sys_update_name>sys_metadata_link_50393e86c3c75a1016eb2385e00131c0</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-01-13 22:24:10</sys_updated_on>
+        <tablename>x_snc_uib_examples_order</tablename>
+    </sys_metadata_link>
+</record_update>
