@@ -223,7 +223,7 @@
                                                         "script": {
                                                             "apiVersion": "1.0.0",
                                                             "controllerElementId": null,
-                                                            "inlineScript": "/**\n * @param {params} params\n * @param {api} params.api\n * @param {any} params.event\n */\nfunction evaluateEvent({api, event}) {\n\n    const pageRoute = event.context.item.value.page_route;\n    const example_table = event.context.item.value.example_table;\n    const example_sysid = event.context.item.value.example_sysid;\n\n    let result = {\n        route: pageRoute,\n        fields: {\n            \"table\": example_table,\n            \"sysId\": example_sysid,\n        },\n        params: null,\n        redirect: null,\n        passiveNavigation: null,\n        title: null,\n        multiInstField: null,\n        targetRoute: null,\n        external: null,\n        navigationOptions: null\n    };\n\n    return result;\n}",
+                                                            "inlineScript": "/**\n * @param {params} params\n * @param {api} params.api\n * @param {any} params.event\n */\nfunction evaluateEvent({\n    api,\n    event\n}) {\n    const pageRoute = event.context.item.value.page_route;\n    const example_table = event.context.item.value.example_table;\n    const example_sysid = event.context.item.value.example_sysid;\n\n    let fields = {};\n    if (example_table &amp;&amp; example_sysid) {\n        fields = {\n            \"table\": example_table,\n            \"sysId\": example_sysid,\n        };\n    }\n    let result = {\n        route: pageRoute,\n        fields: fields,\n        params: null,\n        redirect: null,\n        passiveNavigation: null,\n        title: null,\n        multiInstField: null,\n        targetRoute: null,\n        external: null,\n        navigationOptions: null\n    };\n\n    return result;\n}",
                                                             "scriptSysId": null,
                                                             "target": null
                                                         },
@@ -1308,14 +1308,14 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-04-20 21:58:42</sys_created_on>
         <sys_id>0f178e204a0f85109886b495cde75f89</sys_id>
-        <sys_mod_count>97</sys_mod_count>
+        <sys_mod_count>101</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_macroponent_0f178e204a0f85109886b495cde75f89</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2025-01-10 17:09:54</sys_updated_on>
+        <sys_updated_on>2025-01-14 14:29:41</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=0f178e204a0f85109886b495cde75f89"/>
 </record_update>
