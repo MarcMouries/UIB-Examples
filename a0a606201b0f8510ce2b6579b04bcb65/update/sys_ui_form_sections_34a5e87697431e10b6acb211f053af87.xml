@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="34a5e87697431e10b6acb211f053af87" sys_domain="global" table="x_snc_uib_examples_order" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2025-01-15 19:34:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89a5e87697431e10b6acb211f053af99</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_uib_examples_order" name="x_snc_uib_examples_order" sys_domain="global" view="Default view">34a5e87697431e10b6acb211f053af87</sys_ui_form>
+            <sys_ui_section caption="Order form" display_value="Order form" name="x_snc_uib_examples_order" sys_domain="global" view="Default view">74a5e87697431e10b6acb211f053af85</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2025-01-15 19:39:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_uib_examples_order</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2025-01-15 19:34:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34a5e87697431e10b6acb211f053af87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_uib_examples_order</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
+            <sys_update_name>sys_ui_form_sections_34a5e87697431e10b6acb211f053af87</sys_update_name>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2025-01-15 19:34:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
