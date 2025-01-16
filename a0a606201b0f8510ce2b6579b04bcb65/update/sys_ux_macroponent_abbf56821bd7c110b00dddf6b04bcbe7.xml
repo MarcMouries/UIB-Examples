@@ -87,7 +87,7 @@
                         },
                         "css": {
                             "type": "JSON_LITERAL",
-                            "value": "* { }"
+                            "value": "* { \n    margin: 0;\n}"
                         },
                         "tag": {
                             "type": "JSON_LITERAL",
@@ -99,6 +99,32 @@
                                 "code": null,
                                 "comment": "",
                                 "message": "Tracking Stages Progress"
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": {}
+                },
+                {
+                    "definition": {
+                        "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "rich_text_1",
+                    "elementLabel": "Page description",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "html": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "&lt;p&gt;&lt;span style=\"font-size: 16px;\"&gt;This page illustrates different ways to visualize the progress of a task.&lt;/span&gt;&lt;/p&gt;"
                             }
                         }
                     },
@@ -142,7 +168,7 @@
                                     },
                                     "css": {
                                         "type": "JSON_LITERAL",
-                                        "value": "* { \n    margin-bottom: 0px;\n}"
+                                        "value": "* { \n    margin-bottom: 0px;\n    color : blue;\n}"
                                     },
                                     "tag": {
                                         "type": "JSON_LITERAL",
@@ -153,7 +179,7 @@
                                         "value": {
                                             "code": null,
                                             "comment": "",
-                                            "message": "With Breadcrumbs"
+                                            "message": "➊ Breadcrumbs component"
                                         }
                                     }
                                 },
@@ -388,7 +414,7 @@
                                     },
                                     "css": {
                                         "type": "JSON_LITERAL",
-                                        "value": "* { \n    margin-bottom: 0px;\n}"
+                                        "value": "* { \n    margin-bottom: 0px;\n    color : blue;\n}"
                                     },
                                     "tag": {
                                         "type": "JSON_LITERAL",
@@ -399,7 +425,7 @@
                                         "value": {
                                             "code": null,
                                             "comment": "",
-                                            "message": "With Stepper"
+                                            "message": "➋ Stepper component"
                                         }
                                     }
                                 },
@@ -667,7 +693,7 @@
                                     },
                                     "css": {
                                         "type": "JSON_LITERAL",
-                                        "value": "* { \n    margin-bottom: 0px;\n}"
+                                        "value": "* { \n    margin-bottom: 0px;\n    color : blue;\n}"
                                     },
                                     "tag": {
                                         "type": "JSON_LITERAL",
@@ -678,7 +704,7 @@
                                         "value": {
                                             "code": null,
                                             "comment": "",
-                                            "message": "With Custom Milestone Tracker Component"
+                                            "message": "➌ Custom Milestone Tracker Component"
                                         }
                                     }
                                 },
@@ -796,8 +822,8 @@
                                                             "id": "2d56f06d55f46bbd4e79b5e624beb940",
                                                             "type": "MACROPONENT"
                                                         },
-                                                        "elementId": "rich_text_1",
-                                                        "elementLabel": "Rich text 1",
+                                                        "elementId": "rich_text_2",
+                                                        "elementLabel": "Rich text 2",
                                                         "eventMappings": [],
                                                         "isHidden": {
                                                             "type": "JSON_LITERAL",
@@ -870,7 +896,7 @@
                                                                 "styles": {}
                                                             },
                                                             {
-                                                                "element_id": "rich_text_1",
+                                                                "element_id": "rich_text_2",
                                                                 "styles": {}
                                                             },
                                                             {
@@ -1549,6 +1575,10 @@
                     "items": [
                         {
                             "element_id": "stylized_text_1",
+                            "styles": {}
+                        },
+                        {
+                            "element_id": "rich_text_1",
                             "styles": {}
                         },
                         {
@@ -2277,6 +2307,9 @@
     }
 ]</props>
         <required_translations>[ {
+  "message" : "&lt;p&gt;&lt;span style=\"font-size: 16px;\"&gt;This page illustrates different ways to visualize the progress of a task.&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
   "message" : "&lt;p&gt;Using the component with mode = Static allows to manually set the list of stages at design time in &amp;nbsp;UIB.&lt;/p&gt;\n&lt;p&gt;You can easily set the stages with for example: &lt;span style=\"font-family: 'courier new', courier;\"&gt;[\"Set\",\"Your\",\"Own\",\"Stages\"]&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
@@ -2337,13 +2370,13 @@
   "message" : "Validation",
   "comment" : ""
 }, {
-  "message" : "With Breadcrumbs",
+  "message" : "➊ Breadcrumbs component",
   "comment" : ""
 }, {
-  "message" : "With Custom Milestone Tracker Component",
+  "message" : "➋ Stepper component",
   "comment" : ""
 }, {
-  "message" : "With Stepper",
+  "message" : "➌ Custom Milestone Tracker Component",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -2366,13 +2399,13 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-05-08 01:52:54</sys_created_on>
         <sys_id>abbf56821bd7c110b00dddf6b04bcbe7</sys_id>
-        <sys_mod_count>101</sys_mod_count>
+        <sys_mod_count>110</sys_mod_count>
         <sys_name>Milestone default</sys_name>
         <sys_package display_value="Creator Innovation Gallery" source="x_snc_uib_examples">a0a606201b0f8510ce2b6579b04bcb65</sys_package>
         <sys_policy/>
         <sys_scope display_value="Creator Innovation Gallery">a0a606201b0f8510ce2b6579b04bcb65</sys_scope>
         <sys_update_name>sys_ux_macroponent_abbf56821bd7c110b00dddf6b04bcbe7</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2025-01-16 17:41:07</sys_updated_on>
+        <sys_updated_on>2025-01-16 22:59:17</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
