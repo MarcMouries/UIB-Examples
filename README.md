@@ -1,8 +1,9 @@
-# Creator Innovation Gallery / UIB-Examples
+# Creator Innovation Gallery / UIB Examples
 
-Showcases practical examples of how to build user interfaces with ServiceNow UI Builder.
+The goal of the **Creator Innovation Gallery** is to provide practical examples for building dynamic, intuitive interfaces with ServiceNow UI Builder. 
 
-The goal of the **Creator Innovation Gallery** is to provide a quick and interactive way to visualize what's possible and to get up to speed by diving into functional examples. Whether you're a beginner or an experienced developer, these examples demonstrate how to create dynamic and intuitive user interfaces with ServiceNow UI Builder, enabling faster and more impactful app development.
+<img title="Screenshot of the UIB-creator-gallery" 
+alt="Screenshot of the UIB-creator-gallery" src="./doc/UIB-creator-gallery.png">
 
 ## Table of Contents
 
